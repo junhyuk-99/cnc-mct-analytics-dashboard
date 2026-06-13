@@ -1,4 +1,4 @@
-# CNC/MCT Analytics Dashboard Demo
+﻿# CNC/MCT Analytics Dashboard Demo
 
 Synthetic CNC/MCT manufacturing dashboard demo built with a Spring Boot backend, MongoDB sample dataset, and React frontend.
 
@@ -18,7 +18,7 @@ Production source code, production screenshots, customer-specific information, s
 
 See the anonymized case study:
 
-* [CNC/MCT Manufacturing Dashboard Case Study](docs/CASE_STUDY_DHT_DASHBOARD.md)
+* [CNC/MCT Manufacturing Dashboard Case Study](docs/CASE_STUDY_CNC_MCT_DASHBOARD.md)
 
 ## Demo Scope
 
@@ -60,11 +60,11 @@ The frontend uses a dark `Synthetic Precision` command-center interface. It is r
 
 ```text
 Synthetic Sample Data
-        ↓
+        ??
 MongoDB Docker Container
-        ↓
+        ??
 Spring Boot Demo API
-        ↓
+        ??
 React Command Center Dashboard
 ```
 
@@ -197,3 +197,15 @@ See [docs/RUNTIME_TEST.md](docs/RUNTIME_TEST.md) for the full runtime test flow 
 * Use only synthetic data in `sample-data/`.
 
 See [docs/SECURITY.md](docs/SECURITY.md) and [docs/DATA_NOTICE.md](docs/DATA_NOTICE.md).
+
+## Documentation
+
+| Document | Description |
+|---|---|
+| [Architecture](docs/ARCHITECTURE.md) | System architecture and data flow overview |
+| [API Reference](docs/API.md) | Backend API endpoints and response format |
+| [Data Schema](docs/DATA_SCHEMA.md) | MongoDB demo schema and collection structure |
+| [Security Notice](docs/SECURITY.md) | Security, anonymization, and disclosure policy |
+| [Data Notice](docs/DATA_NOTICE.md) | Synthetic data and data handling notice |
+| [Case Study](docs/CASE_STUDY_CNC_MCT_DASHBOARD.md) | Anonymized CNC/MCT dashboard case study |
+| [Reuse Candidates](docs/REUSE_CANDIDATES.md) | Reusable modules and extension candidates |
