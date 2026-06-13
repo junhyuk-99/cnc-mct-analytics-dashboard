@@ -2,7 +2,7 @@
 
 Synthetic CNC/MCT manufacturing dashboard demo built with a Spring Boot backend, MongoDB sample dataset, and React frontend.
 
-This repository is a public, rebuilt demo project. It is not a copy of production source code and does not include production data, customer data, real database connections, equipment history, server IP addresses, private credentials, logs, certificates, or private environment values.
+This repository is a public, rebuilt demo project. It is not a copy of production source code and does not include production data, customer data, real database connections, production equipment history, server IP addresses, private credentials, logs, certificates, or private environment values.
 
 All data in this repository is synthetic sample data.
 
@@ -10,7 +10,11 @@ All data in this repository is synthetic sample data.
 
 This public demo was rebuilt from experience gained during a deployed CNC/MCT manufacturing dashboard project.
 
-The original production system handled manufacturing equipment data, dashboard APIs, machine utilization metrics, RunTime/CutTime analysis, alarm history, status distribution, and operational trend views. Production source code, production screenshots, customer-specific information, server addresses, credentials, and real equipment data are intentionally excluded.
+The original production system handled manufacturing equipment data, dashboard APIs, machine utilization metrics, RunTime/CutTime analysis, alarm history, status distribution, and operational trend views.
+
+This repository is not a one-to-one copy of the production system. It preserves the main engineering concepts while replacing production-specific implementation details with synthetic data, simplified local runtime components, and read-only demo screens.
+
+Production source code, production screenshots, customer-specific information, server addresses, credentials, private Git history, and real equipment data are intentionally excluded.
 
 See the anonymized case study:
 
