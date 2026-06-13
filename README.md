@@ -35,13 +35,18 @@ The demo shows analytics workflows for CNC/MCT equipment using a local-only stac
 
 ## Screenshots
 
-### Dashboard Overview
+### Command Center Overview
 
-![Dashboard Overview](screenshots/dashboard-overview.png)
+![Command Center Overview](screenshots/dashboard-command-overview.png)
 
-### Critical Alarm Filter
+### Analytics Panels
 
-![Critical Alarm Filter](screenshots/dashboard-critical-filter.png)
+![Analytics Panels](screenshots/dashboard-analytics-panels.png)
+
+### Alarm History
+
+![Alarm History](screenshots/dashboard-alarm-history.png)
+
 
 ## Sample Data
 
