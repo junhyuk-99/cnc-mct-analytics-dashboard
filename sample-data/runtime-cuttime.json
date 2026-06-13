@@ -1,0 +1,1262 @@
+[
+  {
+    "machineId": "CNC-DEMO-01",
+    "workDate": "2026-01-01",
+    "runtimeSeconds": 7200,
+    "cuttimeSeconds": 6109,
+    "cuttingRatio": 84.85
+  },
+  {
+    "machineId": "CNC-DEMO-02",
+    "workDate": "2026-01-01",
+    "runtimeSeconds": 24316,
+    "cuttimeSeconds": 18060,
+    "cuttingRatio": 74.27
+  },
+  {
+    "machineId": "CNC-DEMO-03",
+    "workDate": "2026-01-01",
+    "runtimeSeconds": 26080,
+    "cuttimeSeconds": 20329,
+    "cuttingRatio": 77.95
+  },
+  {
+    "machineId": "MCT-DEMO-01",
+    "workDate": "2026-01-01",
+    "runtimeSeconds": 23767,
+    "cuttimeSeconds": 19791,
+    "cuttingRatio": 83.27
+  },
+  {
+    "machineId": "MCT-DEMO-02",
+    "workDate": "2026-01-01",
+    "runtimeSeconds": 23724,
+    "cuttimeSeconds": 19041,
+    "cuttingRatio": 80.26
+  },
+  {
+    "machineId": "MCT-DEMO-03",
+    "workDate": "2026-01-01",
+    "runtimeSeconds": 21049,
+    "cuttimeSeconds": 14219,
+    "cuttingRatio": 67.55
+  },
+  {
+    "machineId": "CNC-DEMO-01",
+    "workDate": "2026-01-02",
+    "runtimeSeconds": 23963,
+    "cuttimeSeconds": 13226,
+    "cuttingRatio": 55.19
+  },
+  {
+    "machineId": "CNC-DEMO-02",
+    "workDate": "2026-01-02",
+    "runtimeSeconds": 24615,
+    "cuttimeSeconds": 16395,
+    "cuttingRatio": 66.61
+  },
+  {
+    "machineId": "CNC-DEMO-03",
+    "workDate": "2026-01-02",
+    "runtimeSeconds": 24591,
+    "cuttimeSeconds": 19639,
+    "cuttingRatio": 79.86
+  },
+  {
+    "machineId": "MCT-DEMO-01",
+    "workDate": "2026-01-02",
+    "runtimeSeconds": 23838,
+    "cuttimeSeconds": 19824,
+    "cuttingRatio": 83.16
+  },
+  {
+    "machineId": "MCT-DEMO-02",
+    "workDate": "2026-01-02",
+    "runtimeSeconds": 25366,
+    "cuttimeSeconds": 21932,
+    "cuttingRatio": 86.46
+  },
+  {
+    "machineId": "MCT-DEMO-03",
+    "workDate": "2026-01-02",
+    "runtimeSeconds": 25838,
+    "cuttimeSeconds": 17783,
+    "cuttingRatio": 68.82
+  },
+  {
+    "machineId": "CNC-DEMO-01",
+    "workDate": "2026-01-03",
+    "runtimeSeconds": 26429,
+    "cuttimeSeconds": 21055,
+    "cuttingRatio": 79.67
+  },
+  {
+    "machineId": "CNC-DEMO-02",
+    "workDate": "2026-01-03",
+    "runtimeSeconds": 23949,
+    "cuttimeSeconds": 17488,
+    "cuttingRatio": 73.02
+  },
+  {
+    "machineId": "CNC-DEMO-03",
+    "workDate": "2026-01-03",
+    "runtimeSeconds": 25171,
+    "cuttimeSeconds": 18854,
+    "cuttingRatio": 74.9
+  },
+  {
+    "machineId": "MCT-DEMO-01",
+    "workDate": "2026-01-03",
+    "runtimeSeconds": 22585,
+    "cuttimeSeconds": 14065,
+    "cuttingRatio": 62.28
+  },
+  {
+    "machineId": "MCT-DEMO-02",
+    "workDate": "2026-01-03",
+    "runtimeSeconds": 25008,
+    "cuttimeSeconds": 15565,
+    "cuttingRatio": 62.24
+  },
+  {
+    "machineId": "MCT-DEMO-03",
+    "workDate": "2026-01-03",
+    "runtimeSeconds": 24218,
+    "cuttimeSeconds": 16803,
+    "cuttingRatio": 69.38
+  },
+  {
+    "machineId": "CNC-DEMO-01",
+    "workDate": "2026-01-04",
+    "runtimeSeconds": 22782,
+    "cuttimeSeconds": 12748,
+    "cuttingRatio": 55.96
+  },
+  {
+    "machineId": "CNC-DEMO-02",
+    "workDate": "2026-01-04",
+    "runtimeSeconds": 21910,
+    "cuttimeSeconds": 14480,
+    "cuttingRatio": 66.09
+  },
+  {
+    "machineId": "CNC-DEMO-03",
+    "workDate": "2026-01-04",
+    "runtimeSeconds": 26724,
+    "cuttimeSeconds": 20687,
+    "cuttingRatio": 77.41
+  },
+  {
+    "machineId": "MCT-DEMO-01",
+    "workDate": "2026-01-04",
+    "runtimeSeconds": 25564,
+    "cuttimeSeconds": 17471,
+    "cuttingRatio": 68.34
+  },
+  {
+    "machineId": "MCT-DEMO-02",
+    "workDate": "2026-01-04",
+    "runtimeSeconds": 22528,
+    "cuttimeSeconds": 13617,
+    "cuttingRatio": 60.44
+  },
+  {
+    "machineId": "MCT-DEMO-03",
+    "workDate": "2026-01-04",
+    "runtimeSeconds": 23697,
+    "cuttimeSeconds": 16688,
+    "cuttingRatio": 70.42
+  },
+  {
+    "machineId": "CNC-DEMO-01",
+    "workDate": "2026-01-05",
+    "runtimeSeconds": 26617,
+    "cuttimeSeconds": 15760,
+    "cuttingRatio": 59.21
+  },
+  {
+    "machineId": "CNC-DEMO-02",
+    "workDate": "2026-01-05",
+    "runtimeSeconds": 26434,
+    "cuttimeSeconds": 19966,
+    "cuttingRatio": 75.53
+  },
+  {
+    "machineId": "CNC-DEMO-03",
+    "workDate": "2026-01-05",
+    "runtimeSeconds": 24895,
+    "cuttimeSeconds": 13913,
+    "cuttingRatio": 55.89
+  },
+  {
+    "machineId": "MCT-DEMO-01",
+    "workDate": "2026-01-05",
+    "runtimeSeconds": 24779,
+    "cuttimeSeconds": 16850,
+    "cuttingRatio": 68.0
+  },
+  {
+    "machineId": "MCT-DEMO-02",
+    "workDate": "2026-01-05",
+    "runtimeSeconds": 25283,
+    "cuttimeSeconds": 18614,
+    "cuttingRatio": 73.62
+  },
+  {
+    "machineId": "MCT-DEMO-03",
+    "workDate": "2026-01-05",
+    "runtimeSeconds": 26811,
+    "cuttimeSeconds": 14985,
+    "cuttingRatio": 55.89
+  },
+  {
+    "machineId": "CNC-DEMO-01",
+    "workDate": "2026-01-06",
+    "runtimeSeconds": 23335,
+    "cuttimeSeconds": 17783,
+    "cuttingRatio": 76.21
+  },
+  {
+    "machineId": "CNC-DEMO-02",
+    "workDate": "2026-01-06",
+    "runtimeSeconds": 23005,
+    "cuttimeSeconds": 13682,
+    "cuttingRatio": 59.47
+  },
+  {
+    "machineId": "CNC-DEMO-03",
+    "workDate": "2026-01-06",
+    "runtimeSeconds": 25223,
+    "cuttimeSeconds": 17715,
+    "cuttingRatio": 70.23
+  },
+  {
+    "machineId": "MCT-DEMO-01",
+    "workDate": "2026-01-06",
+    "runtimeSeconds": 24805,
+    "cuttimeSeconds": 14054,
+    "cuttingRatio": 56.66
+  },
+  {
+    "machineId": "MCT-DEMO-02",
+    "workDate": "2026-01-06",
+    "runtimeSeconds": 23040,
+    "cuttimeSeconds": 15554,
+    "cuttingRatio": 67.51
+  },
+  {
+    "machineId": "MCT-DEMO-03",
+    "workDate": "2026-01-06",
+    "runtimeSeconds": 21420,
+    "cuttimeSeconds": 13277,
+    "cuttingRatio": 61.98
+  },
+  {
+    "machineId": "CNC-DEMO-01",
+    "workDate": "2026-01-07",
+    "runtimeSeconds": 22268,
+    "cuttimeSeconds": 14649,
+    "cuttingRatio": 65.78
+  },
+  {
+    "machineId": "CNC-DEMO-02",
+    "workDate": "2026-01-07",
+    "runtimeSeconds": 24430,
+    "cuttimeSeconds": 19573,
+    "cuttingRatio": 80.12
+  },
+  {
+    "machineId": "CNC-DEMO-03",
+    "workDate": "2026-01-07",
+    "runtimeSeconds": 23440,
+    "cuttimeSeconds": 15824,
+    "cuttingRatio": 67.51
+  },
+  {
+    "machineId": "MCT-DEMO-01",
+    "workDate": "2026-01-07",
+    "runtimeSeconds": 23556,
+    "cuttimeSeconds": 18801,
+    "cuttingRatio": 79.81
+  },
+  {
+    "machineId": "MCT-DEMO-02",
+    "workDate": "2026-01-07",
+    "runtimeSeconds": 26904,
+    "cuttimeSeconds": 22183,
+    "cuttingRatio": 82.45
+  },
+  {
+    "machineId": "MCT-DEMO-03",
+    "workDate": "2026-01-07",
+    "runtimeSeconds": 10800,
+    "cuttimeSeconds": 6839,
+    "cuttingRatio": 63.32
+  },
+  {
+    "machineId": "CNC-DEMO-01",
+    "workDate": "2026-01-08",
+    "runtimeSeconds": 23398,
+    "cuttimeSeconds": 13501,
+    "cuttingRatio": 57.7
+  },
+  {
+    "machineId": "CNC-DEMO-02",
+    "workDate": "2026-01-08",
+    "runtimeSeconds": 24640,
+    "cuttimeSeconds": 13709,
+    "cuttingRatio": 55.64
+  },
+  {
+    "machineId": "CNC-DEMO-03",
+    "workDate": "2026-01-08",
+    "runtimeSeconds": 22793,
+    "cuttimeSeconds": 16593,
+    "cuttingRatio": 72.8
+  },
+  {
+    "machineId": "MCT-DEMO-01",
+    "workDate": "2026-01-08",
+    "runtimeSeconds": 24798,
+    "cuttimeSeconds": 21821,
+    "cuttingRatio": 87.99
+  },
+  {
+    "machineId": "MCT-DEMO-02",
+    "workDate": "2026-01-08",
+    "runtimeSeconds": 10800,
+    "cuttimeSeconds": 7187,
+    "cuttingRatio": 66.55
+  },
+  {
+    "machineId": "MCT-DEMO-03",
+    "workDate": "2026-01-08",
+    "runtimeSeconds": 22621,
+    "cuttimeSeconds": 17294,
+    "cuttingRatio": 76.45
+  },
+  {
+    "machineId": "CNC-DEMO-01",
+    "workDate": "2026-01-09",
+    "runtimeSeconds": 21285,
+    "cuttimeSeconds": 17194,
+    "cuttingRatio": 80.78
+  },
+  {
+    "machineId": "CNC-DEMO-02",
+    "workDate": "2026-01-09",
+    "runtimeSeconds": 22983,
+    "cuttimeSeconds": 17583,
+    "cuttingRatio": 76.5
+  },
+  {
+    "machineId": "CNC-DEMO-03",
+    "workDate": "2026-01-09",
+    "runtimeSeconds": 26603,
+    "cuttimeSeconds": 21253,
+    "cuttingRatio": 79.89
+  },
+  {
+    "machineId": "MCT-DEMO-01",
+    "workDate": "2026-01-09",
+    "runtimeSeconds": 10800,
+    "cuttimeSeconds": 9324,
+    "cuttingRatio": 86.33
+  },
+  {
+    "machineId": "MCT-DEMO-02",
+    "workDate": "2026-01-09",
+    "runtimeSeconds": 22860,
+    "cuttimeSeconds": 14076,
+    "cuttingRatio": 61.57
+  },
+  {
+    "machineId": "MCT-DEMO-03",
+    "workDate": "2026-01-09",
+    "runtimeSeconds": 24076,
+    "cuttimeSeconds": 13403,
+    "cuttingRatio": 55.67
+  },
+  {
+    "machineId": "CNC-DEMO-01",
+    "workDate": "2026-01-10",
+    "runtimeSeconds": 24707,
+    "cuttimeSeconds": 14831,
+    "cuttingRatio": 60.03
+  },
+  {
+    "machineId": "CNC-DEMO-02",
+    "workDate": "2026-01-10",
+    "runtimeSeconds": 22275,
+    "cuttimeSeconds": 13179,
+    "cuttingRatio": 59.16
+  },
+  {
+    "machineId": "CNC-DEMO-03",
+    "workDate": "2026-01-10",
+    "runtimeSeconds": 10800,
+    "cuttimeSeconds": 8325,
+    "cuttingRatio": 77.08
+  },
+  {
+    "machineId": "MCT-DEMO-01",
+    "workDate": "2026-01-10",
+    "runtimeSeconds": 25571,
+    "cuttimeSeconds": 18823,
+    "cuttingRatio": 73.61
+  },
+  {
+    "machineId": "MCT-DEMO-02",
+    "workDate": "2026-01-10",
+    "runtimeSeconds": 23773,
+    "cuttimeSeconds": 14785,
+    "cuttingRatio": 62.19
+  },
+  {
+    "machineId": "MCT-DEMO-03",
+    "workDate": "2026-01-10",
+    "runtimeSeconds": 24313,
+    "cuttimeSeconds": 18984,
+    "cuttingRatio": 78.08
+  },
+  {
+    "machineId": "CNC-DEMO-01",
+    "workDate": "2026-01-11",
+    "runtimeSeconds": 23873,
+    "cuttimeSeconds": 19171,
+    "cuttingRatio": 80.3
+  },
+  {
+    "machineId": "CNC-DEMO-02",
+    "workDate": "2026-01-11",
+    "runtimeSeconds": 10800,
+    "cuttimeSeconds": 6538,
+    "cuttingRatio": 60.54
+  },
+  {
+    "machineId": "CNC-DEMO-03",
+    "workDate": "2026-01-11",
+    "runtimeSeconds": 23288,
+    "cuttimeSeconds": 17475,
+    "cuttingRatio": 75.04
+  },
+  {
+    "machineId": "MCT-DEMO-01",
+    "workDate": "2026-01-11",
+    "runtimeSeconds": 25233,
+    "cuttimeSeconds": 20106,
+    "cuttingRatio": 79.68
+  },
+  {
+    "machineId": "MCT-DEMO-02",
+    "workDate": "2026-01-11",
+    "runtimeSeconds": 24487,
+    "cuttimeSeconds": 14393,
+    "cuttingRatio": 58.78
+  },
+  {
+    "machineId": "MCT-DEMO-03",
+    "workDate": "2026-01-11",
+    "runtimeSeconds": 25204,
+    "cuttimeSeconds": 20676,
+    "cuttingRatio": 82.03
+  },
+  {
+    "machineId": "CNC-DEMO-01",
+    "workDate": "2026-01-12",
+    "runtimeSeconds": 10800,
+    "cuttimeSeconds": 9378,
+    "cuttingRatio": 86.83
+  },
+  {
+    "machineId": "CNC-DEMO-02",
+    "workDate": "2026-01-12",
+    "runtimeSeconds": 22725,
+    "cuttimeSeconds": 13309,
+    "cuttingRatio": 58.57
+  },
+  {
+    "machineId": "CNC-DEMO-03",
+    "workDate": "2026-01-12",
+    "runtimeSeconds": 26752,
+    "cuttimeSeconds": 14940,
+    "cuttingRatio": 55.85
+  },
+  {
+    "machineId": "MCT-DEMO-01",
+    "workDate": "2026-01-12",
+    "runtimeSeconds": 22019,
+    "cuttimeSeconds": 14377,
+    "cuttingRatio": 65.29
+  },
+  {
+    "machineId": "MCT-DEMO-02",
+    "workDate": "2026-01-12",
+    "runtimeSeconds": 24622,
+    "cuttimeSeconds": 19045,
+    "cuttingRatio": 77.35
+  },
+  {
+    "machineId": "MCT-DEMO-03",
+    "workDate": "2026-01-12",
+    "runtimeSeconds": 24095,
+    "cuttimeSeconds": 20871,
+    "cuttingRatio": 86.62
+  },
+  {
+    "machineId": "CNC-DEMO-01",
+    "workDate": "2026-01-13",
+    "runtimeSeconds": 25704,
+    "cuttimeSeconds": 17501,
+    "cuttingRatio": 68.09
+  },
+  {
+    "machineId": "CNC-DEMO-02",
+    "workDate": "2026-01-13",
+    "runtimeSeconds": 25798,
+    "cuttimeSeconds": 20276,
+    "cuttingRatio": 78.6
+  },
+  {
+    "machineId": "CNC-DEMO-03",
+    "workDate": "2026-01-13",
+    "runtimeSeconds": 25982,
+    "cuttimeSeconds": 14941,
+    "cuttingRatio": 57.51
+  },
+  {
+    "machineId": "MCT-DEMO-01",
+    "workDate": "2026-01-13",
+    "runtimeSeconds": 23968,
+    "cuttimeSeconds": 18644,
+    "cuttingRatio": 77.79
+  },
+  {
+    "machineId": "MCT-DEMO-02",
+    "workDate": "2026-01-13",
+    "runtimeSeconds": 24557,
+    "cuttimeSeconds": 18589,
+    "cuttingRatio": 75.7
+  },
+  {
+    "machineId": "MCT-DEMO-03",
+    "workDate": "2026-01-13",
+    "runtimeSeconds": 7200,
+    "cuttimeSeconds": 4202,
+    "cuttingRatio": 58.36
+  },
+  {
+    "machineId": "CNC-DEMO-01",
+    "workDate": "2026-01-14",
+    "runtimeSeconds": 24717,
+    "cuttimeSeconds": 19895,
+    "cuttingRatio": 80.49
+  },
+  {
+    "machineId": "CNC-DEMO-02",
+    "workDate": "2026-01-14",
+    "runtimeSeconds": 26087,
+    "cuttimeSeconds": 21667,
+    "cuttingRatio": 83.06
+  },
+  {
+    "machineId": "CNC-DEMO-03",
+    "workDate": "2026-01-14",
+    "runtimeSeconds": 23963,
+    "cuttimeSeconds": 17927,
+    "cuttingRatio": 74.81
+  },
+  {
+    "machineId": "MCT-DEMO-01",
+    "workDate": "2026-01-14",
+    "runtimeSeconds": 25917,
+    "cuttimeSeconds": 15289,
+    "cuttingRatio": 58.99
+  },
+  {
+    "machineId": "MCT-DEMO-02",
+    "workDate": "2026-01-14",
+    "runtimeSeconds": 7200,
+    "cuttimeSeconds": 6297,
+    "cuttingRatio": 87.46
+  },
+  {
+    "machineId": "MCT-DEMO-03",
+    "workDate": "2026-01-14",
+    "runtimeSeconds": 25554,
+    "cuttimeSeconds": 20654,
+    "cuttingRatio": 80.82
+  },
+  {
+    "machineId": "CNC-DEMO-01",
+    "workDate": "2026-01-15",
+    "runtimeSeconds": 24389,
+    "cuttimeSeconds": 16208,
+    "cuttingRatio": 66.46
+  },
+  {
+    "machineId": "CNC-DEMO-02",
+    "workDate": "2026-01-15",
+    "runtimeSeconds": 23121,
+    "cuttimeSeconds": 15985,
+    "cuttingRatio": 69.14
+  },
+  {
+    "machineId": "CNC-DEMO-03",
+    "workDate": "2026-01-15",
+    "runtimeSeconds": 24960,
+    "cuttimeSeconds": 16780,
+    "cuttingRatio": 67.23
+  },
+  {
+    "machineId": "MCT-DEMO-01",
+    "workDate": "2026-01-15",
+    "runtimeSeconds": 7200,
+    "cuttimeSeconds": 5162,
+    "cuttingRatio": 71.69
+  },
+  {
+    "machineId": "MCT-DEMO-02",
+    "workDate": "2026-01-15",
+    "runtimeSeconds": 24613,
+    "cuttimeSeconds": 16308,
+    "cuttingRatio": 66.26
+  },
+  {
+    "machineId": "MCT-DEMO-03",
+    "workDate": "2026-01-15",
+    "runtimeSeconds": 21562,
+    "cuttimeSeconds": 17904,
+    "cuttingRatio": 83.03
+  },
+  {
+    "machineId": "CNC-DEMO-01",
+    "workDate": "2026-01-16",
+    "runtimeSeconds": 24600,
+    "cuttimeSeconds": 20205,
+    "cuttingRatio": 82.13
+  },
+  {
+    "machineId": "CNC-DEMO-02",
+    "workDate": "2026-01-16",
+    "runtimeSeconds": 22953,
+    "cuttimeSeconds": 13423,
+    "cuttingRatio": 58.48
+  },
+  {
+    "machineId": "CNC-DEMO-03",
+    "workDate": "2026-01-16",
+    "runtimeSeconds": 7200,
+    "cuttimeSeconds": 6242,
+    "cuttingRatio": 86.69
+  },
+  {
+    "machineId": "MCT-DEMO-01",
+    "workDate": "2026-01-16",
+    "runtimeSeconds": 25164,
+    "cuttimeSeconds": 19118,
+    "cuttingRatio": 75.97
+  },
+  {
+    "machineId": "MCT-DEMO-02",
+    "workDate": "2026-01-16",
+    "runtimeSeconds": 23739,
+    "cuttimeSeconds": 19548,
+    "cuttingRatio": 82.35
+  },
+  {
+    "machineId": "MCT-DEMO-03",
+    "workDate": "2026-01-16",
+    "runtimeSeconds": 21562,
+    "cuttimeSeconds": 16891,
+    "cuttingRatio": 78.34
+  },
+  {
+    "machineId": "CNC-DEMO-01",
+    "workDate": "2026-01-17",
+    "runtimeSeconds": 22315,
+    "cuttimeSeconds": 15480,
+    "cuttingRatio": 69.37
+  },
+  {
+    "machineId": "CNC-DEMO-02",
+    "workDate": "2026-01-17",
+    "runtimeSeconds": 7200,
+    "cuttimeSeconds": 5703,
+    "cuttingRatio": 79.21
+  },
+  {
+    "machineId": "CNC-DEMO-03",
+    "workDate": "2026-01-17",
+    "runtimeSeconds": 25185,
+    "cuttimeSeconds": 21875,
+    "cuttingRatio": 86.86
+  },
+  {
+    "machineId": "MCT-DEMO-01",
+    "workDate": "2026-01-17",
+    "runtimeSeconds": 24938,
+    "cuttimeSeconds": 15938,
+    "cuttingRatio": 63.91
+  },
+  {
+    "machineId": "MCT-DEMO-02",
+    "workDate": "2026-01-17",
+    "runtimeSeconds": 24097,
+    "cuttimeSeconds": 19680,
+    "cuttingRatio": 81.67
+  },
+  {
+    "machineId": "MCT-DEMO-03",
+    "workDate": "2026-01-17",
+    "runtimeSeconds": 20898,
+    "cuttimeSeconds": 15205,
+    "cuttingRatio": 72.76
+  },
+  {
+    "machineId": "CNC-DEMO-01",
+    "workDate": "2026-01-18",
+    "runtimeSeconds": 7200,
+    "cuttimeSeconds": 5108,
+    "cuttingRatio": 70.94
+  },
+  {
+    "machineId": "CNC-DEMO-02",
+    "workDate": "2026-01-18",
+    "runtimeSeconds": 23186,
+    "cuttimeSeconds": 16085,
+    "cuttingRatio": 69.37
+  },
+  {
+    "machineId": "CNC-DEMO-03",
+    "workDate": "2026-01-18",
+    "runtimeSeconds": 22376,
+    "cuttimeSeconds": 17704,
+    "cuttingRatio": 79.12
+  },
+  {
+    "machineId": "MCT-DEMO-01",
+    "workDate": "2026-01-18",
+    "runtimeSeconds": 24330,
+    "cuttimeSeconds": 15536,
+    "cuttingRatio": 63.86
+  },
+  {
+    "machineId": "MCT-DEMO-02",
+    "workDate": "2026-01-18",
+    "runtimeSeconds": 22497,
+    "cuttimeSeconds": 18696,
+    "cuttingRatio": 83.1
+  },
+  {
+    "machineId": "MCT-DEMO-03",
+    "workDate": "2026-01-18",
+    "runtimeSeconds": 10800,
+    "cuttimeSeconds": 8900,
+    "cuttingRatio": 82.41
+  },
+  {
+    "machineId": "CNC-DEMO-01",
+    "workDate": "2026-01-19",
+    "runtimeSeconds": 23834,
+    "cuttimeSeconds": 13790,
+    "cuttingRatio": 57.86
+  },
+  {
+    "machineId": "CNC-DEMO-02",
+    "workDate": "2026-01-19",
+    "runtimeSeconds": 24791,
+    "cuttimeSeconds": 20847,
+    "cuttingRatio": 84.09
+  },
+  {
+    "machineId": "CNC-DEMO-03",
+    "workDate": "2026-01-19",
+    "runtimeSeconds": 26319,
+    "cuttimeSeconds": 16593,
+    "cuttingRatio": 63.05
+  },
+  {
+    "machineId": "MCT-DEMO-01",
+    "workDate": "2026-01-19",
+    "runtimeSeconds": 26622,
+    "cuttimeSeconds": 18724,
+    "cuttingRatio": 70.33
+  },
+  {
+    "machineId": "MCT-DEMO-02",
+    "workDate": "2026-01-19",
+    "runtimeSeconds": 10800,
+    "cuttimeSeconds": 8115,
+    "cuttingRatio": 75.14
+  },
+  {
+    "machineId": "MCT-DEMO-03",
+    "workDate": "2026-01-19",
+    "runtimeSeconds": 24257,
+    "cuttimeSeconds": 16375,
+    "cuttingRatio": 67.51
+  },
+  {
+    "machineId": "CNC-DEMO-01",
+    "workDate": "2026-01-20",
+    "runtimeSeconds": 23451,
+    "cuttimeSeconds": 13120,
+    "cuttingRatio": 55.95
+  },
+  {
+    "machineId": "CNC-DEMO-02",
+    "workDate": "2026-01-20",
+    "runtimeSeconds": 24473,
+    "cuttimeSeconds": 20332,
+    "cuttingRatio": 83.08
+  },
+  {
+    "machineId": "CNC-DEMO-03",
+    "workDate": "2026-01-20",
+    "runtimeSeconds": 24325,
+    "cuttimeSeconds": 14838,
+    "cuttingRatio": 61.0
+  },
+  {
+    "machineId": "MCT-DEMO-01",
+    "workDate": "2026-01-20",
+    "runtimeSeconds": 10800,
+    "cuttimeSeconds": 6695,
+    "cuttingRatio": 61.99
+  },
+  {
+    "machineId": "MCT-DEMO-02",
+    "workDate": "2026-01-20",
+    "runtimeSeconds": 24634,
+    "cuttimeSeconds": 20034,
+    "cuttingRatio": 81.33
+  },
+  {
+    "machineId": "MCT-DEMO-03",
+    "workDate": "2026-01-20",
+    "runtimeSeconds": 23264,
+    "cuttimeSeconds": 15408,
+    "cuttingRatio": 66.23
+  },
+  {
+    "machineId": "CNC-DEMO-01",
+    "workDate": "2026-01-21",
+    "runtimeSeconds": 23643,
+    "cuttimeSeconds": 19872,
+    "cuttingRatio": 84.05
+  },
+  {
+    "machineId": "CNC-DEMO-02",
+    "workDate": "2026-01-21",
+    "runtimeSeconds": 25514,
+    "cuttimeSeconds": 19936,
+    "cuttingRatio": 78.14
+  },
+  {
+    "machineId": "CNC-DEMO-03",
+    "workDate": "2026-01-21",
+    "runtimeSeconds": 10800,
+    "cuttimeSeconds": 6924,
+    "cuttingRatio": 64.11
+  },
+  {
+    "machineId": "MCT-DEMO-01",
+    "workDate": "2026-01-21",
+    "runtimeSeconds": 26986,
+    "cuttimeSeconds": 14932,
+    "cuttingRatio": 55.33
+  },
+  {
+    "machineId": "MCT-DEMO-02",
+    "workDate": "2026-01-21",
+    "runtimeSeconds": 24515,
+    "cuttimeSeconds": 21153,
+    "cuttingRatio": 86.29
+  },
+  {
+    "machineId": "MCT-DEMO-03",
+    "workDate": "2026-01-21",
+    "runtimeSeconds": 21733,
+    "cuttimeSeconds": 12567,
+    "cuttingRatio": 57.82
+  },
+  {
+    "machineId": "CNC-DEMO-01",
+    "workDate": "2026-01-22",
+    "runtimeSeconds": 24945,
+    "cuttimeSeconds": 19647,
+    "cuttingRatio": 78.76
+  },
+  {
+    "machineId": "CNC-DEMO-02",
+    "workDate": "2026-01-22",
+    "runtimeSeconds": 10800,
+    "cuttimeSeconds": 7681,
+    "cuttingRatio": 71.12
+  },
+  {
+    "machineId": "CNC-DEMO-03",
+    "workDate": "2026-01-22",
+    "runtimeSeconds": 26092,
+    "cuttimeSeconds": 20878,
+    "cuttingRatio": 80.02
+  },
+  {
+    "machineId": "MCT-DEMO-01",
+    "workDate": "2026-01-22",
+    "runtimeSeconds": 25739,
+    "cuttimeSeconds": 20022,
+    "cuttingRatio": 77.79
+  },
+  {
+    "machineId": "MCT-DEMO-02",
+    "workDate": "2026-01-22",
+    "runtimeSeconds": 24534,
+    "cuttimeSeconds": 18723,
+    "cuttingRatio": 76.31
+  },
+  {
+    "machineId": "MCT-DEMO-03",
+    "workDate": "2026-01-22",
+    "runtimeSeconds": 25783,
+    "cuttimeSeconds": 18356,
+    "cuttingRatio": 71.19
+  },
+  {
+    "machineId": "CNC-DEMO-01",
+    "workDate": "2026-01-23",
+    "runtimeSeconds": 10800,
+    "cuttimeSeconds": 8766,
+    "cuttingRatio": 81.17
+  },
+  {
+    "machineId": "CNC-DEMO-02",
+    "workDate": "2026-01-23",
+    "runtimeSeconds": 23404,
+    "cuttimeSeconds": 13590,
+    "cuttingRatio": 58.07
+  },
+  {
+    "machineId": "CNC-DEMO-03",
+    "workDate": "2026-01-23",
+    "runtimeSeconds": 24932,
+    "cuttimeSeconds": 15535,
+    "cuttingRatio": 62.31
+  },
+  {
+    "machineId": "MCT-DEMO-01",
+    "workDate": "2026-01-23",
+    "runtimeSeconds": 22003,
+    "cuttimeSeconds": 17124,
+    "cuttingRatio": 77.83
+  },
+  {
+    "machineId": "MCT-DEMO-02",
+    "workDate": "2026-01-23",
+    "runtimeSeconds": 23245,
+    "cuttimeSeconds": 15133,
+    "cuttingRatio": 65.1
+  },
+  {
+    "machineId": "MCT-DEMO-03",
+    "workDate": "2026-01-23",
+    "runtimeSeconds": 25025,
+    "cuttimeSeconds": 18566,
+    "cuttingRatio": 74.19
+  },
+  {
+    "machineId": "CNC-DEMO-01",
+    "workDate": "2026-01-24",
+    "runtimeSeconds": 24505,
+    "cuttimeSeconds": 17304,
+    "cuttingRatio": 70.61
+  },
+  {
+    "machineId": "CNC-DEMO-02",
+    "workDate": "2026-01-24",
+    "runtimeSeconds": 24003,
+    "cuttimeSeconds": 17407,
+    "cuttingRatio": 72.52
+  },
+  {
+    "machineId": "CNC-DEMO-03",
+    "workDate": "2026-01-24",
+    "runtimeSeconds": 23666,
+    "cuttimeSeconds": 16339,
+    "cuttingRatio": 69.04
+  },
+  {
+    "machineId": "MCT-DEMO-01",
+    "workDate": "2026-01-24",
+    "runtimeSeconds": 24170,
+    "cuttimeSeconds": 19243,
+    "cuttingRatio": 79.62
+  },
+  {
+    "machineId": "MCT-DEMO-02",
+    "workDate": "2026-01-24",
+    "runtimeSeconds": 24415,
+    "cuttimeSeconds": 16093,
+    "cuttingRatio": 65.91
+  },
+  {
+    "machineId": "MCT-DEMO-03",
+    "workDate": "2026-01-24",
+    "runtimeSeconds": 24634,
+    "cuttimeSeconds": 19262,
+    "cuttingRatio": 78.19
+  },
+  {
+    "machineId": "CNC-DEMO-01",
+    "workDate": "2026-01-25",
+    "runtimeSeconds": 24531,
+    "cuttimeSeconds": 15685,
+    "cuttingRatio": 63.94
+  },
+  {
+    "machineId": "CNC-DEMO-02",
+    "workDate": "2026-01-25",
+    "runtimeSeconds": 22664,
+    "cuttimeSeconds": 14345,
+    "cuttingRatio": 63.29
+  },
+  {
+    "machineId": "CNC-DEMO-03",
+    "workDate": "2026-01-25",
+    "runtimeSeconds": 26761,
+    "cuttimeSeconds": 15784,
+    "cuttingRatio": 58.98
+  },
+  {
+    "machineId": "MCT-DEMO-01",
+    "workDate": "2026-01-25",
+    "runtimeSeconds": 21782,
+    "cuttimeSeconds": 13364,
+    "cuttingRatio": 61.35
+  },
+  {
+    "machineId": "MCT-DEMO-02",
+    "workDate": "2026-01-25",
+    "runtimeSeconds": 23579,
+    "cuttimeSeconds": 13898,
+    "cuttingRatio": 58.94
+  },
+  {
+    "machineId": "MCT-DEMO-03",
+    "workDate": "2026-01-25",
+    "runtimeSeconds": 23258,
+    "cuttimeSeconds": 16904,
+    "cuttingRatio": 72.68
+  },
+  {
+    "machineId": "CNC-DEMO-01",
+    "workDate": "2026-01-26",
+    "runtimeSeconds": 22879,
+    "cuttimeSeconds": 18338,
+    "cuttingRatio": 80.15
+  },
+  {
+    "machineId": "CNC-DEMO-02",
+    "workDate": "2026-01-26",
+    "runtimeSeconds": 23849,
+    "cuttimeSeconds": 14574,
+    "cuttingRatio": 61.11
+  },
+  {
+    "machineId": "CNC-DEMO-03",
+    "workDate": "2026-01-26",
+    "runtimeSeconds": 22137,
+    "cuttimeSeconds": 13756,
+    "cuttingRatio": 62.14
+  },
+  {
+    "machineId": "MCT-DEMO-01",
+    "workDate": "2026-01-26",
+    "runtimeSeconds": 23394,
+    "cuttimeSeconds": 16604,
+    "cuttingRatio": 70.98
+  },
+  {
+    "machineId": "MCT-DEMO-02",
+    "workDate": "2026-01-26",
+    "runtimeSeconds": 23856,
+    "cuttimeSeconds": 18825,
+    "cuttingRatio": 78.91
+  },
+  {
+    "machineId": "MCT-DEMO-03",
+    "workDate": "2026-01-26",
+    "runtimeSeconds": 25301,
+    "cuttimeSeconds": 22069,
+    "cuttingRatio": 87.23
+  },
+  {
+    "machineId": "CNC-DEMO-01",
+    "workDate": "2026-01-27",
+    "runtimeSeconds": 22396,
+    "cuttimeSeconds": 16195,
+    "cuttingRatio": 72.31
+  },
+  {
+    "machineId": "CNC-DEMO-02",
+    "workDate": "2026-01-27",
+    "runtimeSeconds": 22227,
+    "cuttimeSeconds": 14300,
+    "cuttingRatio": 64.34
+  },
+  {
+    "machineId": "CNC-DEMO-03",
+    "workDate": "2026-01-27",
+    "runtimeSeconds": 24608,
+    "cuttimeSeconds": 14350,
+    "cuttingRatio": 58.31
+  },
+  {
+    "machineId": "MCT-DEMO-01",
+    "workDate": "2026-01-27",
+    "runtimeSeconds": 25738,
+    "cuttimeSeconds": 15804,
+    "cuttingRatio": 61.4
+  },
+  {
+    "machineId": "MCT-DEMO-02",
+    "workDate": "2026-01-27",
+    "runtimeSeconds": 25540,
+    "cuttimeSeconds": 15964,
+    "cuttingRatio": 62.51
+  },
+  {
+    "machineId": "MCT-DEMO-03",
+    "workDate": "2026-01-27",
+    "runtimeSeconds": 23892,
+    "cuttimeSeconds": 14555,
+    "cuttingRatio": 60.92
+  },
+  {
+    "machineId": "CNC-DEMO-01",
+    "workDate": "2026-01-28",
+    "runtimeSeconds": 23634,
+    "cuttimeSeconds": 13109,
+    "cuttingRatio": 55.47
+  },
+  {
+    "machineId": "CNC-DEMO-02",
+    "workDate": "2026-01-28",
+    "runtimeSeconds": 23892,
+    "cuttimeSeconds": 17351,
+    "cuttingRatio": 72.62
+  },
+  {
+    "machineId": "CNC-DEMO-03",
+    "workDate": "2026-01-28",
+    "runtimeSeconds": 23356,
+    "cuttimeSeconds": 14960,
+    "cuttingRatio": 64.05
+  },
+  {
+    "machineId": "MCT-DEMO-01",
+    "workDate": "2026-01-28",
+    "runtimeSeconds": 25540,
+    "cuttimeSeconds": 22258,
+    "cuttingRatio": 87.15
+  },
+  {
+    "machineId": "MCT-DEMO-02",
+    "workDate": "2026-01-28",
+    "runtimeSeconds": 21319,
+    "cuttimeSeconds": 15618,
+    "cuttingRatio": 73.26
+  },
+  {
+    "machineId": "MCT-DEMO-03",
+    "workDate": "2026-01-28",
+    "runtimeSeconds": 23589,
+    "cuttimeSeconds": 18402,
+    "cuttingRatio": 78.01
+  },
+  {
+    "machineId": "CNC-DEMO-01",
+    "workDate": "2026-01-29",
+    "runtimeSeconds": 25004,
+    "cuttimeSeconds": 14794,
+    "cuttingRatio": 59.17
+  },
+  {
+    "machineId": "CNC-DEMO-02",
+    "workDate": "2026-01-29",
+    "runtimeSeconds": 23349,
+    "cuttimeSeconds": 19533,
+    "cuttingRatio": 83.66
+  },
+  {
+    "machineId": "CNC-DEMO-03",
+    "workDate": "2026-01-29",
+    "runtimeSeconds": 21713,
+    "cuttimeSeconds": 15459,
+    "cuttingRatio": 71.2
+  },
+  {
+    "machineId": "MCT-DEMO-01",
+    "workDate": "2026-01-29",
+    "runtimeSeconds": 23205,
+    "cuttimeSeconds": 19445,
+    "cuttingRatio": 83.8
+  },
+  {
+    "machineId": "MCT-DEMO-02",
+    "workDate": "2026-01-29",
+    "runtimeSeconds": 23389,
+    "cuttimeSeconds": 17294,
+    "cuttingRatio": 73.94
+  },
+  {
+    "machineId": "MCT-DEMO-03",
+    "workDate": "2026-01-29",
+    "runtimeSeconds": 10800,
+    "cuttimeSeconds": 7612,
+    "cuttingRatio": 70.48
+  },
+  {
+    "machineId": "CNC-DEMO-01",
+    "workDate": "2026-01-30",
+    "runtimeSeconds": 22211,
+    "cuttimeSeconds": 15444,
+    "cuttingRatio": 69.53
+  },
+  {
+    "machineId": "CNC-DEMO-02",
+    "workDate": "2026-01-30",
+    "runtimeSeconds": 23981,
+    "cuttimeSeconds": 14648,
+    "cuttingRatio": 61.08
+  },
+  {
+    "machineId": "CNC-DEMO-03",
+    "workDate": "2026-01-30",
+    "runtimeSeconds": 25522,
+    "cuttimeSeconds": 14469,
+    "cuttingRatio": 56.69
+  },
+  {
+    "machineId": "MCT-DEMO-01",
+    "workDate": "2026-01-30",
+    "runtimeSeconds": 21831,
+    "cuttimeSeconds": 18786,
+    "cuttingRatio": 86.05
+  },
+  {
+    "machineId": "MCT-DEMO-02",
+    "workDate": "2026-01-30",
+    "runtimeSeconds": 10800,
+    "cuttimeSeconds": 7642,
+    "cuttingRatio": 70.76
+  },
+  {
+    "machineId": "MCT-DEMO-03",
+    "workDate": "2026-01-30",
+    "runtimeSeconds": 7200,
+    "cuttimeSeconds": 5913,
+    "cuttingRatio": 82.12
+  }
+]

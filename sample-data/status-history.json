@@ -1,0 +1,6419 @@
+[
+  {
+    "eventId": "STATUS-20260101-CNC-DEMO-01-001",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-01T08:00:00Z",
+    "endedAt": "2026-01-01T10:00:00Z",
+    "durationSeconds": 7200,
+    "workDate": "2026-01-01"
+  },
+  {
+    "eventId": "STATUS-20260101-CNC-DEMO-01-002",
+    "machineId": "CNC-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-01T10:00:00Z",
+    "endedAt": "2026-01-01T12:00:00Z",
+    "durationSeconds": 7200,
+    "workDate": "2026-01-01"
+  },
+  {
+    "eventId": "STATUS-20260101-CNC-DEMO-01-003",
+    "machineId": "CNC-DEMO-01",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-01T12:00:00Z",
+    "endedAt": "2026-01-01T16:00:00Z",
+    "durationSeconds": 14400,
+    "workDate": "2026-01-01"
+  },
+  {
+    "eventId": "STATUS-20260102-CNC-DEMO-01-001",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-02T08:00:00Z",
+    "endedAt": "2026-01-02T11:30:12Z",
+    "durationSeconds": 12612,
+    "workDate": "2026-01-02"
+  },
+  {
+    "eventId": "STATUS-20260102-CNC-DEMO-01-002",
+    "machineId": "CNC-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-02T11:30:12Z",
+    "endedAt": "2026-01-02T12:50:49Z",
+    "durationSeconds": 4837,
+    "workDate": "2026-01-02"
+  },
+  {
+    "eventId": "STATUS-20260102-CNC-DEMO-01-003",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-02T12:50:49Z",
+    "endedAt": "2026-01-02T16:00:00Z",
+    "durationSeconds": 11351,
+    "workDate": "2026-01-02"
+  },
+  {
+    "eventId": "STATUS-20260103-CNC-DEMO-01-001",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-03T08:00:00Z",
+    "endedAt": "2026-01-03T09:55:58Z",
+    "durationSeconds": 6958,
+    "workDate": "2026-01-03"
+  },
+  {
+    "eventId": "STATUS-20260103-CNC-DEMO-01-002",
+    "machineId": "CNC-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-03T09:55:58Z",
+    "endedAt": "2026-01-03T10:35:29Z",
+    "durationSeconds": 2371,
+    "workDate": "2026-01-03"
+  },
+  {
+    "eventId": "STATUS-20260103-CNC-DEMO-01-003",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-03T10:35:29Z",
+    "endedAt": "2026-01-03T16:00:00Z",
+    "durationSeconds": 19471,
+    "workDate": "2026-01-03"
+  },
+  {
+    "eventId": "STATUS-20260104-CNC-DEMO-01-001",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-04T08:00:00Z",
+    "endedAt": "2026-01-04T10:55:12Z",
+    "durationSeconds": 10512,
+    "workDate": "2026-01-04"
+  },
+  {
+    "eventId": "STATUS-20260104-CNC-DEMO-01-002",
+    "machineId": "CNC-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-04T10:55:12Z",
+    "endedAt": "2026-01-04T12:05:30Z",
+    "durationSeconds": 4218,
+    "workDate": "2026-01-04"
+  },
+  {
+    "eventId": "STATUS-20260104-CNC-DEMO-01-003",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-04T12:05:30Z",
+    "endedAt": "2026-01-04T15:30:00Z",
+    "durationSeconds": 12270,
+    "workDate": "2026-01-04"
+  },
+  {
+    "eventId": "STATUS-20260104-CNC-DEMO-01-004",
+    "machineId": "CNC-DEMO-01",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-04T15:30:00Z",
+    "endedAt": "2026-01-04T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-04"
+  },
+  {
+    "eventId": "STATUS-20260105-CNC-DEMO-01-001",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-05T08:00:00Z",
+    "endedAt": "2026-01-05T10:59:24Z",
+    "durationSeconds": 10764,
+    "workDate": "2026-01-05"
+  },
+  {
+    "eventId": "STATUS-20260105-CNC-DEMO-01-002",
+    "machineId": "CNC-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-05T10:59:24Z",
+    "endedAt": "2026-01-05T11:35:47Z",
+    "durationSeconds": 2183,
+    "workDate": "2026-01-05"
+  },
+  {
+    "eventId": "STATUS-20260105-CNC-DEMO-01-003",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-05T11:35:47Z",
+    "endedAt": "2026-01-05T16:00:00Z",
+    "durationSeconds": 15853,
+    "workDate": "2026-01-05"
+  },
+  {
+    "eventId": "STATUS-20260106-CNC-DEMO-01-001",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-06T08:00:00Z",
+    "endedAt": "2026-01-06T09:07:14Z",
+    "durationSeconds": 4034,
+    "workDate": "2026-01-06"
+  },
+  {
+    "eventId": "STATUS-20260106-CNC-DEMO-01-002",
+    "machineId": "CNC-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-06T09:07:14Z",
+    "endedAt": "2026-01-06T10:18:19Z",
+    "durationSeconds": 4265,
+    "workDate": "2026-01-06"
+  },
+  {
+    "eventId": "STATUS-20260106-CNC-DEMO-01-003",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-06T10:18:19Z",
+    "endedAt": "2026-01-06T15:40:00Z",
+    "durationSeconds": 19301,
+    "workDate": "2026-01-06"
+  },
+  {
+    "eventId": "STATUS-20260106-CNC-DEMO-01-004",
+    "machineId": "CNC-DEMO-01",
+    "status": "ALARM",
+    "startedAt": "2026-01-06T15:40:00Z",
+    "endedAt": "2026-01-06T16:00:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-06"
+  },
+  {
+    "eventId": "STATUS-20260107-CNC-DEMO-01-001",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-07T08:00:00Z",
+    "endedAt": "2026-01-07T11:57:27Z",
+    "durationSeconds": 14247,
+    "workDate": "2026-01-07"
+  },
+  {
+    "eventId": "STATUS-20260107-CNC-DEMO-01-002",
+    "machineId": "CNC-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-07T11:57:27Z",
+    "endedAt": "2026-01-07T13:16:19Z",
+    "durationSeconds": 4732,
+    "workDate": "2026-01-07"
+  },
+  {
+    "eventId": "STATUS-20260107-CNC-DEMO-01-003",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-07T13:16:19Z",
+    "endedAt": "2026-01-07T15:30:00Z",
+    "durationSeconds": 8021,
+    "workDate": "2026-01-07"
+  },
+  {
+    "eventId": "STATUS-20260107-CNC-DEMO-01-004",
+    "machineId": "CNC-DEMO-01",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-07T15:30:00Z",
+    "endedAt": "2026-01-07T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-07"
+  },
+  {
+    "eventId": "STATUS-20260108-CNC-DEMO-01-001",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-08T08:00:00Z",
+    "endedAt": "2026-01-08T11:02:39Z",
+    "durationSeconds": 10959,
+    "workDate": "2026-01-08"
+  },
+  {
+    "eventId": "STATUS-20260108-CNC-DEMO-01-002",
+    "machineId": "CNC-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-08T11:02:39Z",
+    "endedAt": "2026-01-08T11:47:41Z",
+    "durationSeconds": 2702,
+    "workDate": "2026-01-08"
+  },
+  {
+    "eventId": "STATUS-20260108-CNC-DEMO-01-003",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-08T11:47:41Z",
+    "endedAt": "2026-01-08T15:15:00Z",
+    "durationSeconds": 12439,
+    "workDate": "2026-01-08"
+  },
+  {
+    "eventId": "STATUS-20260108-CNC-DEMO-01-004",
+    "machineId": "CNC-DEMO-01",
+    "status": "ALARM",
+    "startedAt": "2026-01-08T15:15:00Z",
+    "endedAt": "2026-01-08T15:30:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-08"
+  },
+  {
+    "eventId": "STATUS-20260108-CNC-DEMO-01-005",
+    "machineId": "CNC-DEMO-01",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-08T15:30:00Z",
+    "endedAt": "2026-01-08T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-08"
+  },
+  {
+    "eventId": "STATUS-20260109-CNC-DEMO-01-001",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-09T08:00:00Z",
+    "endedAt": "2026-01-09T09:01:46Z",
+    "durationSeconds": 3706,
+    "workDate": "2026-01-09"
+  },
+  {
+    "eventId": "STATUS-20260109-CNC-DEMO-01-002",
+    "machineId": "CNC-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-09T09:01:46Z",
+    "endedAt": "2026-01-09T10:27:01Z",
+    "durationSeconds": 5115,
+    "workDate": "2026-01-09"
+  },
+  {
+    "eventId": "STATUS-20260109-CNC-DEMO-01-003",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-09T10:27:01Z",
+    "endedAt": "2026-01-09T15:20:00Z",
+    "durationSeconds": 17579,
+    "workDate": "2026-01-09"
+  },
+  {
+    "eventId": "STATUS-20260109-CNC-DEMO-01-004",
+    "machineId": "CNC-DEMO-01",
+    "status": "ALARM",
+    "startedAt": "2026-01-09T15:20:00Z",
+    "endedAt": "2026-01-09T15:30:00Z",
+    "durationSeconds": 600,
+    "workDate": "2026-01-09"
+  },
+  {
+    "eventId": "STATUS-20260109-CNC-DEMO-01-005",
+    "machineId": "CNC-DEMO-01",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-09T15:30:00Z",
+    "endedAt": "2026-01-09T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-09"
+  },
+  {
+    "eventId": "STATUS-20260110-CNC-DEMO-01-001",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-10T08:00:00Z",
+    "endedAt": "2026-01-10T11:31:45Z",
+    "durationSeconds": 12705,
+    "workDate": "2026-01-10"
+  },
+  {
+    "eventId": "STATUS-20260110-CNC-DEMO-01-002",
+    "machineId": "CNC-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-10T11:31:45Z",
+    "endedAt": "2026-01-10T12:24:58Z",
+    "durationSeconds": 3193,
+    "workDate": "2026-01-10"
+  },
+  {
+    "eventId": "STATUS-20260110-CNC-DEMO-01-003",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-10T12:24:58Z",
+    "endedAt": "2026-01-10T15:45:00Z",
+    "durationSeconds": 12002,
+    "workDate": "2026-01-10"
+  },
+  {
+    "eventId": "STATUS-20260110-CNC-DEMO-01-004",
+    "machineId": "CNC-DEMO-01",
+    "status": "ALARM",
+    "startedAt": "2026-01-10T15:45:00Z",
+    "endedAt": "2026-01-10T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-10"
+  },
+  {
+    "eventId": "STATUS-20260111-CNC-DEMO-01-001",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-11T08:00:00Z",
+    "endedAt": "2026-01-11T12:03:49Z",
+    "durationSeconds": 14629,
+    "workDate": "2026-01-11"
+  },
+  {
+    "eventId": "STATUS-20260111-CNC-DEMO-01-002",
+    "machineId": "CNC-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-11T12:03:49Z",
+    "endedAt": "2026-01-11T13:25:56Z",
+    "durationSeconds": 4927,
+    "workDate": "2026-01-11"
+  },
+  {
+    "eventId": "STATUS-20260111-CNC-DEMO-01-003",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-11T13:25:56Z",
+    "endedAt": "2026-01-11T16:00:00Z",
+    "durationSeconds": 9244,
+    "workDate": "2026-01-11"
+  },
+  {
+    "eventId": "STATUS-20260112-CNC-DEMO-01-001",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-12T08:00:00Z",
+    "endedAt": "2026-01-12T09:06:58Z",
+    "durationSeconds": 4018,
+    "workDate": "2026-01-12"
+  },
+  {
+    "eventId": "STATUS-20260112-CNC-DEMO-01-002",
+    "machineId": "CNC-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-12T09:06:58Z",
+    "endedAt": "2026-01-12T13:16:58Z",
+    "durationSeconds": 15000,
+    "workDate": "2026-01-12"
+  },
+  {
+    "eventId": "STATUS-20260112-CNC-DEMO-01-003",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-12T13:16:58Z",
+    "endedAt": "2026-01-12T15:10:00Z",
+    "durationSeconds": 6782,
+    "workDate": "2026-01-12"
+  },
+  {
+    "eventId": "STATUS-20260112-CNC-DEMO-01-004",
+    "machineId": "CNC-DEMO-01",
+    "status": "ALARM",
+    "startedAt": "2026-01-12T15:10:00Z",
+    "endedAt": "2026-01-12T15:30:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-12"
+  },
+  {
+    "eventId": "STATUS-20260112-CNC-DEMO-01-005",
+    "machineId": "CNC-DEMO-01",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-12T15:30:00Z",
+    "endedAt": "2026-01-12T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-12"
+  },
+  {
+    "eventId": "STATUS-20260113-CNC-DEMO-01-001",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-13T08:00:00Z",
+    "endedAt": "2026-01-13T12:16:03Z",
+    "durationSeconds": 15363,
+    "workDate": "2026-01-13"
+  },
+  {
+    "eventId": "STATUS-20260113-CNC-DEMO-01-002",
+    "machineId": "CNC-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-13T12:16:03Z",
+    "endedAt": "2026-01-13T12:52:39Z",
+    "durationSeconds": 2196,
+    "workDate": "2026-01-13"
+  },
+  {
+    "eventId": "STATUS-20260113-CNC-DEMO-01-003",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-13T12:52:39Z",
+    "endedAt": "2026-01-13T15:45:00Z",
+    "durationSeconds": 10341,
+    "workDate": "2026-01-13"
+  },
+  {
+    "eventId": "STATUS-20260113-CNC-DEMO-01-004",
+    "machineId": "CNC-DEMO-01",
+    "status": "ALARM",
+    "startedAt": "2026-01-13T15:45:00Z",
+    "endedAt": "2026-01-13T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-13"
+  },
+  {
+    "eventId": "STATUS-20260114-CNC-DEMO-01-001",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-14T08:00:00Z",
+    "endedAt": "2026-01-14T09:23:43Z",
+    "durationSeconds": 5023,
+    "workDate": "2026-01-14"
+  },
+  {
+    "eventId": "STATUS-20260114-CNC-DEMO-01-002",
+    "machineId": "CNC-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-14T09:23:43Z",
+    "endedAt": "2026-01-14T10:11:46Z",
+    "durationSeconds": 2883,
+    "workDate": "2026-01-14"
+  },
+  {
+    "eventId": "STATUS-20260114-CNC-DEMO-01-003",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-14T10:11:46Z",
+    "endedAt": "2026-01-14T15:40:00Z",
+    "durationSeconds": 19694,
+    "workDate": "2026-01-14"
+  },
+  {
+    "eventId": "STATUS-20260114-CNC-DEMO-01-004",
+    "machineId": "CNC-DEMO-01",
+    "status": "ALARM",
+    "startedAt": "2026-01-14T15:40:00Z",
+    "endedAt": "2026-01-14T16:00:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-14"
+  },
+  {
+    "eventId": "STATUS-20260115-CNC-DEMO-01-001",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-15T08:00:00Z",
+    "endedAt": "2026-01-15T12:26:43Z",
+    "durationSeconds": 16003,
+    "workDate": "2026-01-15"
+  },
+  {
+    "eventId": "STATUS-20260115-CNC-DEMO-01-002",
+    "machineId": "CNC-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-15T12:26:43Z",
+    "endedAt": "2026-01-15T13:05:14Z",
+    "durationSeconds": 2311,
+    "workDate": "2026-01-15"
+  },
+  {
+    "eventId": "STATUS-20260115-CNC-DEMO-01-003",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-15T13:05:14Z",
+    "endedAt": "2026-01-15T15:25:00Z",
+    "durationSeconds": 8386,
+    "workDate": "2026-01-15"
+  },
+  {
+    "eventId": "STATUS-20260115-CNC-DEMO-01-004",
+    "machineId": "CNC-DEMO-01",
+    "status": "ALARM",
+    "startedAt": "2026-01-15T15:25:00Z",
+    "endedAt": "2026-01-15T15:45:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-15"
+  },
+  {
+    "eventId": "STATUS-20260115-CNC-DEMO-01-005",
+    "machineId": "CNC-DEMO-01",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-15T15:45:00Z",
+    "endedAt": "2026-01-15T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-15"
+  },
+  {
+    "eventId": "STATUS-20260116-CNC-DEMO-01-001",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-16T08:00:00Z",
+    "endedAt": "2026-01-16T12:17:30Z",
+    "durationSeconds": 15450,
+    "workDate": "2026-01-16"
+  },
+  {
+    "eventId": "STATUS-20260116-CNC-DEMO-01-002",
+    "machineId": "CNC-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-16T12:17:30Z",
+    "endedAt": "2026-01-16T13:07:30Z",
+    "durationSeconds": 3000,
+    "workDate": "2026-01-16"
+  },
+  {
+    "eventId": "STATUS-20260116-CNC-DEMO-01-003",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-16T13:07:30Z",
+    "endedAt": "2026-01-16T15:40:00Z",
+    "durationSeconds": 9150,
+    "workDate": "2026-01-16"
+  },
+  {
+    "eventId": "STATUS-20260116-CNC-DEMO-01-004",
+    "machineId": "CNC-DEMO-01",
+    "status": "ALARM",
+    "startedAt": "2026-01-16T15:40:00Z",
+    "endedAt": "2026-01-16T16:00:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-16"
+  },
+  {
+    "eventId": "STATUS-20260117-CNC-DEMO-01-001",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-17T08:00:00Z",
+    "endedAt": "2026-01-17T09:18:59Z",
+    "durationSeconds": 4739,
+    "workDate": "2026-01-17"
+  },
+  {
+    "eventId": "STATUS-20260117-CNC-DEMO-01-002",
+    "machineId": "CNC-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-17T09:18:59Z",
+    "endedAt": "2026-01-17T10:37:04Z",
+    "durationSeconds": 4685,
+    "workDate": "2026-01-17"
+  },
+  {
+    "eventId": "STATUS-20260117-CNC-DEMO-01-003",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-17T10:37:04Z",
+    "endedAt": "2026-01-17T15:30:00Z",
+    "durationSeconds": 17576,
+    "workDate": "2026-01-17"
+  },
+  {
+    "eventId": "STATUS-20260117-CNC-DEMO-01-004",
+    "machineId": "CNC-DEMO-01",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-17T15:30:00Z",
+    "endedAt": "2026-01-17T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-17"
+  },
+  {
+    "eventId": "STATUS-20260118-CNC-DEMO-01-001",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-18T08:00:00Z",
+    "endedAt": "2026-01-18T10:00:00Z",
+    "durationSeconds": 7200,
+    "workDate": "2026-01-18"
+  },
+  {
+    "eventId": "STATUS-20260118-CNC-DEMO-01-002",
+    "machineId": "CNC-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-18T10:00:00Z",
+    "endedAt": "2026-01-18T12:00:00Z",
+    "durationSeconds": 7200,
+    "workDate": "2026-01-18"
+  },
+  {
+    "eventId": "STATUS-20260118-CNC-DEMO-01-003",
+    "machineId": "CNC-DEMO-01",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-18T12:00:00Z",
+    "endedAt": "2026-01-18T16:00:00Z",
+    "durationSeconds": 14400,
+    "workDate": "2026-01-18"
+  },
+  {
+    "eventId": "STATUS-20260119-CNC-DEMO-01-001",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-19T08:00:00Z",
+    "endedAt": "2026-01-19T11:38:02Z",
+    "durationSeconds": 13082,
+    "workDate": "2026-01-19"
+  },
+  {
+    "eventId": "STATUS-20260119-CNC-DEMO-01-002",
+    "machineId": "CNC-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-19T11:38:02Z",
+    "endedAt": "2026-01-19T13:00:48Z",
+    "durationSeconds": 4966,
+    "workDate": "2026-01-19"
+  },
+  {
+    "eventId": "STATUS-20260119-CNC-DEMO-01-003",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-19T13:00:48Z",
+    "endedAt": "2026-01-19T16:00:00Z",
+    "durationSeconds": 10752,
+    "workDate": "2026-01-19"
+  },
+  {
+    "eventId": "STATUS-20260120-CNC-DEMO-01-001",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-20T08:00:00Z",
+    "endedAt": "2026-01-20T09:27:34Z",
+    "durationSeconds": 5254,
+    "workDate": "2026-01-20"
+  },
+  {
+    "eventId": "STATUS-20260120-CNC-DEMO-01-002",
+    "machineId": "CNC-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-20T09:27:34Z",
+    "endedAt": "2026-01-20T10:56:43Z",
+    "durationSeconds": 5349,
+    "workDate": "2026-01-20"
+  },
+  {
+    "eventId": "STATUS-20260120-CNC-DEMO-01-003",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-20T10:56:43Z",
+    "endedAt": "2026-01-20T16:00:00Z",
+    "durationSeconds": 18197,
+    "workDate": "2026-01-20"
+  },
+  {
+    "eventId": "STATUS-20260121-CNC-DEMO-01-001",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-21T08:00:00Z",
+    "endedAt": "2026-01-21T12:19:14Z",
+    "durationSeconds": 15554,
+    "workDate": "2026-01-21"
+  },
+  {
+    "eventId": "STATUS-20260121-CNC-DEMO-01-002",
+    "machineId": "CNC-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-21T12:19:14Z",
+    "endedAt": "2026-01-21T13:20:11Z",
+    "durationSeconds": 3657,
+    "workDate": "2026-01-21"
+  },
+  {
+    "eventId": "STATUS-20260121-CNC-DEMO-01-003",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-21T13:20:11Z",
+    "endedAt": "2026-01-21T15:35:00Z",
+    "durationSeconds": 8089,
+    "workDate": "2026-01-21"
+  },
+  {
+    "eventId": "STATUS-20260121-CNC-DEMO-01-004",
+    "machineId": "CNC-DEMO-01",
+    "status": "ALARM",
+    "startedAt": "2026-01-21T15:35:00Z",
+    "endedAt": "2026-01-21T15:45:00Z",
+    "durationSeconds": 600,
+    "workDate": "2026-01-21"
+  },
+  {
+    "eventId": "STATUS-20260121-CNC-DEMO-01-005",
+    "machineId": "CNC-DEMO-01",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-21T15:45:00Z",
+    "endedAt": "2026-01-21T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-21"
+  },
+  {
+    "eventId": "STATUS-20260122-CNC-DEMO-01-001",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-22T08:00:00Z",
+    "endedAt": "2026-01-22T10:54:25Z",
+    "durationSeconds": 10465,
+    "workDate": "2026-01-22"
+  },
+  {
+    "eventId": "STATUS-20260122-CNC-DEMO-01-002",
+    "machineId": "CNC-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-22T10:54:25Z",
+    "endedAt": "2026-01-22T11:48:40Z",
+    "durationSeconds": 3255,
+    "workDate": "2026-01-22"
+  },
+  {
+    "eventId": "STATUS-20260122-CNC-DEMO-01-003",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-22T11:48:40Z",
+    "endedAt": "2026-01-22T15:50:00Z",
+    "durationSeconds": 14480,
+    "workDate": "2026-01-22"
+  },
+  {
+    "eventId": "STATUS-20260122-CNC-DEMO-01-004",
+    "machineId": "CNC-DEMO-01",
+    "status": "ALARM",
+    "startedAt": "2026-01-22T15:50:00Z",
+    "endedAt": "2026-01-22T16:00:00Z",
+    "durationSeconds": 600,
+    "workDate": "2026-01-22"
+  },
+  {
+    "eventId": "STATUS-20260123-CNC-DEMO-01-001",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-23T08:00:00Z",
+    "endedAt": "2026-01-23T09:45:45Z",
+    "durationSeconds": 6345,
+    "workDate": "2026-01-23"
+  },
+  {
+    "eventId": "STATUS-20260123-CNC-DEMO-01-002",
+    "machineId": "CNC-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-23T09:45:45Z",
+    "endedAt": "2026-01-23T13:55:45Z",
+    "durationSeconds": 15000,
+    "workDate": "2026-01-23"
+  },
+  {
+    "eventId": "STATUS-20260123-CNC-DEMO-01-003",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-23T13:55:45Z",
+    "endedAt": "2026-01-23T15:10:00Z",
+    "durationSeconds": 4455,
+    "workDate": "2026-01-23"
+  },
+  {
+    "eventId": "STATUS-20260123-CNC-DEMO-01-004",
+    "machineId": "CNC-DEMO-01",
+    "status": "ALARM",
+    "startedAt": "2026-01-23T15:10:00Z",
+    "endedAt": "2026-01-23T15:30:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-23"
+  },
+  {
+    "eventId": "STATUS-20260123-CNC-DEMO-01-005",
+    "machineId": "CNC-DEMO-01",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-23T15:30:00Z",
+    "endedAt": "2026-01-23T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-23"
+  },
+  {
+    "eventId": "STATUS-20260124-CNC-DEMO-01-001",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-24T08:00:00Z",
+    "endedAt": "2026-01-24T10:33:27Z",
+    "durationSeconds": 9207,
+    "workDate": "2026-01-24"
+  },
+  {
+    "eventId": "STATUS-20260124-CNC-DEMO-01-002",
+    "machineId": "CNC-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-24T10:33:27Z",
+    "endedAt": "2026-01-24T11:45:02Z",
+    "durationSeconds": 4295,
+    "workDate": "2026-01-24"
+  },
+  {
+    "eventId": "STATUS-20260124-CNC-DEMO-01-003",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-24T11:45:02Z",
+    "endedAt": "2026-01-24T16:00:00Z",
+    "durationSeconds": 15298,
+    "workDate": "2026-01-24"
+  },
+  {
+    "eventId": "STATUS-20260125-CNC-DEMO-01-001",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-25T08:00:00Z",
+    "endedAt": "2026-01-25T13:12:27Z",
+    "durationSeconds": 18747,
+    "workDate": "2026-01-25"
+  },
+  {
+    "eventId": "STATUS-20260125-CNC-DEMO-01-002",
+    "machineId": "CNC-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-25T13:12:27Z",
+    "endedAt": "2026-01-25T13:53:36Z",
+    "durationSeconds": 2469,
+    "workDate": "2026-01-25"
+  },
+  {
+    "eventId": "STATUS-20260125-CNC-DEMO-01-003",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-25T13:53:36Z",
+    "endedAt": "2026-01-25T15:30:00Z",
+    "durationSeconds": 5784,
+    "workDate": "2026-01-25"
+  },
+  {
+    "eventId": "STATUS-20260125-CNC-DEMO-01-004",
+    "machineId": "CNC-DEMO-01",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-25T15:30:00Z",
+    "endedAt": "2026-01-25T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-25"
+  },
+  {
+    "eventId": "STATUS-20260126-CNC-DEMO-01-001",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-26T08:00:00Z",
+    "endedAt": "2026-01-26T12:07:54Z",
+    "durationSeconds": 14874,
+    "workDate": "2026-01-26"
+  },
+  {
+    "eventId": "STATUS-20260126-CNC-DEMO-01-002",
+    "machineId": "CNC-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-26T12:07:54Z",
+    "endedAt": "2026-01-26T13:21:35Z",
+    "durationSeconds": 4421,
+    "workDate": "2026-01-26"
+  },
+  {
+    "eventId": "STATUS-20260126-CNC-DEMO-01-003",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-26T13:21:35Z",
+    "endedAt": "2026-01-26T15:35:00Z",
+    "durationSeconds": 8005,
+    "workDate": "2026-01-26"
+  },
+  {
+    "eventId": "STATUS-20260126-CNC-DEMO-01-004",
+    "machineId": "CNC-DEMO-01",
+    "status": "ALARM",
+    "startedAt": "2026-01-26T15:35:00Z",
+    "endedAt": "2026-01-26T15:45:00Z",
+    "durationSeconds": 600,
+    "workDate": "2026-01-26"
+  },
+  {
+    "eventId": "STATUS-20260126-CNC-DEMO-01-005",
+    "machineId": "CNC-DEMO-01",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-26T15:45:00Z",
+    "endedAt": "2026-01-26T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-26"
+  },
+  {
+    "eventId": "STATUS-20260127-CNC-DEMO-01-001",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-27T08:00:00Z",
+    "endedAt": "2026-01-27T10:28:33Z",
+    "durationSeconds": 8913,
+    "workDate": "2026-01-27"
+  },
+  {
+    "eventId": "STATUS-20260127-CNC-DEMO-01-002",
+    "machineId": "CNC-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-27T10:28:33Z",
+    "endedAt": "2026-01-27T11:45:17Z",
+    "durationSeconds": 4604,
+    "workDate": "2026-01-27"
+  },
+  {
+    "eventId": "STATUS-20260127-CNC-DEMO-01-003",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-27T11:45:17Z",
+    "endedAt": "2026-01-27T15:30:00Z",
+    "durationSeconds": 13483,
+    "workDate": "2026-01-27"
+  },
+  {
+    "eventId": "STATUS-20260127-CNC-DEMO-01-004",
+    "machineId": "CNC-DEMO-01",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-27T15:30:00Z",
+    "endedAt": "2026-01-27T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-27"
+  },
+  {
+    "eventId": "STATUS-20260128-CNC-DEMO-01-001",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-28T08:00:00Z",
+    "endedAt": "2026-01-28T09:17:31Z",
+    "durationSeconds": 4651,
+    "workDate": "2026-01-28"
+  },
+  {
+    "eventId": "STATUS-20260128-CNC-DEMO-01-002",
+    "machineId": "CNC-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-28T09:17:31Z",
+    "endedAt": "2026-01-28T10:43:37Z",
+    "durationSeconds": 5166,
+    "workDate": "2026-01-28"
+  },
+  {
+    "eventId": "STATUS-20260128-CNC-DEMO-01-003",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-28T10:43:37Z",
+    "endedAt": "2026-01-28T16:00:00Z",
+    "durationSeconds": 18983,
+    "workDate": "2026-01-28"
+  },
+  {
+    "eventId": "STATUS-20260129-CNC-DEMO-01-001",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-29T08:00:00Z",
+    "endedAt": "2026-01-29T09:36:08Z",
+    "durationSeconds": 5768,
+    "workDate": "2026-01-29"
+  },
+  {
+    "eventId": "STATUS-20260129-CNC-DEMO-01-002",
+    "machineId": "CNC-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-29T09:36:08Z",
+    "endedAt": "2026-01-29T10:24:24Z",
+    "durationSeconds": 2896,
+    "workDate": "2026-01-29"
+  },
+  {
+    "eventId": "STATUS-20260129-CNC-DEMO-01-003",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-29T10:24:24Z",
+    "endedAt": "2026-01-29T15:45:00Z",
+    "durationSeconds": 19236,
+    "workDate": "2026-01-29"
+  },
+  {
+    "eventId": "STATUS-20260129-CNC-DEMO-01-004",
+    "machineId": "CNC-DEMO-01",
+    "status": "ALARM",
+    "startedAt": "2026-01-29T15:45:00Z",
+    "endedAt": "2026-01-29T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-29"
+  },
+  {
+    "eventId": "STATUS-20260130-CNC-DEMO-01-001",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-30T08:00:00Z",
+    "endedAt": "2026-01-30T12:16:02Z",
+    "durationSeconds": 15362,
+    "workDate": "2026-01-30"
+  },
+  {
+    "eventId": "STATUS-20260130-CNC-DEMO-01-002",
+    "machineId": "CNC-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-30T12:16:02Z",
+    "endedAt": "2026-01-30T13:45:51Z",
+    "durationSeconds": 5389,
+    "workDate": "2026-01-30"
+  },
+  {
+    "eventId": "STATUS-20260130-CNC-DEMO-01-003",
+    "machineId": "CNC-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-30T13:45:51Z",
+    "endedAt": "2026-01-30T15:40:00Z",
+    "durationSeconds": 6849,
+    "workDate": "2026-01-30"
+  },
+  {
+    "eventId": "STATUS-20260130-CNC-DEMO-01-004",
+    "machineId": "CNC-DEMO-01",
+    "status": "ALARM",
+    "startedAt": "2026-01-30T15:40:00Z",
+    "endedAt": "2026-01-30T16:00:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-30"
+  },
+  {
+    "eventId": "STATUS-20260101-CNC-DEMO-02-001",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-01T08:00:00Z",
+    "endedAt": "2026-01-01T13:32:38Z",
+    "durationSeconds": 19958,
+    "workDate": "2026-01-01"
+  },
+  {
+    "eventId": "STATUS-20260101-CNC-DEMO-02-002",
+    "machineId": "CNC-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-01T13:32:38Z",
+    "endedAt": "2026-01-01T14:47:22Z",
+    "durationSeconds": 4484,
+    "workDate": "2026-01-01"
+  },
+  {
+    "eventId": "STATUS-20260101-CNC-DEMO-02-003",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-01T14:47:22Z",
+    "endedAt": "2026-01-01T16:00:00Z",
+    "durationSeconds": 4358,
+    "workDate": "2026-01-01"
+  },
+  {
+    "eventId": "STATUS-20260102-CNC-DEMO-02-001",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-02T08:00:00Z",
+    "endedAt": "2026-01-02T11:24:39Z",
+    "durationSeconds": 12279,
+    "workDate": "2026-01-02"
+  },
+  {
+    "eventId": "STATUS-20260102-CNC-DEMO-02-002",
+    "machineId": "CNC-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-02T11:24:39Z",
+    "endedAt": "2026-01-02T12:04:24Z",
+    "durationSeconds": 2385,
+    "workDate": "2026-01-02"
+  },
+  {
+    "eventId": "STATUS-20260102-CNC-DEMO-02-003",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-02T12:04:24Z",
+    "endedAt": "2026-01-02T15:30:00Z",
+    "durationSeconds": 12336,
+    "workDate": "2026-01-02"
+  },
+  {
+    "eventId": "STATUS-20260102-CNC-DEMO-02-004",
+    "machineId": "CNC-DEMO-02",
+    "status": "ALARM",
+    "startedAt": "2026-01-02T15:30:00Z",
+    "endedAt": "2026-01-02T15:45:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-02"
+  },
+  {
+    "eventId": "STATUS-20260102-CNC-DEMO-02-005",
+    "machineId": "CNC-DEMO-02",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-02T15:45:00Z",
+    "endedAt": "2026-01-02T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-02"
+  },
+  {
+    "eventId": "STATUS-20260103-CNC-DEMO-02-001",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-03T08:00:00Z",
+    "endedAt": "2026-01-03T11:23:29Z",
+    "durationSeconds": 12209,
+    "workDate": "2026-01-03"
+  },
+  {
+    "eventId": "STATUS-20260103-CNC-DEMO-02-002",
+    "machineId": "CNC-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-03T11:23:29Z",
+    "endedAt": "2026-01-03T12:44:20Z",
+    "durationSeconds": 4851,
+    "workDate": "2026-01-03"
+  },
+  {
+    "eventId": "STATUS-20260103-CNC-DEMO-02-003",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-03T12:44:20Z",
+    "endedAt": "2026-01-03T16:00:00Z",
+    "durationSeconds": 11740,
+    "workDate": "2026-01-03"
+  },
+  {
+    "eventId": "STATUS-20260104-CNC-DEMO-02-001",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-04T08:00:00Z",
+    "endedAt": "2026-01-04T10:49:03Z",
+    "durationSeconds": 10143,
+    "workDate": "2026-01-04"
+  },
+  {
+    "eventId": "STATUS-20260104-CNC-DEMO-02-002",
+    "machineId": "CNC-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-04T10:49:03Z",
+    "endedAt": "2026-01-04T11:58:53Z",
+    "durationSeconds": 4190,
+    "workDate": "2026-01-04"
+  },
+  {
+    "eventId": "STATUS-20260104-CNC-DEMO-02-003",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-04T11:58:53Z",
+    "endedAt": "2026-01-04T15:15:00Z",
+    "durationSeconds": 11767,
+    "workDate": "2026-01-04"
+  },
+  {
+    "eventId": "STATUS-20260104-CNC-DEMO-02-004",
+    "machineId": "CNC-DEMO-02",
+    "status": "ALARM",
+    "startedAt": "2026-01-04T15:15:00Z",
+    "endedAt": "2026-01-04T15:30:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-04"
+  },
+  {
+    "eventId": "STATUS-20260104-CNC-DEMO-02-005",
+    "machineId": "CNC-DEMO-02",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-04T15:30:00Z",
+    "endedAt": "2026-01-04T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-04"
+  },
+  {
+    "eventId": "STATUS-20260105-CNC-DEMO-02-001",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-05T08:00:00Z",
+    "endedAt": "2026-01-05T13:38:16Z",
+    "durationSeconds": 20296,
+    "workDate": "2026-01-05"
+  },
+  {
+    "eventId": "STATUS-20260105-CNC-DEMO-02-002",
+    "machineId": "CNC-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-05T13:38:16Z",
+    "endedAt": "2026-01-05T14:17:42Z",
+    "durationSeconds": 2366,
+    "workDate": "2026-01-05"
+  },
+  {
+    "eventId": "STATUS-20260105-CNC-DEMO-02-003",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-05T14:17:42Z",
+    "endedAt": "2026-01-05T16:00:00Z",
+    "durationSeconds": 6138,
+    "workDate": "2026-01-05"
+  },
+  {
+    "eventId": "STATUS-20260106-CNC-DEMO-02-001",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-06T08:00:00Z",
+    "endedAt": "2026-01-06T09:12:51Z",
+    "durationSeconds": 4371,
+    "workDate": "2026-01-06"
+  },
+  {
+    "eventId": "STATUS-20260106-CNC-DEMO-02-002",
+    "machineId": "CNC-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-06T09:12:51Z",
+    "endedAt": "2026-01-06T10:34:26Z",
+    "durationSeconds": 4895,
+    "workDate": "2026-01-06"
+  },
+  {
+    "eventId": "STATUS-20260106-CNC-DEMO-02-003",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-06T10:34:26Z",
+    "endedAt": "2026-01-06T15:45:00Z",
+    "durationSeconds": 18634,
+    "workDate": "2026-01-06"
+  },
+  {
+    "eventId": "STATUS-20260106-CNC-DEMO-02-004",
+    "machineId": "CNC-DEMO-02",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-06T15:45:00Z",
+    "endedAt": "2026-01-06T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-06"
+  },
+  {
+    "eventId": "STATUS-20260107-CNC-DEMO-02-001",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-07T08:00:00Z",
+    "endedAt": "2026-01-07T10:27:22Z",
+    "durationSeconds": 8842,
+    "workDate": "2026-01-07"
+  },
+  {
+    "eventId": "STATUS-20260107-CNC-DEMO-02-002",
+    "machineId": "CNC-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-07T10:27:22Z",
+    "endedAt": "2026-01-07T11:40:12Z",
+    "durationSeconds": 4370,
+    "workDate": "2026-01-07"
+  },
+  {
+    "eventId": "STATUS-20260107-CNC-DEMO-02-003",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-07T11:40:12Z",
+    "endedAt": "2026-01-07T16:00:00Z",
+    "durationSeconds": 15588,
+    "workDate": "2026-01-07"
+  },
+  {
+    "eventId": "STATUS-20260108-CNC-DEMO-02-001",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-08T08:00:00Z",
+    "endedAt": "2026-01-08T12:30:08Z",
+    "durationSeconds": 16208,
+    "workDate": "2026-01-08"
+  },
+  {
+    "eventId": "STATUS-20260108-CNC-DEMO-02-002",
+    "machineId": "CNC-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-08T12:30:08Z",
+    "endedAt": "2026-01-08T13:04:28Z",
+    "durationSeconds": 2060,
+    "workDate": "2026-01-08"
+  },
+  {
+    "eventId": "STATUS-20260108-CNC-DEMO-02-003",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-08T13:04:28Z",
+    "endedAt": "2026-01-08T15:25:00Z",
+    "durationSeconds": 8432,
+    "workDate": "2026-01-08"
+  },
+  {
+    "eventId": "STATUS-20260108-CNC-DEMO-02-004",
+    "machineId": "CNC-DEMO-02",
+    "status": "ALARM",
+    "startedAt": "2026-01-08T15:25:00Z",
+    "endedAt": "2026-01-08T15:45:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-08"
+  },
+  {
+    "eventId": "STATUS-20260108-CNC-DEMO-02-005",
+    "machineId": "CNC-DEMO-02",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-08T15:45:00Z",
+    "endedAt": "2026-01-08T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-08"
+  },
+  {
+    "eventId": "STATUS-20260109-CNC-DEMO-02-001",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-09T08:00:00Z",
+    "endedAt": "2026-01-09T11:24:29Z",
+    "durationSeconds": 12269,
+    "workDate": "2026-01-09"
+  },
+  {
+    "eventId": "STATUS-20260109-CNC-DEMO-02-002",
+    "machineId": "CNC-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-09T11:24:29Z",
+    "endedAt": "2026-01-09T12:26:26Z",
+    "durationSeconds": 3717,
+    "workDate": "2026-01-09"
+  },
+  {
+    "eventId": "STATUS-20260109-CNC-DEMO-02-003",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-09T12:26:26Z",
+    "endedAt": "2026-01-09T15:25:00Z",
+    "durationSeconds": 10714,
+    "workDate": "2026-01-09"
+  },
+  {
+    "eventId": "STATUS-20260109-CNC-DEMO-02-004",
+    "machineId": "CNC-DEMO-02",
+    "status": "ALARM",
+    "startedAt": "2026-01-09T15:25:00Z",
+    "endedAt": "2026-01-09T15:45:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-09"
+  },
+  {
+    "eventId": "STATUS-20260109-CNC-DEMO-02-005",
+    "machineId": "CNC-DEMO-02",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-09T15:45:00Z",
+    "endedAt": "2026-01-09T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-09"
+  },
+  {
+    "eventId": "STATUS-20260110-CNC-DEMO-02-001",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-10T08:00:00Z",
+    "endedAt": "2026-01-10T09:03:08Z",
+    "durationSeconds": 3788,
+    "workDate": "2026-01-10"
+  },
+  {
+    "eventId": "STATUS-20260110-CNC-DEMO-02-002",
+    "machineId": "CNC-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-10T09:03:08Z",
+    "endedAt": "2026-01-10T10:31:53Z",
+    "durationSeconds": 5325,
+    "workDate": "2026-01-10"
+  },
+  {
+    "eventId": "STATUS-20260110-CNC-DEMO-02-003",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-10T10:31:53Z",
+    "endedAt": "2026-01-10T15:40:00Z",
+    "durationSeconds": 18487,
+    "workDate": "2026-01-10"
+  },
+  {
+    "eventId": "STATUS-20260110-CNC-DEMO-02-004",
+    "machineId": "CNC-DEMO-02",
+    "status": "ALARM",
+    "startedAt": "2026-01-10T15:40:00Z",
+    "endedAt": "2026-01-10T16:00:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-10"
+  },
+  {
+    "eventId": "STATUS-20260111-CNC-DEMO-02-001",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-11T08:00:00Z",
+    "endedAt": "2026-01-11T09:46:26Z",
+    "durationSeconds": 6386,
+    "workDate": "2026-01-11"
+  },
+  {
+    "eventId": "STATUS-20260111-CNC-DEMO-02-002",
+    "machineId": "CNC-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-11T09:46:26Z",
+    "endedAt": "2026-01-11T13:56:26Z",
+    "durationSeconds": 15000,
+    "workDate": "2026-01-11"
+  },
+  {
+    "eventId": "STATUS-20260111-CNC-DEMO-02-003",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-11T13:56:26Z",
+    "endedAt": "2026-01-11T15:10:00Z",
+    "durationSeconds": 4414,
+    "workDate": "2026-01-11"
+  },
+  {
+    "eventId": "STATUS-20260111-CNC-DEMO-02-004",
+    "machineId": "CNC-DEMO-02",
+    "status": "ALARM",
+    "startedAt": "2026-01-11T15:10:00Z",
+    "endedAt": "2026-01-11T15:30:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-11"
+  },
+  {
+    "eventId": "STATUS-20260111-CNC-DEMO-02-005",
+    "machineId": "CNC-DEMO-02",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-11T15:30:00Z",
+    "endedAt": "2026-01-11T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-11"
+  },
+  {
+    "eventId": "STATUS-20260112-CNC-DEMO-02-001",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-12T08:00:00Z",
+    "endedAt": "2026-01-12T10:12:51Z",
+    "durationSeconds": 7971,
+    "workDate": "2026-01-12"
+  },
+  {
+    "eventId": "STATUS-20260112-CNC-DEMO-02-002",
+    "machineId": "CNC-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-12T10:12:51Z",
+    "endedAt": "2026-01-12T11:34:06Z",
+    "durationSeconds": 4875,
+    "workDate": "2026-01-12"
+  },
+  {
+    "eventId": "STATUS-20260112-CNC-DEMO-02-003",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-12T11:34:06Z",
+    "endedAt": "2026-01-12T15:40:00Z",
+    "durationSeconds": 14754,
+    "workDate": "2026-01-12"
+  },
+  {
+    "eventId": "STATUS-20260112-CNC-DEMO-02-004",
+    "machineId": "CNC-DEMO-02",
+    "status": "ALARM",
+    "startedAt": "2026-01-12T15:40:00Z",
+    "endedAt": "2026-01-12T16:00:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-12"
+  },
+  {
+    "eventId": "STATUS-20260113-CNC-DEMO-02-001",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-13T08:00:00Z",
+    "endedAt": "2026-01-13T12:57:26Z",
+    "durationSeconds": 17846,
+    "workDate": "2026-01-13"
+  },
+  {
+    "eventId": "STATUS-20260113-CNC-DEMO-02-002",
+    "machineId": "CNC-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-13T12:57:26Z",
+    "endedAt": "2026-01-13T13:47:28Z",
+    "durationSeconds": 3002,
+    "workDate": "2026-01-13"
+  },
+  {
+    "eventId": "STATUS-20260113-CNC-DEMO-02-003",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-13T13:47:28Z",
+    "endedAt": "2026-01-13T16:00:00Z",
+    "durationSeconds": 7952,
+    "workDate": "2026-01-13"
+  },
+  {
+    "eventId": "STATUS-20260114-CNC-DEMO-02-001",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-14T08:00:00Z",
+    "endedAt": "2026-01-14T11:23:50Z",
+    "durationSeconds": 12230,
+    "workDate": "2026-01-14"
+  },
+  {
+    "eventId": "STATUS-20260114-CNC-DEMO-02-002",
+    "machineId": "CNC-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-14T11:23:50Z",
+    "endedAt": "2026-01-14T11:54:03Z",
+    "durationSeconds": 1813,
+    "workDate": "2026-01-14"
+  },
+  {
+    "eventId": "STATUS-20260114-CNC-DEMO-02-003",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-14T11:54:03Z",
+    "endedAt": "2026-01-14T15:45:00Z",
+    "durationSeconds": 13857,
+    "workDate": "2026-01-14"
+  },
+  {
+    "eventId": "STATUS-20260114-CNC-DEMO-02-004",
+    "machineId": "CNC-DEMO-02",
+    "status": "ALARM",
+    "startedAt": "2026-01-14T15:45:00Z",
+    "endedAt": "2026-01-14T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-14"
+  },
+  {
+    "eventId": "STATUS-20260115-CNC-DEMO-02-001",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-15T08:00:00Z",
+    "endedAt": "2026-01-15T13:09:12Z",
+    "durationSeconds": 18552,
+    "workDate": "2026-01-15"
+  },
+  {
+    "eventId": "STATUS-20260115-CNC-DEMO-02-002",
+    "machineId": "CNC-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-15T13:09:12Z",
+    "endedAt": "2026-01-15T14:13:51Z",
+    "durationSeconds": 3879,
+    "workDate": "2026-01-15"
+  },
+  {
+    "eventId": "STATUS-20260115-CNC-DEMO-02-003",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-15T14:13:51Z",
+    "endedAt": "2026-01-15T15:30:00Z",
+    "durationSeconds": 4569,
+    "workDate": "2026-01-15"
+  },
+  {
+    "eventId": "STATUS-20260115-CNC-DEMO-02-004",
+    "machineId": "CNC-DEMO-02",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-15T15:30:00Z",
+    "endedAt": "2026-01-15T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-15"
+  },
+  {
+    "eventId": "STATUS-20260116-CNC-DEMO-02-001",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-16T08:00:00Z",
+    "endedAt": "2026-01-16T11:54:28Z",
+    "durationSeconds": 14068,
+    "workDate": "2026-01-16"
+  },
+  {
+    "eventId": "STATUS-20260116-CNC-DEMO-02-002",
+    "machineId": "CNC-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-16T11:54:28Z",
+    "endedAt": "2026-01-16T13:21:55Z",
+    "durationSeconds": 5247,
+    "workDate": "2026-01-16"
+  },
+  {
+    "eventId": "STATUS-20260116-CNC-DEMO-02-003",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-16T13:21:55Z",
+    "endedAt": "2026-01-16T15:50:00Z",
+    "durationSeconds": 8885,
+    "workDate": "2026-01-16"
+  },
+  {
+    "eventId": "STATUS-20260116-CNC-DEMO-02-004",
+    "machineId": "CNC-DEMO-02",
+    "status": "ALARM",
+    "startedAt": "2026-01-16T15:50:00Z",
+    "endedAt": "2026-01-16T16:00:00Z",
+    "durationSeconds": 600,
+    "workDate": "2026-01-16"
+  },
+  {
+    "eventId": "STATUS-20260117-CNC-DEMO-02-001",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-17T08:00:00Z",
+    "endedAt": "2026-01-17T10:00:00Z",
+    "durationSeconds": 7200,
+    "workDate": "2026-01-17"
+  },
+  {
+    "eventId": "STATUS-20260117-CNC-DEMO-02-002",
+    "machineId": "CNC-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-17T10:00:00Z",
+    "endedAt": "2026-01-17T12:00:00Z",
+    "durationSeconds": 7200,
+    "workDate": "2026-01-17"
+  },
+  {
+    "eventId": "STATUS-20260117-CNC-DEMO-02-003",
+    "machineId": "CNC-DEMO-02",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-17T12:00:00Z",
+    "endedAt": "2026-01-17T16:00:00Z",
+    "durationSeconds": 14400,
+    "workDate": "2026-01-17"
+  },
+  {
+    "eventId": "STATUS-20260118-CNC-DEMO-02-001",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-18T08:00:00Z",
+    "endedAt": "2026-01-18T09:41:44Z",
+    "durationSeconds": 6104,
+    "workDate": "2026-01-18"
+  },
+  {
+    "eventId": "STATUS-20260118-CNC-DEMO-02-002",
+    "machineId": "CNC-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-18T09:41:44Z",
+    "endedAt": "2026-01-18T10:25:18Z",
+    "durationSeconds": 2614,
+    "workDate": "2026-01-18"
+  },
+  {
+    "eventId": "STATUS-20260118-CNC-DEMO-02-003",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-18T10:25:18Z",
+    "endedAt": "2026-01-18T15:10:00Z",
+    "durationSeconds": 17082,
+    "workDate": "2026-01-18"
+  },
+  {
+    "eventId": "STATUS-20260118-CNC-DEMO-02-004",
+    "machineId": "CNC-DEMO-02",
+    "status": "ALARM",
+    "startedAt": "2026-01-18T15:10:00Z",
+    "endedAt": "2026-01-18T15:30:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-18"
+  },
+  {
+    "eventId": "STATUS-20260118-CNC-DEMO-02-005",
+    "machineId": "CNC-DEMO-02",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-18T15:30:00Z",
+    "endedAt": "2026-01-18T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-18"
+  },
+  {
+    "eventId": "STATUS-20260119-CNC-DEMO-02-001",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-19T08:00:00Z",
+    "endedAt": "2026-01-19T13:49:38Z",
+    "durationSeconds": 20978,
+    "workDate": "2026-01-19"
+  },
+  {
+    "eventId": "STATUS-20260119-CNC-DEMO-02-002",
+    "machineId": "CNC-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-19T13:49:38Z",
+    "endedAt": "2026-01-19T14:56:27Z",
+    "durationSeconds": 4009,
+    "workDate": "2026-01-19"
+  },
+  {
+    "eventId": "STATUS-20260119-CNC-DEMO-02-003",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-19T14:56:27Z",
+    "endedAt": "2026-01-19T16:00:00Z",
+    "durationSeconds": 3813,
+    "workDate": "2026-01-19"
+  },
+  {
+    "eventId": "STATUS-20260120-CNC-DEMO-02-001",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-20T08:00:00Z",
+    "endedAt": "2026-01-20T13:26:50Z",
+    "durationSeconds": 19610,
+    "workDate": "2026-01-20"
+  },
+  {
+    "eventId": "STATUS-20260120-CNC-DEMO-02-002",
+    "machineId": "CNC-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-20T13:26:50Z",
+    "endedAt": "2026-01-20T14:18:57Z",
+    "durationSeconds": 3127,
+    "workDate": "2026-01-20"
+  },
+  {
+    "eventId": "STATUS-20260120-CNC-DEMO-02-003",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-20T14:18:57Z",
+    "endedAt": "2026-01-20T15:40:00Z",
+    "durationSeconds": 4863,
+    "workDate": "2026-01-20"
+  },
+  {
+    "eventId": "STATUS-20260120-CNC-DEMO-02-004",
+    "machineId": "CNC-DEMO-02",
+    "status": "ALARM",
+    "startedAt": "2026-01-20T15:40:00Z",
+    "endedAt": "2026-01-20T16:00:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-20"
+  },
+  {
+    "eventId": "STATUS-20260121-CNC-DEMO-02-001",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-21T08:00:00Z",
+    "endedAt": "2026-01-21T11:47:56Z",
+    "durationSeconds": 13676,
+    "workDate": "2026-01-21"
+  },
+  {
+    "eventId": "STATUS-20260121-CNC-DEMO-02-002",
+    "machineId": "CNC-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-21T11:47:56Z",
+    "endedAt": "2026-01-21T12:42:42Z",
+    "durationSeconds": 3286,
+    "workDate": "2026-01-21"
+  },
+  {
+    "eventId": "STATUS-20260121-CNC-DEMO-02-003",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-21T12:42:42Z",
+    "endedAt": "2026-01-21T16:00:00Z",
+    "durationSeconds": 11838,
+    "workDate": "2026-01-21"
+  },
+  {
+    "eventId": "STATUS-20260122-CNC-DEMO-02-001",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-22T08:00:00Z",
+    "endedAt": "2026-01-22T09:16:20Z",
+    "durationSeconds": 4580,
+    "workDate": "2026-01-22"
+  },
+  {
+    "eventId": "STATUS-20260122-CNC-DEMO-02-002",
+    "machineId": "CNC-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-22T09:16:20Z",
+    "endedAt": "2026-01-22T13:26:20Z",
+    "durationSeconds": 15000,
+    "workDate": "2026-01-22"
+  },
+  {
+    "eventId": "STATUS-20260122-CNC-DEMO-02-003",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-22T13:26:20Z",
+    "endedAt": "2026-01-22T15:10:00Z",
+    "durationSeconds": 6220,
+    "workDate": "2026-01-22"
+  },
+  {
+    "eventId": "STATUS-20260122-CNC-DEMO-02-004",
+    "machineId": "CNC-DEMO-02",
+    "status": "ALARM",
+    "startedAt": "2026-01-22T15:10:00Z",
+    "endedAt": "2026-01-22T15:30:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-22"
+  },
+  {
+    "eventId": "STATUS-20260122-CNC-DEMO-02-005",
+    "machineId": "CNC-DEMO-02",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-22T15:30:00Z",
+    "endedAt": "2026-01-22T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-22"
+  },
+  {
+    "eventId": "STATUS-20260123-CNC-DEMO-02-001",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-23T08:00:00Z",
+    "endedAt": "2026-01-23T11:34:55Z",
+    "durationSeconds": 12895,
+    "workDate": "2026-01-23"
+  },
+  {
+    "eventId": "STATUS-20260123-CNC-DEMO-02-002",
+    "machineId": "CNC-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-23T11:34:55Z",
+    "endedAt": "2026-01-23T13:04:51Z",
+    "durationSeconds": 5396,
+    "workDate": "2026-01-23"
+  },
+  {
+    "eventId": "STATUS-20260123-CNC-DEMO-02-003",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-23T13:04:51Z",
+    "endedAt": "2026-01-23T16:00:00Z",
+    "durationSeconds": 10509,
+    "workDate": "2026-01-23"
+  },
+  {
+    "eventId": "STATUS-20260124-CNC-DEMO-02-001",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-24T08:00:00Z",
+    "endedAt": "2026-01-24T13:25:24Z",
+    "durationSeconds": 19524,
+    "workDate": "2026-01-24"
+  },
+  {
+    "eventId": "STATUS-20260124-CNC-DEMO-02-002",
+    "machineId": "CNC-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-24T13:25:24Z",
+    "endedAt": "2026-01-24T14:45:21Z",
+    "durationSeconds": 4797,
+    "workDate": "2026-01-24"
+  },
+  {
+    "eventId": "STATUS-20260124-CNC-DEMO-02-003",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-24T14:45:21Z",
+    "endedAt": "2026-01-24T16:00:00Z",
+    "durationSeconds": 4479,
+    "workDate": "2026-01-24"
+  },
+  {
+    "eventId": "STATUS-20260125-CNC-DEMO-02-001",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-25T08:00:00Z",
+    "endedAt": "2026-01-25T09:34:20Z",
+    "durationSeconds": 5660,
+    "workDate": "2026-01-25"
+  },
+  {
+    "eventId": "STATUS-20260125-CNC-DEMO-02-002",
+    "machineId": "CNC-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-25T09:34:20Z",
+    "endedAt": "2026-01-25T10:56:36Z",
+    "durationSeconds": 4936,
+    "workDate": "2026-01-25"
+  },
+  {
+    "eventId": "STATUS-20260125-CNC-DEMO-02-003",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-25T10:56:36Z",
+    "endedAt": "2026-01-25T15:40:00Z",
+    "durationSeconds": 17004,
+    "workDate": "2026-01-25"
+  },
+  {
+    "eventId": "STATUS-20260125-CNC-DEMO-02-004",
+    "machineId": "CNC-DEMO-02",
+    "status": "ALARM",
+    "startedAt": "2026-01-25T15:40:00Z",
+    "endedAt": "2026-01-25T16:00:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-25"
+  },
+  {
+    "eventId": "STATUS-20260126-CNC-DEMO-02-001",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-26T08:00:00Z",
+    "endedAt": "2026-01-26T10:30:10Z",
+    "durationSeconds": 9010,
+    "workDate": "2026-01-26"
+  },
+  {
+    "eventId": "STATUS-20260126-CNC-DEMO-02-002",
+    "machineId": "CNC-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-26T10:30:10Z",
+    "endedAt": "2026-01-26T11:37:41Z",
+    "durationSeconds": 4051,
+    "workDate": "2026-01-26"
+  },
+  {
+    "eventId": "STATUS-20260126-CNC-DEMO-02-003",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-26T11:37:41Z",
+    "endedAt": "2026-01-26T15:45:00Z",
+    "durationSeconds": 14839,
+    "workDate": "2026-01-26"
+  },
+  {
+    "eventId": "STATUS-20260126-CNC-DEMO-02-004",
+    "machineId": "CNC-DEMO-02",
+    "status": "ALARM",
+    "startedAt": "2026-01-26T15:45:00Z",
+    "endedAt": "2026-01-26T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-26"
+  },
+  {
+    "eventId": "STATUS-20260127-CNC-DEMO-02-001",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-27T08:00:00Z",
+    "endedAt": "2026-01-27T11:45:38Z",
+    "durationSeconds": 13538,
+    "workDate": "2026-01-27"
+  },
+  {
+    "eventId": "STATUS-20260127-CNC-DEMO-02-002",
+    "machineId": "CNC-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-27T11:45:38Z",
+    "endedAt": "2026-01-27T13:15:11Z",
+    "durationSeconds": 5373,
+    "workDate": "2026-01-27"
+  },
+  {
+    "eventId": "STATUS-20260127-CNC-DEMO-02-003",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-27T13:15:11Z",
+    "endedAt": "2026-01-27T15:40:00Z",
+    "durationSeconds": 8689,
+    "workDate": "2026-01-27"
+  },
+  {
+    "eventId": "STATUS-20260127-CNC-DEMO-02-004",
+    "machineId": "CNC-DEMO-02",
+    "status": "ALARM",
+    "startedAt": "2026-01-27T15:40:00Z",
+    "endedAt": "2026-01-27T16:00:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-27"
+  },
+  {
+    "eventId": "STATUS-20260128-CNC-DEMO-02-001",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-28T08:00:00Z",
+    "endedAt": "2026-01-28T10:49:51Z",
+    "durationSeconds": 10191,
+    "workDate": "2026-01-28"
+  },
+  {
+    "eventId": "STATUS-20260128-CNC-DEMO-02-002",
+    "machineId": "CNC-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-28T10:49:51Z",
+    "endedAt": "2026-01-28T11:56:39Z",
+    "durationSeconds": 4008,
+    "workDate": "2026-01-28"
+  },
+  {
+    "eventId": "STATUS-20260128-CNC-DEMO-02-003",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-28T11:56:39Z",
+    "endedAt": "2026-01-28T15:45:00Z",
+    "durationSeconds": 13701,
+    "workDate": "2026-01-28"
+  },
+  {
+    "eventId": "STATUS-20260128-CNC-DEMO-02-004",
+    "machineId": "CNC-DEMO-02",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-28T15:45:00Z",
+    "endedAt": "2026-01-28T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-28"
+  },
+  {
+    "eventId": "STATUS-20260129-CNC-DEMO-02-001",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-29T08:00:00Z",
+    "endedAt": "2026-01-29T11:57:27Z",
+    "durationSeconds": 14247,
+    "workDate": "2026-01-29"
+  },
+  {
+    "eventId": "STATUS-20260129-CNC-DEMO-02-002",
+    "machineId": "CNC-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-29T11:57:27Z",
+    "endedAt": "2026-01-29T13:13:18Z",
+    "durationSeconds": 4551,
+    "workDate": "2026-01-29"
+  },
+  {
+    "eventId": "STATUS-20260129-CNC-DEMO-02-003",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-29T13:13:18Z",
+    "endedAt": "2026-01-29T15:45:00Z",
+    "durationSeconds": 9102,
+    "workDate": "2026-01-29"
+  },
+  {
+    "eventId": "STATUS-20260129-CNC-DEMO-02-004",
+    "machineId": "CNC-DEMO-02",
+    "status": "ALARM",
+    "startedAt": "2026-01-29T15:45:00Z",
+    "endedAt": "2026-01-29T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-29"
+  },
+  {
+    "eventId": "STATUS-20260130-CNC-DEMO-02-001",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-30T08:00:00Z",
+    "endedAt": "2026-01-30T13:06:34Z",
+    "durationSeconds": 18394,
+    "workDate": "2026-01-30"
+  },
+  {
+    "eventId": "STATUS-20260130-CNC-DEMO-02-002",
+    "machineId": "CNC-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-30T13:06:34Z",
+    "endedAt": "2026-01-30T14:11:53Z",
+    "durationSeconds": 3919,
+    "workDate": "2026-01-30"
+  },
+  {
+    "eventId": "STATUS-20260130-CNC-DEMO-02-003",
+    "machineId": "CNC-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-30T14:11:53Z",
+    "endedAt": "2026-01-30T15:45:00Z",
+    "durationSeconds": 5587,
+    "workDate": "2026-01-30"
+  },
+  {
+    "eventId": "STATUS-20260130-CNC-DEMO-02-004",
+    "machineId": "CNC-DEMO-02",
+    "status": "ALARM",
+    "startedAt": "2026-01-30T15:45:00Z",
+    "endedAt": "2026-01-30T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-30"
+  },
+  {
+    "eventId": "STATUS-20260101-CNC-DEMO-03-001",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-01T08:00:00Z",
+    "endedAt": "2026-01-01T09:34:58Z",
+    "durationSeconds": 5698,
+    "workDate": "2026-01-01"
+  },
+  {
+    "eventId": "STATUS-20260101-CNC-DEMO-03-002",
+    "machineId": "CNC-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-01T09:34:58Z",
+    "endedAt": "2026-01-01T10:20:18Z",
+    "durationSeconds": 2720,
+    "workDate": "2026-01-01"
+  },
+  {
+    "eventId": "STATUS-20260101-CNC-DEMO-03-003",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-01T10:20:18Z",
+    "endedAt": "2026-01-01T16:00:00Z",
+    "durationSeconds": 20382,
+    "workDate": "2026-01-01"
+  },
+  {
+    "eventId": "STATUS-20260102-CNC-DEMO-03-001",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-02T08:00:00Z",
+    "endedAt": "2026-01-02T11:05:40Z",
+    "durationSeconds": 11140,
+    "workDate": "2026-01-02"
+  },
+  {
+    "eventId": "STATUS-20260102-CNC-DEMO-03-002",
+    "machineId": "CNC-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-02T11:05:40Z",
+    "endedAt": "2026-01-02T12:15:49Z",
+    "durationSeconds": 4209,
+    "workDate": "2026-01-02"
+  },
+  {
+    "eventId": "STATUS-20260102-CNC-DEMO-03-003",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-02T12:15:49Z",
+    "endedAt": "2026-01-02T16:00:00Z",
+    "durationSeconds": 13451,
+    "workDate": "2026-01-02"
+  },
+  {
+    "eventId": "STATUS-20260103-CNC-DEMO-03-001",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-03T08:00:00Z",
+    "endedAt": "2026-01-03T09:38:46Z",
+    "durationSeconds": 5926,
+    "workDate": "2026-01-03"
+  },
+  {
+    "eventId": "STATUS-20260103-CNC-DEMO-03-002",
+    "machineId": "CNC-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-03T09:38:46Z",
+    "endedAt": "2026-01-03T10:09:15Z",
+    "durationSeconds": 1829,
+    "workDate": "2026-01-03"
+  },
+  {
+    "eventId": "STATUS-20260103-CNC-DEMO-03-003",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-03T10:09:15Z",
+    "endedAt": "2026-01-03T15:30:00Z",
+    "durationSeconds": 19245,
+    "workDate": "2026-01-03"
+  },
+  {
+    "eventId": "STATUS-20260103-CNC-DEMO-03-004",
+    "machineId": "CNC-DEMO-03",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-03T15:30:00Z",
+    "endedAt": "2026-01-03T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-03"
+  },
+  {
+    "eventId": "STATUS-20260104-CNC-DEMO-03-001",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-04T08:00:00Z",
+    "endedAt": "2026-01-04T09:17:09Z",
+    "durationSeconds": 4629,
+    "workDate": "2026-01-04"
+  },
+  {
+    "eventId": "STATUS-20260104-CNC-DEMO-03-002",
+    "machineId": "CNC-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-04T09:17:09Z",
+    "endedAt": "2026-01-04T09:51:45Z",
+    "durationSeconds": 2076,
+    "workDate": "2026-01-04"
+  },
+  {
+    "eventId": "STATUS-20260104-CNC-DEMO-03-003",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-04T09:51:45Z",
+    "endedAt": "2026-01-04T16:00:00Z",
+    "durationSeconds": 22095,
+    "workDate": "2026-01-04"
+  },
+  {
+    "eventId": "STATUS-20260105-CNC-DEMO-03-001",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-05T08:00:00Z",
+    "endedAt": "2026-01-05T11:09:58Z",
+    "durationSeconds": 11398,
+    "workDate": "2026-01-05"
+  },
+  {
+    "eventId": "STATUS-20260105-CNC-DEMO-03-002",
+    "machineId": "CNC-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-05T11:09:58Z",
+    "endedAt": "2026-01-05T12:15:03Z",
+    "durationSeconds": 3905,
+    "workDate": "2026-01-05"
+  },
+  {
+    "eventId": "STATUS-20260105-CNC-DEMO-03-003",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-05T12:15:03Z",
+    "endedAt": "2026-01-05T16:00:00Z",
+    "durationSeconds": 13497,
+    "workDate": "2026-01-05"
+  },
+  {
+    "eventId": "STATUS-20260106-CNC-DEMO-03-001",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-06T08:00:00Z",
+    "endedAt": "2026-01-06T13:54:29Z",
+    "durationSeconds": 21269,
+    "workDate": "2026-01-06"
+  },
+  {
+    "eventId": "STATUS-20260106-CNC-DEMO-03-002",
+    "machineId": "CNC-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-06T13:54:29Z",
+    "endedAt": "2026-01-06T14:39:06Z",
+    "durationSeconds": 2677,
+    "workDate": "2026-01-06"
+  },
+  {
+    "eventId": "STATUS-20260106-CNC-DEMO-03-003",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-06T14:39:06Z",
+    "endedAt": "2026-01-06T15:45:00Z",
+    "durationSeconds": 3954,
+    "workDate": "2026-01-06"
+  },
+  {
+    "eventId": "STATUS-20260106-CNC-DEMO-03-004",
+    "machineId": "CNC-DEMO-03",
+    "status": "ALARM",
+    "startedAt": "2026-01-06T15:45:00Z",
+    "endedAt": "2026-01-06T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-06"
+  },
+  {
+    "eventId": "STATUS-20260107-CNC-DEMO-03-001",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-07T08:00:00Z",
+    "endedAt": "2026-01-07T11:09:04Z",
+    "durationSeconds": 11344,
+    "workDate": "2026-01-07"
+  },
+  {
+    "eventId": "STATUS-20260107-CNC-DEMO-03-002",
+    "machineId": "CNC-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-07T11:09:04Z",
+    "endedAt": "2026-01-07T12:18:24Z",
+    "durationSeconds": 4160,
+    "workDate": "2026-01-07"
+  },
+  {
+    "eventId": "STATUS-20260107-CNC-DEMO-03-003",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-07T12:18:24Z",
+    "endedAt": "2026-01-07T15:40:00Z",
+    "durationSeconds": 12096,
+    "workDate": "2026-01-07"
+  },
+  {
+    "eventId": "STATUS-20260107-CNC-DEMO-03-004",
+    "machineId": "CNC-DEMO-03",
+    "status": "ALARM",
+    "startedAt": "2026-01-07T15:40:00Z",
+    "endedAt": "2026-01-07T16:00:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-07"
+  },
+  {
+    "eventId": "STATUS-20260108-CNC-DEMO-03-001",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-08T08:00:00Z",
+    "endedAt": "2026-01-08T10:51:09Z",
+    "durationSeconds": 10269,
+    "workDate": "2026-01-08"
+  },
+  {
+    "eventId": "STATUS-20260108-CNC-DEMO-03-002",
+    "machineId": "CNC-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-08T10:51:09Z",
+    "endedAt": "2026-01-08T12:16:16Z",
+    "durationSeconds": 5107,
+    "workDate": "2026-01-08"
+  },
+  {
+    "eventId": "STATUS-20260108-CNC-DEMO-03-003",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-08T12:16:16Z",
+    "endedAt": "2026-01-08T15:45:00Z",
+    "durationSeconds": 12524,
+    "workDate": "2026-01-08"
+  },
+  {
+    "eventId": "STATUS-20260108-CNC-DEMO-03-004",
+    "machineId": "CNC-DEMO-03",
+    "status": "ALARM",
+    "startedAt": "2026-01-08T15:45:00Z",
+    "endedAt": "2026-01-08T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-08"
+  },
+  {
+    "eventId": "STATUS-20260109-CNC-DEMO-03-001",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-09T08:00:00Z",
+    "endedAt": "2026-01-09T12:55:24Z",
+    "durationSeconds": 17724,
+    "workDate": "2026-01-09"
+  },
+  {
+    "eventId": "STATUS-20260109-CNC-DEMO-03-002",
+    "machineId": "CNC-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-09T12:55:24Z",
+    "endedAt": "2026-01-09T13:32:01Z",
+    "durationSeconds": 2197,
+    "workDate": "2026-01-09"
+  },
+  {
+    "eventId": "STATUS-20260109-CNC-DEMO-03-003",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-09T13:32:01Z",
+    "endedAt": "2026-01-09T16:00:00Z",
+    "durationSeconds": 8879,
+    "workDate": "2026-01-09"
+  },
+  {
+    "eventId": "STATUS-20260110-CNC-DEMO-03-001",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-10T08:00:00Z",
+    "endedAt": "2026-01-10T09:24:11Z",
+    "durationSeconds": 5051,
+    "workDate": "2026-01-10"
+  },
+  {
+    "eventId": "STATUS-20260110-CNC-DEMO-03-002",
+    "machineId": "CNC-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-10T09:24:11Z",
+    "endedAt": "2026-01-10T13:34:11Z",
+    "durationSeconds": 15000,
+    "workDate": "2026-01-10"
+  },
+  {
+    "eventId": "STATUS-20260110-CNC-DEMO-03-003",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-10T13:34:11Z",
+    "endedAt": "2026-01-10T15:10:00Z",
+    "durationSeconds": 5749,
+    "workDate": "2026-01-10"
+  },
+  {
+    "eventId": "STATUS-20260110-CNC-DEMO-03-004",
+    "machineId": "CNC-DEMO-03",
+    "status": "ALARM",
+    "startedAt": "2026-01-10T15:10:00Z",
+    "endedAt": "2026-01-10T15:30:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-10"
+  },
+  {
+    "eventId": "STATUS-20260110-CNC-DEMO-03-005",
+    "machineId": "CNC-DEMO-03",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-10T15:30:00Z",
+    "endedAt": "2026-01-10T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-10"
+  },
+  {
+    "eventId": "STATUS-20260111-CNC-DEMO-03-001",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-11T08:00:00Z",
+    "endedAt": "2026-01-11T12:55:53Z",
+    "durationSeconds": 17753,
+    "workDate": "2026-01-11"
+  },
+  {
+    "eventId": "STATUS-20260111-CNC-DEMO-03-002",
+    "machineId": "CNC-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-11T12:55:53Z",
+    "endedAt": "2026-01-11T13:57:45Z",
+    "durationSeconds": 3712,
+    "workDate": "2026-01-11"
+  },
+  {
+    "eventId": "STATUS-20260111-CNC-DEMO-03-003",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-11T13:57:45Z",
+    "endedAt": "2026-01-11T15:30:00Z",
+    "durationSeconds": 5535,
+    "workDate": "2026-01-11"
+  },
+  {
+    "eventId": "STATUS-20260111-CNC-DEMO-03-004",
+    "machineId": "CNC-DEMO-03",
+    "status": "ALARM",
+    "startedAt": "2026-01-11T15:30:00Z",
+    "endedAt": "2026-01-11T15:45:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-11"
+  },
+  {
+    "eventId": "STATUS-20260111-CNC-DEMO-03-005",
+    "machineId": "CNC-DEMO-03",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-11T15:45:00Z",
+    "endedAt": "2026-01-11T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-11"
+  },
+  {
+    "eventId": "STATUS-20260112-CNC-DEMO-03-001",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-12T08:00:00Z",
+    "endedAt": "2026-01-12T12:39:53Z",
+    "durationSeconds": 16793,
+    "workDate": "2026-01-12"
+  },
+  {
+    "eventId": "STATUS-20260112-CNC-DEMO-03-002",
+    "machineId": "CNC-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-12T12:39:53Z",
+    "endedAt": "2026-01-12T13:14:01Z",
+    "durationSeconds": 2048,
+    "workDate": "2026-01-12"
+  },
+  {
+    "eventId": "STATUS-20260112-CNC-DEMO-03-003",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-12T13:14:01Z",
+    "endedAt": "2026-01-12T16:00:00Z",
+    "durationSeconds": 9959,
+    "workDate": "2026-01-12"
+  },
+  {
+    "eventId": "STATUS-20260113-CNC-DEMO-03-001",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-13T08:00:00Z",
+    "endedAt": "2026-01-13T10:44:38Z",
+    "durationSeconds": 9878,
+    "workDate": "2026-01-13"
+  },
+  {
+    "eventId": "STATUS-20260113-CNC-DEMO-03-002",
+    "machineId": "CNC-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-13T10:44:38Z",
+    "endedAt": "2026-01-13T11:31:36Z",
+    "durationSeconds": 2818,
+    "workDate": "2026-01-13"
+  },
+  {
+    "eventId": "STATUS-20260113-CNC-DEMO-03-003",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-13T11:31:36Z",
+    "endedAt": "2026-01-13T16:00:00Z",
+    "durationSeconds": 16104,
+    "workDate": "2026-01-13"
+  },
+  {
+    "eventId": "STATUS-20260114-CNC-DEMO-03-001",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-14T08:00:00Z",
+    "endedAt": "2026-01-14T10:16:33Z",
+    "durationSeconds": 8193,
+    "workDate": "2026-01-14"
+  },
+  {
+    "eventId": "STATUS-20260114-CNC-DEMO-03-002",
+    "machineId": "CNC-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-14T10:16:33Z",
+    "endedAt": "2026-01-14T11:17:10Z",
+    "durationSeconds": 3637,
+    "workDate": "2026-01-14"
+  },
+  {
+    "eventId": "STATUS-20260114-CNC-DEMO-03-003",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-14T11:17:10Z",
+    "endedAt": "2026-01-14T15:40:00Z",
+    "durationSeconds": 15770,
+    "workDate": "2026-01-14"
+  },
+  {
+    "eventId": "STATUS-20260114-CNC-DEMO-03-004",
+    "machineId": "CNC-DEMO-03",
+    "status": "ALARM",
+    "startedAt": "2026-01-14T15:40:00Z",
+    "endedAt": "2026-01-14T16:00:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-14"
+  },
+  {
+    "eventId": "STATUS-20260115-CNC-DEMO-03-001",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-15T08:00:00Z",
+    "endedAt": "2026-01-15T13:12:39Z",
+    "durationSeconds": 18759,
+    "workDate": "2026-01-15"
+  },
+  {
+    "eventId": "STATUS-20260115-CNC-DEMO-03-002",
+    "machineId": "CNC-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-15T13:12:39Z",
+    "endedAt": "2026-01-15T14:01:39Z",
+    "durationSeconds": 2940,
+    "workDate": "2026-01-15"
+  },
+  {
+    "eventId": "STATUS-20260115-CNC-DEMO-03-003",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-15T14:01:39Z",
+    "endedAt": "2026-01-15T15:45:00Z",
+    "durationSeconds": 6201,
+    "workDate": "2026-01-15"
+  },
+  {
+    "eventId": "STATUS-20260115-CNC-DEMO-03-004",
+    "machineId": "CNC-DEMO-03",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-15T15:45:00Z",
+    "endedAt": "2026-01-15T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-15"
+  },
+  {
+    "eventId": "STATUS-20260116-CNC-DEMO-03-001",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-16T08:00:00Z",
+    "endedAt": "2026-01-16T10:00:00Z",
+    "durationSeconds": 7200,
+    "workDate": "2026-01-16"
+  },
+  {
+    "eventId": "STATUS-20260116-CNC-DEMO-03-002",
+    "machineId": "CNC-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-16T10:00:00Z",
+    "endedAt": "2026-01-16T12:00:00Z",
+    "durationSeconds": 7200,
+    "workDate": "2026-01-16"
+  },
+  {
+    "eventId": "STATUS-20260116-CNC-DEMO-03-003",
+    "machineId": "CNC-DEMO-03",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-16T12:00:00Z",
+    "endedAt": "2026-01-16T16:00:00Z",
+    "durationSeconds": 14400,
+    "workDate": "2026-01-16"
+  },
+  {
+    "eventId": "STATUS-20260117-CNC-DEMO-03-001",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-17T08:00:00Z",
+    "endedAt": "2026-01-17T09:53:28Z",
+    "durationSeconds": 6808,
+    "workDate": "2026-01-17"
+  },
+  {
+    "eventId": "STATUS-20260117-CNC-DEMO-03-002",
+    "machineId": "CNC-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-17T09:53:28Z",
+    "endedAt": "2026-01-17T10:53:43Z",
+    "durationSeconds": 3615,
+    "workDate": "2026-01-17"
+  },
+  {
+    "eventId": "STATUS-20260117-CNC-DEMO-03-003",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-17T10:53:43Z",
+    "endedAt": "2026-01-17T16:00:00Z",
+    "durationSeconds": 18377,
+    "workDate": "2026-01-17"
+  },
+  {
+    "eventId": "STATUS-20260118-CNC-DEMO-03-001",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-18T08:00:00Z",
+    "endedAt": "2026-01-18T09:04:01Z",
+    "durationSeconds": 3841,
+    "workDate": "2026-01-18"
+  },
+  {
+    "eventId": "STATUS-20260118-CNC-DEMO-03-002",
+    "machineId": "CNC-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-18T09:04:01Z",
+    "endedAt": "2026-01-18T10:31:05Z",
+    "durationSeconds": 5224,
+    "workDate": "2026-01-18"
+  },
+  {
+    "eventId": "STATUS-20260118-CNC-DEMO-03-003",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-18T10:31:05Z",
+    "endedAt": "2026-01-18T15:40:00Z",
+    "durationSeconds": 18535,
+    "workDate": "2026-01-18"
+  },
+  {
+    "eventId": "STATUS-20260118-CNC-DEMO-03-004",
+    "machineId": "CNC-DEMO-03",
+    "status": "ALARM",
+    "startedAt": "2026-01-18T15:40:00Z",
+    "endedAt": "2026-01-18T16:00:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-18"
+  },
+  {
+    "eventId": "STATUS-20260119-CNC-DEMO-03-001",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-19T08:00:00Z",
+    "endedAt": "2026-01-19T12:41:57Z",
+    "durationSeconds": 16917,
+    "workDate": "2026-01-19"
+  },
+  {
+    "eventId": "STATUS-20260119-CNC-DEMO-03-002",
+    "machineId": "CNC-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-19T12:41:57Z",
+    "endedAt": "2026-01-19T13:23:18Z",
+    "durationSeconds": 2481,
+    "workDate": "2026-01-19"
+  },
+  {
+    "eventId": "STATUS-20260119-CNC-DEMO-03-003",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-19T13:23:18Z",
+    "endedAt": "2026-01-19T16:00:00Z",
+    "durationSeconds": 9402,
+    "workDate": "2026-01-19"
+  },
+  {
+    "eventId": "STATUS-20260120-CNC-DEMO-03-001",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-20T08:00:00Z",
+    "endedAt": "2026-01-20T12:39:01Z",
+    "durationSeconds": 16741,
+    "workDate": "2026-01-20"
+  },
+  {
+    "eventId": "STATUS-20260120-CNC-DEMO-03-002",
+    "machineId": "CNC-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-20T12:39:01Z",
+    "endedAt": "2026-01-20T13:23:36Z",
+    "durationSeconds": 2675,
+    "workDate": "2026-01-20"
+  },
+  {
+    "eventId": "STATUS-20260120-CNC-DEMO-03-003",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-20T13:23:36Z",
+    "endedAt": "2026-01-20T15:30:00Z",
+    "durationSeconds": 7584,
+    "workDate": "2026-01-20"
+  },
+  {
+    "eventId": "STATUS-20260120-CNC-DEMO-03-004",
+    "machineId": "CNC-DEMO-03",
+    "status": "ALARM",
+    "startedAt": "2026-01-20T15:30:00Z",
+    "endedAt": "2026-01-20T15:45:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-20"
+  },
+  {
+    "eventId": "STATUS-20260120-CNC-DEMO-03-005",
+    "machineId": "CNC-DEMO-03",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-20T15:45:00Z",
+    "endedAt": "2026-01-20T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-20"
+  },
+  {
+    "eventId": "STATUS-20260121-CNC-DEMO-03-001",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-21T08:00:00Z",
+    "endedAt": "2026-01-21T09:04:00Z",
+    "durationSeconds": 3840,
+    "workDate": "2026-01-21"
+  },
+  {
+    "eventId": "STATUS-20260121-CNC-DEMO-03-002",
+    "machineId": "CNC-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-21T09:04:00Z",
+    "endedAt": "2026-01-21T13:14:00Z",
+    "durationSeconds": 15000,
+    "workDate": "2026-01-21"
+  },
+  {
+    "eventId": "STATUS-20260121-CNC-DEMO-03-003",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-21T13:14:00Z",
+    "endedAt": "2026-01-21T15:10:00Z",
+    "durationSeconds": 6960,
+    "workDate": "2026-01-21"
+  },
+  {
+    "eventId": "STATUS-20260121-CNC-DEMO-03-004",
+    "machineId": "CNC-DEMO-03",
+    "status": "ALARM",
+    "startedAt": "2026-01-21T15:10:00Z",
+    "endedAt": "2026-01-21T15:30:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-21"
+  },
+  {
+    "eventId": "STATUS-20260121-CNC-DEMO-03-005",
+    "machineId": "CNC-DEMO-03",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-21T15:30:00Z",
+    "endedAt": "2026-01-21T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-21"
+  },
+  {
+    "eventId": "STATUS-20260122-CNC-DEMO-03-001",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-22T08:00:00Z",
+    "endedAt": "2026-01-22T12:33:13Z",
+    "durationSeconds": 16393,
+    "workDate": "2026-01-22"
+  },
+  {
+    "eventId": "STATUS-20260122-CNC-DEMO-03-002",
+    "machineId": "CNC-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-22T12:33:13Z",
+    "endedAt": "2026-01-22T13:03:21Z",
+    "durationSeconds": 1808,
+    "workDate": "2026-01-22"
+  },
+  {
+    "eventId": "STATUS-20260122-CNC-DEMO-03-003",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-22T13:03:21Z",
+    "endedAt": "2026-01-22T15:45:00Z",
+    "durationSeconds": 9699,
+    "workDate": "2026-01-22"
+  },
+  {
+    "eventId": "STATUS-20260122-CNC-DEMO-03-004",
+    "machineId": "CNC-DEMO-03",
+    "status": "ALARM",
+    "startedAt": "2026-01-22T15:45:00Z",
+    "endedAt": "2026-01-22T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-22"
+  },
+  {
+    "eventId": "STATUS-20260123-CNC-DEMO-03-001",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-23T08:00:00Z",
+    "endedAt": "2026-01-23T12:51:01Z",
+    "durationSeconds": 17461,
+    "workDate": "2026-01-23"
+  },
+  {
+    "eventId": "STATUS-20260123-CNC-DEMO-03-002",
+    "machineId": "CNC-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-23T12:51:01Z",
+    "endedAt": "2026-01-23T13:40:29Z",
+    "durationSeconds": 2968,
+    "workDate": "2026-01-23"
+  },
+  {
+    "eventId": "STATUS-20260123-CNC-DEMO-03-003",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-23T13:40:29Z",
+    "endedAt": "2026-01-23T15:45:00Z",
+    "durationSeconds": 7471,
+    "workDate": "2026-01-23"
+  },
+  {
+    "eventId": "STATUS-20260123-CNC-DEMO-03-004",
+    "machineId": "CNC-DEMO-03",
+    "status": "ALARM",
+    "startedAt": "2026-01-23T15:45:00Z",
+    "endedAt": "2026-01-23T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-23"
+  },
+  {
+    "eventId": "STATUS-20260124-CNC-DEMO-03-001",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-24T08:00:00Z",
+    "endedAt": "2026-01-24T10:43:42Z",
+    "durationSeconds": 9822,
+    "workDate": "2026-01-24"
+  },
+  {
+    "eventId": "STATUS-20260124-CNC-DEMO-03-002",
+    "machineId": "CNC-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-24T10:43:42Z",
+    "endedAt": "2026-01-24T11:24:16Z",
+    "durationSeconds": 2434,
+    "workDate": "2026-01-24"
+  },
+  {
+    "eventId": "STATUS-20260124-CNC-DEMO-03-003",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-24T11:24:16Z",
+    "endedAt": "2026-01-24T15:15:00Z",
+    "durationSeconds": 13844,
+    "workDate": "2026-01-24"
+  },
+  {
+    "eventId": "STATUS-20260124-CNC-DEMO-03-004",
+    "machineId": "CNC-DEMO-03",
+    "status": "ALARM",
+    "startedAt": "2026-01-24T15:15:00Z",
+    "endedAt": "2026-01-24T15:30:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-24"
+  },
+  {
+    "eventId": "STATUS-20260124-CNC-DEMO-03-005",
+    "machineId": "CNC-DEMO-03",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-24T15:30:00Z",
+    "endedAt": "2026-01-24T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-24"
+  },
+  {
+    "eventId": "STATUS-20260125-CNC-DEMO-03-001",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-25T08:00:00Z",
+    "endedAt": "2026-01-25T14:16:18Z",
+    "durationSeconds": 22578,
+    "workDate": "2026-01-25"
+  },
+  {
+    "eventId": "STATUS-20260125-CNC-DEMO-03-002",
+    "machineId": "CNC-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-25T14:16:18Z",
+    "endedAt": "2026-01-25T14:50:17Z",
+    "durationSeconds": 2039,
+    "workDate": "2026-01-25"
+  },
+  {
+    "eventId": "STATUS-20260125-CNC-DEMO-03-003",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-25T14:50:17Z",
+    "endedAt": "2026-01-25T16:00:00Z",
+    "durationSeconds": 4183,
+    "workDate": "2026-01-25"
+  },
+  {
+    "eventId": "STATUS-20260126-CNC-DEMO-03-001",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-26T08:00:00Z",
+    "endedAt": "2026-01-26T10:25:38Z",
+    "durationSeconds": 8738,
+    "workDate": "2026-01-26"
+  },
+  {
+    "eventId": "STATUS-20260126-CNC-DEMO-03-002",
+    "machineId": "CNC-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-26T10:25:38Z",
+    "endedAt": "2026-01-26T11:46:41Z",
+    "durationSeconds": 4863,
+    "workDate": "2026-01-26"
+  },
+  {
+    "eventId": "STATUS-20260126-CNC-DEMO-03-003",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-26T11:46:41Z",
+    "endedAt": "2026-01-26T15:30:00Z",
+    "durationSeconds": 13399,
+    "workDate": "2026-01-26"
+  },
+  {
+    "eventId": "STATUS-20260126-CNC-DEMO-03-004",
+    "machineId": "CNC-DEMO-03",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-26T15:30:00Z",
+    "endedAt": "2026-01-26T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-26"
+  },
+  {
+    "eventId": "STATUS-20260127-CNC-DEMO-03-001",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-27T08:00:00Z",
+    "endedAt": "2026-01-27T13:20:23Z",
+    "durationSeconds": 19223,
+    "workDate": "2026-01-27"
+  },
+  {
+    "eventId": "STATUS-20260127-CNC-DEMO-03-002",
+    "machineId": "CNC-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-27T13:20:23Z",
+    "endedAt": "2026-01-27T14:30:15Z",
+    "durationSeconds": 4192,
+    "workDate": "2026-01-27"
+  },
+  {
+    "eventId": "STATUS-20260127-CNC-DEMO-03-003",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-27T14:30:15Z",
+    "endedAt": "2026-01-27T16:00:00Z",
+    "durationSeconds": 5385,
+    "workDate": "2026-01-27"
+  },
+  {
+    "eventId": "STATUS-20260128-CNC-DEMO-03-001",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-28T08:00:00Z",
+    "endedAt": "2026-01-28T09:15:31Z",
+    "durationSeconds": 4531,
+    "workDate": "2026-01-28"
+  },
+  {
+    "eventId": "STATUS-20260128-CNC-DEMO-03-002",
+    "machineId": "CNC-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-28T09:15:31Z",
+    "endedAt": "2026-01-28T09:56:15Z",
+    "durationSeconds": 2444,
+    "workDate": "2026-01-28"
+  },
+  {
+    "eventId": "STATUS-20260128-CNC-DEMO-03-003",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-28T09:56:15Z",
+    "endedAt": "2026-01-28T15:10:00Z",
+    "durationSeconds": 18825,
+    "workDate": "2026-01-28"
+  },
+  {
+    "eventId": "STATUS-20260128-CNC-DEMO-03-004",
+    "machineId": "CNC-DEMO-03",
+    "status": "ALARM",
+    "startedAt": "2026-01-28T15:10:00Z",
+    "endedAt": "2026-01-28T15:30:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-28"
+  },
+  {
+    "eventId": "STATUS-20260128-CNC-DEMO-03-005",
+    "machineId": "CNC-DEMO-03",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-28T15:30:00Z",
+    "endedAt": "2026-01-28T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-28"
+  },
+  {
+    "eventId": "STATUS-20260129-CNC-DEMO-03-001",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-29T08:00:00Z",
+    "endedAt": "2026-01-29T09:50:44Z",
+    "durationSeconds": 6644,
+    "workDate": "2026-01-29"
+  },
+  {
+    "eventId": "STATUS-20260129-CNC-DEMO-03-002",
+    "machineId": "CNC-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-29T09:50:44Z",
+    "endedAt": "2026-01-29T11:18:51Z",
+    "durationSeconds": 5287,
+    "workDate": "2026-01-29"
+  },
+  {
+    "eventId": "STATUS-20260129-CNC-DEMO-03-003",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-29T11:18:51Z",
+    "endedAt": "2026-01-29T15:30:00Z",
+    "durationSeconds": 15069,
+    "workDate": "2026-01-29"
+  },
+  {
+    "eventId": "STATUS-20260129-CNC-DEMO-03-004",
+    "machineId": "CNC-DEMO-03",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-29T15:30:00Z",
+    "endedAt": "2026-01-29T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-29"
+  },
+  {
+    "eventId": "STATUS-20260130-CNC-DEMO-03-001",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-30T08:00:00Z",
+    "endedAt": "2026-01-30T11:08:27Z",
+    "durationSeconds": 11307,
+    "workDate": "2026-01-30"
+  },
+  {
+    "eventId": "STATUS-20260130-CNC-DEMO-03-002",
+    "machineId": "CNC-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-30T11:08:27Z",
+    "endedAt": "2026-01-30T11:43:05Z",
+    "durationSeconds": 2078,
+    "workDate": "2026-01-30"
+  },
+  {
+    "eventId": "STATUS-20260130-CNC-DEMO-03-003",
+    "machineId": "CNC-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-30T11:43:05Z",
+    "endedAt": "2026-01-30T15:40:00Z",
+    "durationSeconds": 14215,
+    "workDate": "2026-01-30"
+  },
+  {
+    "eventId": "STATUS-20260130-CNC-DEMO-03-004",
+    "machineId": "CNC-DEMO-03",
+    "status": "ALARM",
+    "startedAt": "2026-01-30T15:40:00Z",
+    "endedAt": "2026-01-30T16:00:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-30"
+  },
+  {
+    "eventId": "STATUS-20260101-MCT-DEMO-01-001",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-01T08:00:00Z",
+    "endedAt": "2026-01-01T11:14:27Z",
+    "durationSeconds": 11667,
+    "workDate": "2026-01-01"
+  },
+  {
+    "eventId": "STATUS-20260101-MCT-DEMO-01-002",
+    "machineId": "MCT-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-01T11:14:27Z",
+    "endedAt": "2026-01-01T12:23:20Z",
+    "durationSeconds": 4133,
+    "workDate": "2026-01-01"
+  },
+  {
+    "eventId": "STATUS-20260101-MCT-DEMO-01-003",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-01T12:23:20Z",
+    "endedAt": "2026-01-01T15:45:00Z",
+    "durationSeconds": 12100,
+    "workDate": "2026-01-01"
+  },
+  {
+    "eventId": "STATUS-20260101-MCT-DEMO-01-004",
+    "machineId": "MCT-DEMO-01",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-01T15:45:00Z",
+    "endedAt": "2026-01-01T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-01"
+  },
+  {
+    "eventId": "STATUS-20260102-MCT-DEMO-01-001",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-02T08:00:00Z",
+    "endedAt": "2026-01-02T09:44:46Z",
+    "durationSeconds": 6286,
+    "workDate": "2026-01-02"
+  },
+  {
+    "eventId": "STATUS-20260102-MCT-DEMO-01-002",
+    "machineId": "MCT-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-02T09:44:46Z",
+    "endedAt": "2026-01-02T10:17:28Z",
+    "durationSeconds": 1962,
+    "workDate": "2026-01-02"
+  },
+  {
+    "eventId": "STATUS-20260102-MCT-DEMO-01-003",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-02T10:17:28Z",
+    "endedAt": "2026-01-02T15:10:00Z",
+    "durationSeconds": 17552,
+    "workDate": "2026-01-02"
+  },
+  {
+    "eventId": "STATUS-20260102-MCT-DEMO-01-004",
+    "machineId": "MCT-DEMO-01",
+    "status": "ALARM",
+    "startedAt": "2026-01-02T15:10:00Z",
+    "endedAt": "2026-01-02T15:30:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-02"
+  },
+  {
+    "eventId": "STATUS-20260102-MCT-DEMO-01-005",
+    "machineId": "MCT-DEMO-01",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-02T15:30:00Z",
+    "endedAt": "2026-01-02T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-02"
+  },
+  {
+    "eventId": "STATUS-20260103-MCT-DEMO-01-001",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-03T08:00:00Z",
+    "endedAt": "2026-01-03T11:22:45Z",
+    "durationSeconds": 12165,
+    "workDate": "2026-01-03"
+  },
+  {
+    "eventId": "STATUS-20260103-MCT-DEMO-01-002",
+    "machineId": "MCT-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-03T11:22:45Z",
+    "endedAt": "2026-01-03T12:31:20Z",
+    "durationSeconds": 4115,
+    "workDate": "2026-01-03"
+  },
+  {
+    "eventId": "STATUS-20260103-MCT-DEMO-01-003",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-03T12:31:20Z",
+    "endedAt": "2026-01-03T15:25:00Z",
+    "durationSeconds": 10420,
+    "workDate": "2026-01-03"
+  },
+  {
+    "eventId": "STATUS-20260103-MCT-DEMO-01-004",
+    "machineId": "MCT-DEMO-01",
+    "status": "ALARM",
+    "startedAt": "2026-01-03T15:25:00Z",
+    "endedAt": "2026-01-03T15:45:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-03"
+  },
+  {
+    "eventId": "STATUS-20260103-MCT-DEMO-01-005",
+    "machineId": "MCT-DEMO-01",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-03T15:45:00Z",
+    "endedAt": "2026-01-03T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-03"
+  },
+  {
+    "eventId": "STATUS-20260104-MCT-DEMO-01-001",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-04T08:00:00Z",
+    "endedAt": "2026-01-04T11:51:35Z",
+    "durationSeconds": 13895,
+    "workDate": "2026-01-04"
+  },
+  {
+    "eventId": "STATUS-20260104-MCT-DEMO-01-002",
+    "machineId": "MCT-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-04T11:51:35Z",
+    "endedAt": "2026-01-04T12:35:31Z",
+    "durationSeconds": 2636,
+    "workDate": "2026-01-04"
+  },
+  {
+    "eventId": "STATUS-20260104-MCT-DEMO-01-003",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-04T12:35:31Z",
+    "endedAt": "2026-01-04T15:50:00Z",
+    "durationSeconds": 11669,
+    "workDate": "2026-01-04"
+  },
+  {
+    "eventId": "STATUS-20260104-MCT-DEMO-01-004",
+    "machineId": "MCT-DEMO-01",
+    "status": "ALARM",
+    "startedAt": "2026-01-04T15:50:00Z",
+    "endedAt": "2026-01-04T16:00:00Z",
+    "durationSeconds": 600,
+    "workDate": "2026-01-04"
+  },
+  {
+    "eventId": "STATUS-20260105-MCT-DEMO-01-001",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-05T08:00:00Z",
+    "endedAt": "2026-01-05T10:11:28Z",
+    "durationSeconds": 7888,
+    "workDate": "2026-01-05"
+  },
+  {
+    "eventId": "STATUS-20260105-MCT-DEMO-01-002",
+    "machineId": "MCT-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-05T10:11:28Z",
+    "endedAt": "2026-01-05T11:08:29Z",
+    "durationSeconds": 3421,
+    "workDate": "2026-01-05"
+  },
+  {
+    "eventId": "STATUS-20260105-MCT-DEMO-01-003",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-05T11:08:29Z",
+    "endedAt": "2026-01-05T15:50:00Z",
+    "durationSeconds": 16891,
+    "workDate": "2026-01-05"
+  },
+  {
+    "eventId": "STATUS-20260105-MCT-DEMO-01-004",
+    "machineId": "MCT-DEMO-01",
+    "status": "ALARM",
+    "startedAt": "2026-01-05T15:50:00Z",
+    "endedAt": "2026-01-05T16:00:00Z",
+    "durationSeconds": 600,
+    "workDate": "2026-01-05"
+  },
+  {
+    "eventId": "STATUS-20260106-MCT-DEMO-01-001",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-06T08:00:00Z",
+    "endedAt": "2026-01-06T09:39:37Z",
+    "durationSeconds": 5977,
+    "workDate": "2026-01-06"
+  },
+  {
+    "eventId": "STATUS-20260106-MCT-DEMO-01-002",
+    "machineId": "MCT-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-06T09:39:37Z",
+    "endedAt": "2026-01-06T10:31:12Z",
+    "durationSeconds": 3095,
+    "workDate": "2026-01-06"
+  },
+  {
+    "eventId": "STATUS-20260106-MCT-DEMO-01-003",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-06T10:31:12Z",
+    "endedAt": "2026-01-06T15:45:00Z",
+    "durationSeconds": 18828,
+    "workDate": "2026-01-06"
+  },
+  {
+    "eventId": "STATUS-20260106-MCT-DEMO-01-004",
+    "machineId": "MCT-DEMO-01",
+    "status": "ALARM",
+    "startedAt": "2026-01-06T15:45:00Z",
+    "endedAt": "2026-01-06T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-06"
+  },
+  {
+    "eventId": "STATUS-20260107-MCT-DEMO-01-001",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-07T08:00:00Z",
+    "endedAt": "2026-01-07T11:33:44Z",
+    "durationSeconds": 12824,
+    "workDate": "2026-01-07"
+  },
+  {
+    "eventId": "STATUS-20260107-MCT-DEMO-01-002",
+    "machineId": "MCT-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-07T11:33:44Z",
+    "endedAt": "2026-01-07T12:46:08Z",
+    "durationSeconds": 4344,
+    "workDate": "2026-01-07"
+  },
+  {
+    "eventId": "STATUS-20260107-MCT-DEMO-01-003",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-07T12:46:08Z",
+    "endedAt": "2026-01-07T15:45:00Z",
+    "durationSeconds": 10732,
+    "workDate": "2026-01-07"
+  },
+  {
+    "eventId": "STATUS-20260107-MCT-DEMO-01-004",
+    "machineId": "MCT-DEMO-01",
+    "status": "ALARM",
+    "startedAt": "2026-01-07T15:45:00Z",
+    "endedAt": "2026-01-07T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-07"
+  },
+  {
+    "eventId": "STATUS-20260108-MCT-DEMO-01-001",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-08T08:00:00Z",
+    "endedAt": "2026-01-08T10:56:24Z",
+    "durationSeconds": 10584,
+    "workDate": "2026-01-08"
+  },
+  {
+    "eventId": "STATUS-20260108-MCT-DEMO-01-002",
+    "machineId": "MCT-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-08T10:56:24Z",
+    "endedAt": "2026-01-08T12:03:06Z",
+    "durationSeconds": 4002,
+    "workDate": "2026-01-08"
+  },
+  {
+    "eventId": "STATUS-20260108-MCT-DEMO-01-003",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-08T12:03:06Z",
+    "endedAt": "2026-01-08T16:00:00Z",
+    "durationSeconds": 14214,
+    "workDate": "2026-01-08"
+  },
+  {
+    "eventId": "STATUS-20260109-MCT-DEMO-01-001",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-09T08:00:00Z",
+    "endedAt": "2026-01-09T09:34:32Z",
+    "durationSeconds": 5672,
+    "workDate": "2026-01-09"
+  },
+  {
+    "eventId": "STATUS-20260109-MCT-DEMO-01-002",
+    "machineId": "MCT-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-09T09:34:32Z",
+    "endedAt": "2026-01-09T13:44:32Z",
+    "durationSeconds": 15000,
+    "workDate": "2026-01-09"
+  },
+  {
+    "eventId": "STATUS-20260109-MCT-DEMO-01-003",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-09T13:44:32Z",
+    "endedAt": "2026-01-09T15:10:00Z",
+    "durationSeconds": 5128,
+    "workDate": "2026-01-09"
+  },
+  {
+    "eventId": "STATUS-20260109-MCT-DEMO-01-004",
+    "machineId": "MCT-DEMO-01",
+    "status": "ALARM",
+    "startedAt": "2026-01-09T15:10:00Z",
+    "endedAt": "2026-01-09T15:30:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-09"
+  },
+  {
+    "eventId": "STATUS-20260109-MCT-DEMO-01-005",
+    "machineId": "MCT-DEMO-01",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-09T15:30:00Z",
+    "endedAt": "2026-01-09T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-09"
+  },
+  {
+    "eventId": "STATUS-20260110-MCT-DEMO-01-001",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-10T08:00:00Z",
+    "endedAt": "2026-01-10T09:37:34Z",
+    "durationSeconds": 5854,
+    "workDate": "2026-01-10"
+  },
+  {
+    "eventId": "STATUS-20260110-MCT-DEMO-01-002",
+    "machineId": "MCT-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-10T09:37:34Z",
+    "endedAt": "2026-01-10T10:31:23Z",
+    "durationSeconds": 3229,
+    "workDate": "2026-01-10"
+  },
+  {
+    "eventId": "STATUS-20260110-MCT-DEMO-01-003",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-10T10:31:23Z",
+    "endedAt": "2026-01-10T16:00:00Z",
+    "durationSeconds": 19717,
+    "workDate": "2026-01-10"
+  },
+  {
+    "eventId": "STATUS-20260111-MCT-DEMO-01-001",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-11T08:00:00Z",
+    "endedAt": "2026-01-11T10:26:09Z",
+    "durationSeconds": 8769,
+    "workDate": "2026-01-11"
+  },
+  {
+    "eventId": "STATUS-20260111-MCT-DEMO-01-002",
+    "machineId": "MCT-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-11T10:26:09Z",
+    "endedAt": "2026-01-11T11:15:36Z",
+    "durationSeconds": 2967,
+    "workDate": "2026-01-11"
+  },
+  {
+    "eventId": "STATUS-20260111-MCT-DEMO-01-003",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-11T11:15:36Z",
+    "endedAt": "2026-01-11T15:50:00Z",
+    "durationSeconds": 16464,
+    "workDate": "2026-01-11"
+  },
+  {
+    "eventId": "STATUS-20260111-MCT-DEMO-01-004",
+    "machineId": "MCT-DEMO-01",
+    "status": "ALARM",
+    "startedAt": "2026-01-11T15:50:00Z",
+    "endedAt": "2026-01-11T16:00:00Z",
+    "durationSeconds": 600,
+    "workDate": "2026-01-11"
+  },
+  {
+    "eventId": "STATUS-20260112-MCT-DEMO-01-001",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-12T08:00:00Z",
+    "endedAt": "2026-01-12T10:22:36Z",
+    "durationSeconds": 8556,
+    "workDate": "2026-01-12"
+  },
+  {
+    "eventId": "STATUS-20260112-MCT-DEMO-01-002",
+    "machineId": "MCT-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-12T10:22:36Z",
+    "endedAt": "2026-01-12T11:40:37Z",
+    "durationSeconds": 4681,
+    "workDate": "2026-01-12"
+  },
+  {
+    "eventId": "STATUS-20260112-MCT-DEMO-01-003",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-12T11:40:37Z",
+    "endedAt": "2026-01-12T15:25:00Z",
+    "durationSeconds": 13463,
+    "workDate": "2026-01-12"
+  },
+  {
+    "eventId": "STATUS-20260112-MCT-DEMO-01-004",
+    "machineId": "MCT-DEMO-01",
+    "status": "ALARM",
+    "startedAt": "2026-01-12T15:25:00Z",
+    "endedAt": "2026-01-12T15:45:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-12"
+  },
+  {
+    "eventId": "STATUS-20260112-MCT-DEMO-01-005",
+    "machineId": "MCT-DEMO-01",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-12T15:45:00Z",
+    "endedAt": "2026-01-12T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-12"
+  },
+  {
+    "eventId": "STATUS-20260113-MCT-DEMO-01-001",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-13T08:00:00Z",
+    "endedAt": "2026-01-13T11:43:30Z",
+    "durationSeconds": 13410,
+    "workDate": "2026-01-13"
+  },
+  {
+    "eventId": "STATUS-20260113-MCT-DEMO-01-002",
+    "machineId": "MCT-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-13T11:43:30Z",
+    "endedAt": "2026-01-13T12:14:02Z",
+    "durationSeconds": 1832,
+    "workDate": "2026-01-13"
+  },
+  {
+    "eventId": "STATUS-20260113-MCT-DEMO-01-003",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-13T12:14:02Z",
+    "endedAt": "2026-01-13T15:10:00Z",
+    "durationSeconds": 10558,
+    "workDate": "2026-01-13"
+  },
+  {
+    "eventId": "STATUS-20260113-MCT-DEMO-01-004",
+    "machineId": "MCT-DEMO-01",
+    "status": "ALARM",
+    "startedAt": "2026-01-13T15:10:00Z",
+    "endedAt": "2026-01-13T15:30:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-13"
+  },
+  {
+    "eventId": "STATUS-20260113-MCT-DEMO-01-005",
+    "machineId": "MCT-DEMO-01",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-13T15:30:00Z",
+    "endedAt": "2026-01-13T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-13"
+  },
+  {
+    "eventId": "STATUS-20260114-MCT-DEMO-01-001",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-14T08:00:00Z",
+    "endedAt": "2026-01-14T10:03:02Z",
+    "durationSeconds": 7382,
+    "workDate": "2026-01-14"
+  },
+  {
+    "eventId": "STATUS-20260114-MCT-DEMO-01-002",
+    "machineId": "MCT-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-14T10:03:02Z",
+    "endedAt": "2026-01-14T10:51:05Z",
+    "durationSeconds": 2883,
+    "workDate": "2026-01-14"
+  },
+  {
+    "eventId": "STATUS-20260114-MCT-DEMO-01-003",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-14T10:51:05Z",
+    "endedAt": "2026-01-14T16:00:00Z",
+    "durationSeconds": 18535,
+    "workDate": "2026-01-14"
+  },
+  {
+    "eventId": "STATUS-20260115-MCT-DEMO-01-001",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-15T08:00:00Z",
+    "endedAt": "2026-01-15T10:00:00Z",
+    "durationSeconds": 7200,
+    "workDate": "2026-01-15"
+  },
+  {
+    "eventId": "STATUS-20260115-MCT-DEMO-01-002",
+    "machineId": "MCT-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-15T10:00:00Z",
+    "endedAt": "2026-01-15T12:00:00Z",
+    "durationSeconds": 7200,
+    "workDate": "2026-01-15"
+  },
+  {
+    "eventId": "STATUS-20260115-MCT-DEMO-01-003",
+    "machineId": "MCT-DEMO-01",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-15T12:00:00Z",
+    "endedAt": "2026-01-15T16:00:00Z",
+    "durationSeconds": 14400,
+    "workDate": "2026-01-15"
+  },
+  {
+    "eventId": "STATUS-20260116-MCT-DEMO-01-001",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-16T08:00:00Z",
+    "endedAt": "2026-01-16T11:28:44Z",
+    "durationSeconds": 12524,
+    "workDate": "2026-01-16"
+  },
+  {
+    "eventId": "STATUS-20260116-MCT-DEMO-01-002",
+    "machineId": "MCT-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-16T11:28:44Z",
+    "endedAt": "2026-01-16T12:09:20Z",
+    "durationSeconds": 2436,
+    "workDate": "2026-01-16"
+  },
+  {
+    "eventId": "STATUS-20260116-MCT-DEMO-01-003",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-16T12:09:20Z",
+    "endedAt": "2026-01-16T15:40:00Z",
+    "durationSeconds": 12640,
+    "workDate": "2026-01-16"
+  },
+  {
+    "eventId": "STATUS-20260116-MCT-DEMO-01-004",
+    "machineId": "MCT-DEMO-01",
+    "status": "ALARM",
+    "startedAt": "2026-01-16T15:40:00Z",
+    "endedAt": "2026-01-16T16:00:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-16"
+  },
+  {
+    "eventId": "STATUS-20260117-MCT-DEMO-01-001",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-17T08:00:00Z",
+    "endedAt": "2026-01-17T12:07:15Z",
+    "durationSeconds": 14835,
+    "workDate": "2026-01-17"
+  },
+  {
+    "eventId": "STATUS-20260117-MCT-DEMO-01-002",
+    "machineId": "MCT-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-17T12:07:15Z",
+    "endedAt": "2026-01-17T12:51:37Z",
+    "durationSeconds": 2662,
+    "workDate": "2026-01-17"
+  },
+  {
+    "eventId": "STATUS-20260117-MCT-DEMO-01-003",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-17T12:51:37Z",
+    "endedAt": "2026-01-17T15:40:00Z",
+    "durationSeconds": 10103,
+    "workDate": "2026-01-17"
+  },
+  {
+    "eventId": "STATUS-20260117-MCT-DEMO-01-004",
+    "machineId": "MCT-DEMO-01",
+    "status": "ALARM",
+    "startedAt": "2026-01-17T15:40:00Z",
+    "endedAt": "2026-01-17T16:00:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-17"
+  },
+  {
+    "eventId": "STATUS-20260118-MCT-DEMO-01-001",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-18T08:00:00Z",
+    "endedAt": "2026-01-18T13:26:48Z",
+    "durationSeconds": 19608,
+    "workDate": "2026-01-18"
+  },
+  {
+    "eventId": "STATUS-20260118-MCT-DEMO-01-002",
+    "machineId": "MCT-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-18T13:26:48Z",
+    "endedAt": "2026-01-18T14:31:18Z",
+    "durationSeconds": 3870,
+    "workDate": "2026-01-18"
+  },
+  {
+    "eventId": "STATUS-20260118-MCT-DEMO-01-003",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-18T14:31:18Z",
+    "endedAt": "2026-01-18T15:50:00Z",
+    "durationSeconds": 4722,
+    "workDate": "2026-01-18"
+  },
+  {
+    "eventId": "STATUS-20260118-MCT-DEMO-01-004",
+    "machineId": "MCT-DEMO-01",
+    "status": "ALARM",
+    "startedAt": "2026-01-18T15:50:00Z",
+    "endedAt": "2026-01-18T16:00:00Z",
+    "durationSeconds": 600,
+    "workDate": "2026-01-18"
+  },
+  {
+    "eventId": "STATUS-20260119-MCT-DEMO-01-001",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-19T08:00:00Z",
+    "endedAt": "2026-01-19T12:51:19Z",
+    "durationSeconds": 17479,
+    "workDate": "2026-01-19"
+  },
+  {
+    "eventId": "STATUS-20260119-MCT-DEMO-01-002",
+    "machineId": "MCT-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-19T12:51:19Z",
+    "endedAt": "2026-01-19T13:27:37Z",
+    "durationSeconds": 2178,
+    "workDate": "2026-01-19"
+  },
+  {
+    "eventId": "STATUS-20260119-MCT-DEMO-01-003",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-19T13:27:37Z",
+    "endedAt": "2026-01-19T16:00:00Z",
+    "durationSeconds": 9143,
+    "workDate": "2026-01-19"
+  },
+  {
+    "eventId": "STATUS-20260120-MCT-DEMO-01-001",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-20T08:00:00Z",
+    "endedAt": "2026-01-20T09:56:37Z",
+    "durationSeconds": 6997,
+    "workDate": "2026-01-20"
+  },
+  {
+    "eventId": "STATUS-20260120-MCT-DEMO-01-002",
+    "machineId": "MCT-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-20T09:56:37Z",
+    "endedAt": "2026-01-20T14:06:37Z",
+    "durationSeconds": 15000,
+    "workDate": "2026-01-20"
+  },
+  {
+    "eventId": "STATUS-20260120-MCT-DEMO-01-003",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-20T14:06:37Z",
+    "endedAt": "2026-01-20T15:10:00Z",
+    "durationSeconds": 3803,
+    "workDate": "2026-01-20"
+  },
+  {
+    "eventId": "STATUS-20260120-MCT-DEMO-01-004",
+    "machineId": "MCT-DEMO-01",
+    "status": "ALARM",
+    "startedAt": "2026-01-20T15:10:00Z",
+    "endedAt": "2026-01-20T15:30:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-20"
+  },
+  {
+    "eventId": "STATUS-20260120-MCT-DEMO-01-005",
+    "machineId": "MCT-DEMO-01",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-20T15:30:00Z",
+    "endedAt": "2026-01-20T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-20"
+  },
+  {
+    "eventId": "STATUS-20260121-MCT-DEMO-01-001",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-21T08:00:00Z",
+    "endedAt": "2026-01-21T12:02:09Z",
+    "durationSeconds": 14529,
+    "workDate": "2026-01-21"
+  },
+  {
+    "eventId": "STATUS-20260121-MCT-DEMO-01-002",
+    "machineId": "MCT-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-21T12:02:09Z",
+    "endedAt": "2026-01-21T12:32:23Z",
+    "durationSeconds": 1814,
+    "workDate": "2026-01-21"
+  },
+  {
+    "eventId": "STATUS-20260121-MCT-DEMO-01-003",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-21T12:32:23Z",
+    "endedAt": "2026-01-21T16:00:00Z",
+    "durationSeconds": 12457,
+    "workDate": "2026-01-21"
+  },
+  {
+    "eventId": "STATUS-20260122-MCT-DEMO-01-001",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-22T08:00:00Z",
+    "endedAt": "2026-01-22T13:01:18Z",
+    "durationSeconds": 18078,
+    "workDate": "2026-01-22"
+  },
+  {
+    "eventId": "STATUS-20260122-MCT-DEMO-01-002",
+    "machineId": "MCT-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-22T13:01:18Z",
+    "endedAt": "2026-01-22T13:42:19Z",
+    "durationSeconds": 2461,
+    "workDate": "2026-01-22"
+  },
+  {
+    "eventId": "STATUS-20260122-MCT-DEMO-01-003",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-22T13:42:19Z",
+    "endedAt": "2026-01-22T15:50:00Z",
+    "durationSeconds": 7661,
+    "workDate": "2026-01-22"
+  },
+  {
+    "eventId": "STATUS-20260122-MCT-DEMO-01-004",
+    "machineId": "MCT-DEMO-01",
+    "status": "ALARM",
+    "startedAt": "2026-01-22T15:50:00Z",
+    "endedAt": "2026-01-22T16:00:00Z",
+    "durationSeconds": 600,
+    "workDate": "2026-01-22"
+  },
+  {
+    "eventId": "STATUS-20260123-MCT-DEMO-01-001",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-23T08:00:00Z",
+    "endedAt": "2026-01-23T09:02:38Z",
+    "durationSeconds": 3758,
+    "workDate": "2026-01-23"
+  },
+  {
+    "eventId": "STATUS-20260123-MCT-DEMO-01-002",
+    "machineId": "MCT-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-23T09:02:38Z",
+    "endedAt": "2026-01-23T10:10:55Z",
+    "durationSeconds": 4097,
+    "workDate": "2026-01-23"
+  },
+  {
+    "eventId": "STATUS-20260123-MCT-DEMO-01-003",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-23T10:10:55Z",
+    "endedAt": "2026-01-23T15:15:00Z",
+    "durationSeconds": 18245,
+    "workDate": "2026-01-23"
+  },
+  {
+    "eventId": "STATUS-20260123-MCT-DEMO-01-004",
+    "machineId": "MCT-DEMO-01",
+    "status": "ALARM",
+    "startedAt": "2026-01-23T15:15:00Z",
+    "endedAt": "2026-01-23T15:30:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-23"
+  },
+  {
+    "eventId": "STATUS-20260123-MCT-DEMO-01-005",
+    "machineId": "MCT-DEMO-01",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-23T15:30:00Z",
+    "endedAt": "2026-01-23T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-23"
+  },
+  {
+    "eventId": "STATUS-20260124-MCT-DEMO-01-001",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-24T08:00:00Z",
+    "endedAt": "2026-01-24T10:21:24Z",
+    "durationSeconds": 8484,
+    "workDate": "2026-01-24"
+  },
+  {
+    "eventId": "STATUS-20260124-MCT-DEMO-01-002",
+    "machineId": "MCT-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-24T10:21:24Z",
+    "endedAt": "2026-01-24T11:38:34Z",
+    "durationSeconds": 4630,
+    "workDate": "2026-01-24"
+  },
+  {
+    "eventId": "STATUS-20260124-MCT-DEMO-01-003",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-24T11:38:34Z",
+    "endedAt": "2026-01-24T16:00:00Z",
+    "durationSeconds": 15686,
+    "workDate": "2026-01-24"
+  },
+  {
+    "eventId": "STATUS-20260125-MCT-DEMO-01-001",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-25T08:00:00Z",
+    "endedAt": "2026-01-25T10:40:49Z",
+    "durationSeconds": 9649,
+    "workDate": "2026-01-25"
+  },
+  {
+    "eventId": "STATUS-20260125-MCT-DEMO-01-002",
+    "machineId": "MCT-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-25T10:40:49Z",
+    "endedAt": "2026-01-25T12:07:47Z",
+    "durationSeconds": 5218,
+    "workDate": "2026-01-25"
+  },
+  {
+    "eventId": "STATUS-20260125-MCT-DEMO-01-003",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-25T12:07:47Z",
+    "endedAt": "2026-01-25T15:30:00Z",
+    "durationSeconds": 12133,
+    "workDate": "2026-01-25"
+  },
+  {
+    "eventId": "STATUS-20260125-MCT-DEMO-01-004",
+    "machineId": "MCT-DEMO-01",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-25T15:30:00Z",
+    "endedAt": "2026-01-25T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-25"
+  },
+  {
+    "eventId": "STATUS-20260126-MCT-DEMO-01-001",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-26T08:00:00Z",
+    "endedAt": "2026-01-26T10:57:21Z",
+    "durationSeconds": 10641,
+    "workDate": "2026-01-26"
+  },
+  {
+    "eventId": "STATUS-20260126-MCT-DEMO-01-002",
+    "machineId": "MCT-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-26T10:57:21Z",
+    "endedAt": "2026-01-26T11:37:27Z",
+    "durationSeconds": 2406,
+    "workDate": "2026-01-26"
+  },
+  {
+    "eventId": "STATUS-20260126-MCT-DEMO-01-003",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-26T11:37:27Z",
+    "endedAt": "2026-01-26T15:10:00Z",
+    "durationSeconds": 12753,
+    "workDate": "2026-01-26"
+  },
+  {
+    "eventId": "STATUS-20260126-MCT-DEMO-01-004",
+    "machineId": "MCT-DEMO-01",
+    "status": "ALARM",
+    "startedAt": "2026-01-26T15:10:00Z",
+    "endedAt": "2026-01-26T15:30:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-26"
+  },
+  {
+    "eventId": "STATUS-20260126-MCT-DEMO-01-005",
+    "machineId": "MCT-DEMO-01",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-26T15:30:00Z",
+    "endedAt": "2026-01-26T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-26"
+  },
+  {
+    "eventId": "STATUS-20260127-MCT-DEMO-01-001",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-27T08:00:00Z",
+    "endedAt": "2026-01-27T12:19:08Z",
+    "durationSeconds": 15548,
+    "workDate": "2026-01-27"
+  },
+  {
+    "eventId": "STATUS-20260127-MCT-DEMO-01-002",
+    "machineId": "MCT-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-27T12:19:08Z",
+    "endedAt": "2026-01-27T13:10:10Z",
+    "durationSeconds": 3062,
+    "workDate": "2026-01-27"
+  },
+  {
+    "eventId": "STATUS-20260127-MCT-DEMO-01-003",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-27T13:10:10Z",
+    "endedAt": "2026-01-27T16:00:00Z",
+    "durationSeconds": 10190,
+    "workDate": "2026-01-27"
+  },
+  {
+    "eventId": "STATUS-20260128-MCT-DEMO-01-001",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-28T08:00:00Z",
+    "endedAt": "2026-01-28T11:16:16Z",
+    "durationSeconds": 11776,
+    "workDate": "2026-01-28"
+  },
+  {
+    "eventId": "STATUS-20260128-MCT-DEMO-01-002",
+    "machineId": "MCT-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-28T11:16:16Z",
+    "endedAt": "2026-01-28T12:00:36Z",
+    "durationSeconds": 2660,
+    "workDate": "2026-01-28"
+  },
+  {
+    "eventId": "STATUS-20260128-MCT-DEMO-01-003",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-28T12:00:36Z",
+    "endedAt": "2026-01-28T15:50:00Z",
+    "durationSeconds": 13764,
+    "workDate": "2026-01-28"
+  },
+  {
+    "eventId": "STATUS-20260128-MCT-DEMO-01-004",
+    "machineId": "MCT-DEMO-01",
+    "status": "ALARM",
+    "startedAt": "2026-01-28T15:50:00Z",
+    "endedAt": "2026-01-28T16:00:00Z",
+    "durationSeconds": 600,
+    "workDate": "2026-01-28"
+  },
+  {
+    "eventId": "STATUS-20260129-MCT-DEMO-01-001",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-29T08:00:00Z",
+    "endedAt": "2026-01-29T11:32:53Z",
+    "durationSeconds": 12773,
+    "workDate": "2026-01-29"
+  },
+  {
+    "eventId": "STATUS-20260129-MCT-DEMO-01-002",
+    "machineId": "MCT-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-29T11:32:53Z",
+    "endedAt": "2026-01-29T12:56:08Z",
+    "durationSeconds": 4995,
+    "workDate": "2026-01-29"
+  },
+  {
+    "eventId": "STATUS-20260129-MCT-DEMO-01-003",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-29T12:56:08Z",
+    "endedAt": "2026-01-29T15:50:00Z",
+    "durationSeconds": 10432,
+    "workDate": "2026-01-29"
+  },
+  {
+    "eventId": "STATUS-20260129-MCT-DEMO-01-004",
+    "machineId": "MCT-DEMO-01",
+    "status": "ALARM",
+    "startedAt": "2026-01-29T15:50:00Z",
+    "endedAt": "2026-01-29T16:00:00Z",
+    "durationSeconds": 600,
+    "workDate": "2026-01-29"
+  },
+  {
+    "eventId": "STATUS-20260130-MCT-DEMO-01-001",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-30T08:00:00Z",
+    "endedAt": "2026-01-30T09:42:12Z",
+    "durationSeconds": 6132,
+    "workDate": "2026-01-30"
+  },
+  {
+    "eventId": "STATUS-20260130-MCT-DEMO-01-002",
+    "machineId": "MCT-DEMO-01",
+    "status": "IDLE",
+    "startedAt": "2026-01-30T09:42:12Z",
+    "endedAt": "2026-01-30T11:03:21Z",
+    "durationSeconds": 4869,
+    "workDate": "2026-01-30"
+  },
+  {
+    "eventId": "STATUS-20260130-MCT-DEMO-01-003",
+    "machineId": "MCT-DEMO-01",
+    "status": "RUNNING",
+    "startedAt": "2026-01-30T11:03:21Z",
+    "endedAt": "2026-01-30T15:25:00Z",
+    "durationSeconds": 15699,
+    "workDate": "2026-01-30"
+  },
+  {
+    "eventId": "STATUS-20260130-MCT-DEMO-01-004",
+    "machineId": "MCT-DEMO-01",
+    "status": "ALARM",
+    "startedAt": "2026-01-30T15:25:00Z",
+    "endedAt": "2026-01-30T15:45:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-30"
+  },
+  {
+    "eventId": "STATUS-20260130-MCT-DEMO-01-005",
+    "machineId": "MCT-DEMO-01",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-30T15:45:00Z",
+    "endedAt": "2026-01-30T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-30"
+  },
+  {
+    "eventId": "STATUS-20260101-MCT-DEMO-02-001",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-01T08:00:00Z",
+    "endedAt": "2026-01-01T10:36:41Z",
+    "durationSeconds": 9401,
+    "workDate": "2026-01-01"
+  },
+  {
+    "eventId": "STATUS-20260101-MCT-DEMO-02-002",
+    "machineId": "MCT-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-01T10:36:41Z",
+    "endedAt": "2026-01-01T12:01:17Z",
+    "durationSeconds": 5076,
+    "workDate": "2026-01-01"
+  },
+  {
+    "eventId": "STATUS-20260101-MCT-DEMO-02-003",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-01T12:01:17Z",
+    "endedAt": "2026-01-01T16:00:00Z",
+    "durationSeconds": 14323,
+    "workDate": "2026-01-01"
+  },
+  {
+    "eventId": "STATUS-20260102-MCT-DEMO-02-001",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-02T08:00:00Z",
+    "endedAt": "2026-01-02T12:01:25Z",
+    "durationSeconds": 14485,
+    "workDate": "2026-01-02"
+  },
+  {
+    "eventId": "STATUS-20260102-MCT-DEMO-02-002",
+    "machineId": "MCT-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-02T12:01:25Z",
+    "endedAt": "2026-01-02T12:43:39Z",
+    "durationSeconds": 2534,
+    "workDate": "2026-01-02"
+  },
+  {
+    "eventId": "STATUS-20260102-MCT-DEMO-02-003",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-02T12:43:39Z",
+    "endedAt": "2026-01-02T15:45:00Z",
+    "durationSeconds": 10881,
+    "workDate": "2026-01-02"
+  },
+  {
+    "eventId": "STATUS-20260102-MCT-DEMO-02-004",
+    "machineId": "MCT-DEMO-02",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-02T15:45:00Z",
+    "endedAt": "2026-01-02T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-02"
+  },
+  {
+    "eventId": "STATUS-20260103-MCT-DEMO-02-001",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-03T08:00:00Z",
+    "endedAt": "2026-01-03T10:26:56Z",
+    "durationSeconds": 8816,
+    "workDate": "2026-01-03"
+  },
+  {
+    "eventId": "STATUS-20260103-MCT-DEMO-02-002",
+    "machineId": "MCT-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-03T10:26:56Z",
+    "endedAt": "2026-01-03T11:15:08Z",
+    "durationSeconds": 2892,
+    "workDate": "2026-01-03"
+  },
+  {
+    "eventId": "STATUS-20260103-MCT-DEMO-02-003",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-03T11:15:08Z",
+    "endedAt": "2026-01-03T15:45:00Z",
+    "durationSeconds": 16192,
+    "workDate": "2026-01-03"
+  },
+  {
+    "eventId": "STATUS-20260103-MCT-DEMO-02-004",
+    "machineId": "MCT-DEMO-02",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-03T15:45:00Z",
+    "endedAt": "2026-01-03T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-03"
+  },
+  {
+    "eventId": "STATUS-20260104-MCT-DEMO-02-001",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-04T08:00:00Z",
+    "endedAt": "2026-01-04T09:10:34Z",
+    "durationSeconds": 4234,
+    "workDate": "2026-01-04"
+  },
+  {
+    "eventId": "STATUS-20260104-MCT-DEMO-02-002",
+    "machineId": "MCT-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-04T09:10:34Z",
+    "endedAt": "2026-01-04T10:40:06Z",
+    "durationSeconds": 5372,
+    "workDate": "2026-01-04"
+  },
+  {
+    "eventId": "STATUS-20260104-MCT-DEMO-02-003",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-04T10:40:06Z",
+    "endedAt": "2026-01-04T15:45:00Z",
+    "durationSeconds": 18294,
+    "workDate": "2026-01-04"
+  },
+  {
+    "eventId": "STATUS-20260104-MCT-DEMO-02-004",
+    "machineId": "MCT-DEMO-02",
+    "status": "ALARM",
+    "startedAt": "2026-01-04T15:45:00Z",
+    "endedAt": "2026-01-04T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-04"
+  },
+  {
+    "eventId": "STATUS-20260105-MCT-DEMO-02-001",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-05T08:00:00Z",
+    "endedAt": "2026-01-05T13:11:23Z",
+    "durationSeconds": 18683,
+    "workDate": "2026-01-05"
+  },
+  {
+    "eventId": "STATUS-20260105-MCT-DEMO-02-002",
+    "machineId": "MCT-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-05T13:11:23Z",
+    "endedAt": "2026-01-05T13:55:00Z",
+    "durationSeconds": 2617,
+    "workDate": "2026-01-05"
+  },
+  {
+    "eventId": "STATUS-20260105-MCT-DEMO-02-003",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-05T13:55:00Z",
+    "endedAt": "2026-01-05T15:45:00Z",
+    "durationSeconds": 6600,
+    "workDate": "2026-01-05"
+  },
+  {
+    "eventId": "STATUS-20260105-MCT-DEMO-02-004",
+    "machineId": "MCT-DEMO-02",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-05T15:45:00Z",
+    "endedAt": "2026-01-05T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-05"
+  },
+  {
+    "eventId": "STATUS-20260106-MCT-DEMO-02-001",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-06T08:00:00Z",
+    "endedAt": "2026-01-06T12:37:10Z",
+    "durationSeconds": 16630,
+    "workDate": "2026-01-06"
+  },
+  {
+    "eventId": "STATUS-20260106-MCT-DEMO-02-002",
+    "machineId": "MCT-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-06T12:37:10Z",
+    "endedAt": "2026-01-06T14:03:10Z",
+    "durationSeconds": 5160,
+    "workDate": "2026-01-06"
+  },
+  {
+    "eventId": "STATUS-20260106-MCT-DEMO-02-003",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-06T14:03:10Z",
+    "endedAt": "2026-01-06T15:50:00Z",
+    "durationSeconds": 6410,
+    "workDate": "2026-01-06"
+  },
+  {
+    "eventId": "STATUS-20260106-MCT-DEMO-02-004",
+    "machineId": "MCT-DEMO-02",
+    "status": "ALARM",
+    "startedAt": "2026-01-06T15:50:00Z",
+    "endedAt": "2026-01-06T16:00:00Z",
+    "durationSeconds": 600,
+    "workDate": "2026-01-06"
+  },
+  {
+    "eventId": "STATUS-20260107-MCT-DEMO-02-001",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-07T08:00:00Z",
+    "endedAt": "2026-01-07T10:45:28Z",
+    "durationSeconds": 9928,
+    "workDate": "2026-01-07"
+  },
+  {
+    "eventId": "STATUS-20260107-MCT-DEMO-02-002",
+    "machineId": "MCT-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-07T10:45:28Z",
+    "endedAt": "2026-01-07T11:17:04Z",
+    "durationSeconds": 1896,
+    "workDate": "2026-01-07"
+  },
+  {
+    "eventId": "STATUS-20260107-MCT-DEMO-02-003",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-07T11:17:04Z",
+    "endedAt": "2026-01-07T16:00:00Z",
+    "durationSeconds": 16976,
+    "workDate": "2026-01-07"
+  },
+  {
+    "eventId": "STATUS-20260108-MCT-DEMO-02-001",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-08T08:00:00Z",
+    "endedAt": "2026-01-08T09:27:12Z",
+    "durationSeconds": 5232,
+    "workDate": "2026-01-08"
+  },
+  {
+    "eventId": "STATUS-20260108-MCT-DEMO-02-002",
+    "machineId": "MCT-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-08T09:27:12Z",
+    "endedAt": "2026-01-08T13:37:12Z",
+    "durationSeconds": 15000,
+    "workDate": "2026-01-08"
+  },
+  {
+    "eventId": "STATUS-20260108-MCT-DEMO-02-003",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-08T13:37:12Z",
+    "endedAt": "2026-01-08T15:10:00Z",
+    "durationSeconds": 5568,
+    "workDate": "2026-01-08"
+  },
+  {
+    "eventId": "STATUS-20260108-MCT-DEMO-02-004",
+    "machineId": "MCT-DEMO-02",
+    "status": "ALARM",
+    "startedAt": "2026-01-08T15:10:00Z",
+    "endedAt": "2026-01-08T15:30:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-08"
+  },
+  {
+    "eventId": "STATUS-20260108-MCT-DEMO-02-005",
+    "machineId": "MCT-DEMO-02",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-08T15:30:00Z",
+    "endedAt": "2026-01-08T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-08"
+  },
+  {
+    "eventId": "STATUS-20260109-MCT-DEMO-02-001",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-09T08:00:00Z",
+    "endedAt": "2026-01-09T09:18:57Z",
+    "durationSeconds": 4737,
+    "workDate": "2026-01-09"
+  },
+  {
+    "eventId": "STATUS-20260109-MCT-DEMO-02-002",
+    "machineId": "MCT-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-09T09:18:57Z",
+    "endedAt": "2026-01-09T10:47:57Z",
+    "durationSeconds": 5340,
+    "workDate": "2026-01-09"
+  },
+  {
+    "eventId": "STATUS-20260109-MCT-DEMO-02-003",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-09T10:47:57Z",
+    "endedAt": "2026-01-09T15:50:00Z",
+    "durationSeconds": 18123,
+    "workDate": "2026-01-09"
+  },
+  {
+    "eventId": "STATUS-20260109-MCT-DEMO-02-004",
+    "machineId": "MCT-DEMO-02",
+    "status": "ALARM",
+    "startedAt": "2026-01-09T15:50:00Z",
+    "endedAt": "2026-01-09T16:00:00Z",
+    "durationSeconds": 600,
+    "workDate": "2026-01-09"
+  },
+  {
+    "eventId": "STATUS-20260110-MCT-DEMO-02-001",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-10T08:00:00Z",
+    "endedAt": "2026-01-10T12:38:16Z",
+    "durationSeconds": 16696,
+    "workDate": "2026-01-10"
+  },
+  {
+    "eventId": "STATUS-20260110-MCT-DEMO-02-002",
+    "machineId": "MCT-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-10T12:38:16Z",
+    "endedAt": "2026-01-10T13:52:03Z",
+    "durationSeconds": 4427,
+    "workDate": "2026-01-10"
+  },
+  {
+    "eventId": "STATUS-20260110-MCT-DEMO-02-003",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-10T13:52:03Z",
+    "endedAt": "2026-01-10T15:50:00Z",
+    "durationSeconds": 7077,
+    "workDate": "2026-01-10"
+  },
+  {
+    "eventId": "STATUS-20260110-MCT-DEMO-02-004",
+    "machineId": "MCT-DEMO-02",
+    "status": "ALARM",
+    "startedAt": "2026-01-10T15:50:00Z",
+    "endedAt": "2026-01-10T16:00:00Z",
+    "durationSeconds": 600,
+    "workDate": "2026-01-10"
+  },
+  {
+    "eventId": "STATUS-20260111-MCT-DEMO-02-001",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-11T08:00:00Z",
+    "endedAt": "2026-01-11T10:02:59Z",
+    "durationSeconds": 7379,
+    "workDate": "2026-01-11"
+  },
+  {
+    "eventId": "STATUS-20260111-MCT-DEMO-02-002",
+    "machineId": "MCT-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-11T10:02:59Z",
+    "endedAt": "2026-01-11T10:34:52Z",
+    "durationSeconds": 1913,
+    "workDate": "2026-01-11"
+  },
+  {
+    "eventId": "STATUS-20260111-MCT-DEMO-02-003",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-11T10:34:52Z",
+    "endedAt": "2026-01-11T15:20:00Z",
+    "durationSeconds": 17108,
+    "workDate": "2026-01-11"
+  },
+  {
+    "eventId": "STATUS-20260111-MCT-DEMO-02-004",
+    "machineId": "MCT-DEMO-02",
+    "status": "ALARM",
+    "startedAt": "2026-01-11T15:20:00Z",
+    "endedAt": "2026-01-11T15:30:00Z",
+    "durationSeconds": 600,
+    "workDate": "2026-01-11"
+  },
+  {
+    "eventId": "STATUS-20260111-MCT-DEMO-02-005",
+    "machineId": "MCT-DEMO-02",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-11T15:30:00Z",
+    "endedAt": "2026-01-11T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-11"
+  },
+  {
+    "eventId": "STATUS-20260112-MCT-DEMO-02-001",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-12T08:00:00Z",
+    "endedAt": "2026-01-12T11:24:58Z",
+    "durationSeconds": 12298,
+    "workDate": "2026-01-12"
+  },
+  {
+    "eventId": "STATUS-20260112-MCT-DEMO-02-002",
+    "machineId": "MCT-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-12T11:24:58Z",
+    "endedAt": "2026-01-12T12:34:36Z",
+    "durationSeconds": 4178,
+    "workDate": "2026-01-12"
+  },
+  {
+    "eventId": "STATUS-20260112-MCT-DEMO-02-003",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-12T12:34:36Z",
+    "endedAt": "2026-01-12T16:00:00Z",
+    "durationSeconds": 12324,
+    "workDate": "2026-01-12"
+  },
+  {
+    "eventId": "STATUS-20260113-MCT-DEMO-02-001",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-13T08:00:00Z",
+    "endedAt": "2026-01-13T12:57:19Z",
+    "durationSeconds": 17839,
+    "workDate": "2026-01-13"
+  },
+  {
+    "eventId": "STATUS-20260113-MCT-DEMO-02-002",
+    "machineId": "MCT-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-13T12:57:19Z",
+    "endedAt": "2026-01-13T14:08:02Z",
+    "durationSeconds": 4243,
+    "workDate": "2026-01-13"
+  },
+  {
+    "eventId": "STATUS-20260113-MCT-DEMO-02-003",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-13T14:08:02Z",
+    "endedAt": "2026-01-13T16:00:00Z",
+    "durationSeconds": 6718,
+    "workDate": "2026-01-13"
+  },
+  {
+    "eventId": "STATUS-20260114-MCT-DEMO-02-001",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-14T08:00:00Z",
+    "endedAt": "2026-01-14T10:00:00Z",
+    "durationSeconds": 7200,
+    "workDate": "2026-01-14"
+  },
+  {
+    "eventId": "STATUS-20260114-MCT-DEMO-02-002",
+    "machineId": "MCT-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-14T10:00:00Z",
+    "endedAt": "2026-01-14T12:00:00Z",
+    "durationSeconds": 7200,
+    "workDate": "2026-01-14"
+  },
+  {
+    "eventId": "STATUS-20260114-MCT-DEMO-02-003",
+    "machineId": "MCT-DEMO-02",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-14T12:00:00Z",
+    "endedAt": "2026-01-14T16:00:00Z",
+    "durationSeconds": 14400,
+    "workDate": "2026-01-14"
+  },
+  {
+    "eventId": "STATUS-20260115-MCT-DEMO-02-001",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-15T08:00:00Z",
+    "endedAt": "2026-01-15T13:39:18Z",
+    "durationSeconds": 20358,
+    "workDate": "2026-01-15"
+  },
+  {
+    "eventId": "STATUS-20260115-MCT-DEMO-02-002",
+    "machineId": "MCT-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-15T13:39:18Z",
+    "endedAt": "2026-01-15T14:39:05Z",
+    "durationSeconds": 3587,
+    "workDate": "2026-01-15"
+  },
+  {
+    "eventId": "STATUS-20260115-MCT-DEMO-02-003",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-15T14:39:05Z",
+    "endedAt": "2026-01-15T15:50:00Z",
+    "durationSeconds": 4255,
+    "workDate": "2026-01-15"
+  },
+  {
+    "eventId": "STATUS-20260115-MCT-DEMO-02-004",
+    "machineId": "MCT-DEMO-02",
+    "status": "ALARM",
+    "startedAt": "2026-01-15T15:50:00Z",
+    "endedAt": "2026-01-15T16:00:00Z",
+    "durationSeconds": 600,
+    "workDate": "2026-01-15"
+  },
+  {
+    "eventId": "STATUS-20260116-MCT-DEMO-02-001",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-16T08:00:00Z",
+    "endedAt": "2026-01-16T10:43:48Z",
+    "durationSeconds": 9828,
+    "workDate": "2026-01-16"
+  },
+  {
+    "eventId": "STATUS-20260116-MCT-DEMO-02-002",
+    "machineId": "MCT-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-16T10:43:48Z",
+    "endedAt": "2026-01-16T11:53:09Z",
+    "durationSeconds": 4161,
+    "workDate": "2026-01-16"
+  },
+  {
+    "eventId": "STATUS-20260116-MCT-DEMO-02-003",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-16T11:53:09Z",
+    "endedAt": "2026-01-16T15:45:00Z",
+    "durationSeconds": 13911,
+    "workDate": "2026-01-16"
+  },
+  {
+    "eventId": "STATUS-20260116-MCT-DEMO-02-004",
+    "machineId": "MCT-DEMO-02",
+    "status": "ALARM",
+    "startedAt": "2026-01-16T15:45:00Z",
+    "endedAt": "2026-01-16T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-16"
+  },
+  {
+    "eventId": "STATUS-20260117-MCT-DEMO-02-001",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-17T08:00:00Z",
+    "endedAt": "2026-01-17T12:58:08Z",
+    "durationSeconds": 17888,
+    "workDate": "2026-01-17"
+  },
+  {
+    "eventId": "STATUS-20260117-MCT-DEMO-02-002",
+    "machineId": "MCT-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-17T12:58:08Z",
+    "endedAt": "2026-01-17T14:16:31Z",
+    "durationSeconds": 4703,
+    "workDate": "2026-01-17"
+  },
+  {
+    "eventId": "STATUS-20260117-MCT-DEMO-02-003",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-17T14:16:31Z",
+    "endedAt": "2026-01-17T16:00:00Z",
+    "durationSeconds": 6209,
+    "workDate": "2026-01-17"
+  },
+  {
+    "eventId": "STATUS-20260118-MCT-DEMO-02-001",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-18T08:00:00Z",
+    "endedAt": "2026-01-18T11:27:01Z",
+    "durationSeconds": 12421,
+    "workDate": "2026-01-18"
+  },
+  {
+    "eventId": "STATUS-20260118-MCT-DEMO-02-002",
+    "machineId": "MCT-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-18T11:27:01Z",
+    "endedAt": "2026-01-18T12:52:04Z",
+    "durationSeconds": 5103,
+    "workDate": "2026-01-18"
+  },
+  {
+    "eventId": "STATUS-20260118-MCT-DEMO-02-003",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-18T12:52:04Z",
+    "endedAt": "2026-01-18T15:40:00Z",
+    "durationSeconds": 10076,
+    "workDate": "2026-01-18"
+  },
+  {
+    "eventId": "STATUS-20260118-MCT-DEMO-02-004",
+    "machineId": "MCT-DEMO-02",
+    "status": "ALARM",
+    "startedAt": "2026-01-18T15:40:00Z",
+    "endedAt": "2026-01-18T16:00:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-18"
+  },
+  {
+    "eventId": "STATUS-20260119-MCT-DEMO-02-001",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-19T08:00:00Z",
+    "endedAt": "2026-01-19T09:46:53Z",
+    "durationSeconds": 6413,
+    "workDate": "2026-01-19"
+  },
+  {
+    "eventId": "STATUS-20260119-MCT-DEMO-02-002",
+    "machineId": "MCT-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-19T09:46:53Z",
+    "endedAt": "2026-01-19T13:56:53Z",
+    "durationSeconds": 15000,
+    "workDate": "2026-01-19"
+  },
+  {
+    "eventId": "STATUS-20260119-MCT-DEMO-02-003",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-19T13:56:53Z",
+    "endedAt": "2026-01-19T15:10:00Z",
+    "durationSeconds": 4387,
+    "workDate": "2026-01-19"
+  },
+  {
+    "eventId": "STATUS-20260119-MCT-DEMO-02-004",
+    "machineId": "MCT-DEMO-02",
+    "status": "ALARM",
+    "startedAt": "2026-01-19T15:10:00Z",
+    "endedAt": "2026-01-19T15:30:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-19"
+  },
+  {
+    "eventId": "STATUS-20260119-MCT-DEMO-02-005",
+    "machineId": "MCT-DEMO-02",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-19T15:30:00Z",
+    "endedAt": "2026-01-19T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-19"
+  },
+  {
+    "eventId": "STATUS-20260120-MCT-DEMO-02-001",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-20T08:00:00Z",
+    "endedAt": "2026-01-20T09:38:12Z",
+    "durationSeconds": 5892,
+    "workDate": "2026-01-20"
+  },
+  {
+    "eventId": "STATUS-20260120-MCT-DEMO-02-002",
+    "machineId": "MCT-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-20T09:38:12Z",
+    "endedAt": "2026-01-20T10:37:38Z",
+    "durationSeconds": 3566,
+    "workDate": "2026-01-20"
+  },
+  {
+    "eventId": "STATUS-20260120-MCT-DEMO-02-003",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-20T10:37:38Z",
+    "endedAt": "2026-01-20T15:50:00Z",
+    "durationSeconds": 18742,
+    "workDate": "2026-01-20"
+  },
+  {
+    "eventId": "STATUS-20260120-MCT-DEMO-02-004",
+    "machineId": "MCT-DEMO-02",
+    "status": "ALARM",
+    "startedAt": "2026-01-20T15:50:00Z",
+    "endedAt": "2026-01-20T16:00:00Z",
+    "durationSeconds": 600,
+    "workDate": "2026-01-20"
+  },
+  {
+    "eventId": "STATUS-20260121-MCT-DEMO-02-001",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-21T08:00:00Z",
+    "endedAt": "2026-01-21T10:08:03Z",
+    "durationSeconds": 7683,
+    "workDate": "2026-01-21"
+  },
+  {
+    "eventId": "STATUS-20260121-MCT-DEMO-02-002",
+    "machineId": "MCT-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-21T10:08:03Z",
+    "endedAt": "2026-01-21T10:59:28Z",
+    "durationSeconds": 3085,
+    "workDate": "2026-01-21"
+  },
+  {
+    "eventId": "STATUS-20260121-MCT-DEMO-02-003",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-21T10:59:28Z",
+    "endedAt": "2026-01-21T15:40:00Z",
+    "durationSeconds": 16832,
+    "workDate": "2026-01-21"
+  },
+  {
+    "eventId": "STATUS-20260121-MCT-DEMO-02-004",
+    "machineId": "MCT-DEMO-02",
+    "status": "ALARM",
+    "startedAt": "2026-01-21T15:40:00Z",
+    "endedAt": "2026-01-21T16:00:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-21"
+  },
+  {
+    "eventId": "STATUS-20260122-MCT-DEMO-02-001",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-22T08:00:00Z",
+    "endedAt": "2026-01-22T12:43:02Z",
+    "durationSeconds": 16982,
+    "workDate": "2026-01-22"
+  },
+  {
+    "eventId": "STATUS-20260122-MCT-DEMO-02-002",
+    "machineId": "MCT-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-22T12:43:02Z",
+    "endedAt": "2026-01-22T13:34:08Z",
+    "durationSeconds": 3066,
+    "workDate": "2026-01-22"
+  },
+  {
+    "eventId": "STATUS-20260122-MCT-DEMO-02-003",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-22T13:34:08Z",
+    "endedAt": "2026-01-22T15:40:00Z",
+    "durationSeconds": 7552,
+    "workDate": "2026-01-22"
+  },
+  {
+    "eventId": "STATUS-20260122-MCT-DEMO-02-004",
+    "machineId": "MCT-DEMO-02",
+    "status": "ALARM",
+    "startedAt": "2026-01-22T15:40:00Z",
+    "endedAt": "2026-01-22T16:00:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-22"
+  },
+  {
+    "eventId": "STATUS-20260123-MCT-DEMO-02-001",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-23T08:00:00Z",
+    "endedAt": "2026-01-23T10:20:44Z",
+    "durationSeconds": 8444,
+    "workDate": "2026-01-23"
+  },
+  {
+    "eventId": "STATUS-20260123-MCT-DEMO-02-002",
+    "machineId": "MCT-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-23T10:20:44Z",
+    "endedAt": "2026-01-23T11:38:19Z",
+    "durationSeconds": 4655,
+    "workDate": "2026-01-23"
+  },
+  {
+    "eventId": "STATUS-20260123-MCT-DEMO-02-003",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-23T11:38:19Z",
+    "endedAt": "2026-01-23T15:45:00Z",
+    "durationSeconds": 14801,
+    "workDate": "2026-01-23"
+  },
+  {
+    "eventId": "STATUS-20260123-MCT-DEMO-02-004",
+    "machineId": "MCT-DEMO-02",
+    "status": "ALARM",
+    "startedAt": "2026-01-23T15:45:00Z",
+    "endedAt": "2026-01-23T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-23"
+  },
+  {
+    "eventId": "STATUS-20260124-MCT-DEMO-02-001",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-24T08:00:00Z",
+    "endedAt": "2026-01-24T12:49:37Z",
+    "durationSeconds": 17377,
+    "workDate": "2026-01-24"
+  },
+  {
+    "eventId": "STATUS-20260124-MCT-DEMO-02-002",
+    "machineId": "MCT-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-24T12:49:37Z",
+    "endedAt": "2026-01-24T13:32:42Z",
+    "durationSeconds": 2585,
+    "workDate": "2026-01-24"
+  },
+  {
+    "eventId": "STATUS-20260124-MCT-DEMO-02-003",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-24T13:32:42Z",
+    "endedAt": "2026-01-24T15:30:00Z",
+    "durationSeconds": 7038,
+    "workDate": "2026-01-24"
+  },
+  {
+    "eventId": "STATUS-20260124-MCT-DEMO-02-004",
+    "machineId": "MCT-DEMO-02",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-24T15:30:00Z",
+    "endedAt": "2026-01-24T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-24"
+  },
+  {
+    "eventId": "STATUS-20260125-MCT-DEMO-02-001",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-25T08:00:00Z",
+    "endedAt": "2026-01-25T11:35:24Z",
+    "durationSeconds": 12924,
+    "workDate": "2026-01-25"
+  },
+  {
+    "eventId": "STATUS-20260125-MCT-DEMO-02-002",
+    "machineId": "MCT-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-25T11:35:24Z",
+    "endedAt": "2026-01-25T12:47:25Z",
+    "durationSeconds": 4321,
+    "workDate": "2026-01-25"
+  },
+  {
+    "eventId": "STATUS-20260125-MCT-DEMO-02-003",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-25T12:47:25Z",
+    "endedAt": "2026-01-25T15:45:00Z",
+    "durationSeconds": 10655,
+    "workDate": "2026-01-25"
+  },
+  {
+    "eventId": "STATUS-20260125-MCT-DEMO-02-004",
+    "machineId": "MCT-DEMO-02",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-25T15:45:00Z",
+    "endedAt": "2026-01-25T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-25"
+  },
+  {
+    "eventId": "STATUS-20260126-MCT-DEMO-02-001",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-26T08:00:00Z",
+    "endedAt": "2026-01-26T09:00:13Z",
+    "durationSeconds": 3613,
+    "workDate": "2026-01-26"
+  },
+  {
+    "eventId": "STATUS-20260126-MCT-DEMO-02-002",
+    "machineId": "MCT-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-26T09:00:13Z",
+    "endedAt": "2026-01-26T10:07:37Z",
+    "durationSeconds": 4044,
+    "workDate": "2026-01-26"
+  },
+  {
+    "eventId": "STATUS-20260126-MCT-DEMO-02-003",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-26T10:07:37Z",
+    "endedAt": "2026-01-26T15:45:00Z",
+    "durationSeconds": 20243,
+    "workDate": "2026-01-26"
+  },
+  {
+    "eventId": "STATUS-20260126-MCT-DEMO-02-004",
+    "machineId": "MCT-DEMO-02",
+    "status": "ALARM",
+    "startedAt": "2026-01-26T15:45:00Z",
+    "endedAt": "2026-01-26T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-26"
+  },
+  {
+    "eventId": "STATUS-20260127-MCT-DEMO-02-001",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-27T08:00:00Z",
+    "endedAt": "2026-01-27T12:54:46Z",
+    "durationSeconds": 17686,
+    "workDate": "2026-01-27"
+  },
+  {
+    "eventId": "STATUS-20260127-MCT-DEMO-02-002",
+    "machineId": "MCT-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-27T12:54:46Z",
+    "endedAt": "2026-01-27T13:39:06Z",
+    "durationSeconds": 2660,
+    "workDate": "2026-01-27"
+  },
+  {
+    "eventId": "STATUS-20260127-MCT-DEMO-02-003",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-27T13:39:06Z",
+    "endedAt": "2026-01-27T15:50:00Z",
+    "durationSeconds": 7854,
+    "workDate": "2026-01-27"
+  },
+  {
+    "eventId": "STATUS-20260127-MCT-DEMO-02-004",
+    "machineId": "MCT-DEMO-02",
+    "status": "ALARM",
+    "startedAt": "2026-01-27T15:50:00Z",
+    "endedAt": "2026-01-27T16:00:00Z",
+    "durationSeconds": 600,
+    "workDate": "2026-01-27"
+  },
+  {
+    "eventId": "STATUS-20260128-MCT-DEMO-02-001",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-28T08:00:00Z",
+    "endedAt": "2026-01-28T10:27:59Z",
+    "durationSeconds": 8879,
+    "workDate": "2026-01-28"
+  },
+  {
+    "eventId": "STATUS-20260128-MCT-DEMO-02-002",
+    "machineId": "MCT-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-28T10:27:59Z",
+    "endedAt": "2026-01-28T11:42:40Z",
+    "durationSeconds": 4481,
+    "workDate": "2026-01-28"
+  },
+  {
+    "eventId": "STATUS-20260128-MCT-DEMO-02-003",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-28T11:42:40Z",
+    "endedAt": "2026-01-28T15:10:00Z",
+    "durationSeconds": 12440,
+    "workDate": "2026-01-28"
+  },
+  {
+    "eventId": "STATUS-20260128-MCT-DEMO-02-004",
+    "machineId": "MCT-DEMO-02",
+    "status": "ALARM",
+    "startedAt": "2026-01-28T15:10:00Z",
+    "endedAt": "2026-01-28T15:30:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-28"
+  },
+  {
+    "eventId": "STATUS-20260128-MCT-DEMO-02-005",
+    "machineId": "MCT-DEMO-02",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-28T15:30:00Z",
+    "endedAt": "2026-01-28T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-28"
+  },
+  {
+    "eventId": "STATUS-20260129-MCT-DEMO-02-001",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-29T08:00:00Z",
+    "endedAt": "2026-01-29T12:04:29Z",
+    "durationSeconds": 14669,
+    "workDate": "2026-01-29"
+  },
+  {
+    "eventId": "STATUS-20260129-MCT-DEMO-02-002",
+    "machineId": "MCT-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-29T12:04:29Z",
+    "endedAt": "2026-01-29T13:04:40Z",
+    "durationSeconds": 3611,
+    "workDate": "2026-01-29"
+  },
+  {
+    "eventId": "STATUS-20260129-MCT-DEMO-02-003",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-29T13:04:40Z",
+    "endedAt": "2026-01-29T15:30:00Z",
+    "durationSeconds": 8720,
+    "workDate": "2026-01-29"
+  },
+  {
+    "eventId": "STATUS-20260129-MCT-DEMO-02-004",
+    "machineId": "MCT-DEMO-02",
+    "status": "ALARM",
+    "startedAt": "2026-01-29T15:30:00Z",
+    "endedAt": "2026-01-29T15:45:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-29"
+  },
+  {
+    "eventId": "STATUS-20260129-MCT-DEMO-02-005",
+    "machineId": "MCT-DEMO-02",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-29T15:45:00Z",
+    "endedAt": "2026-01-29T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-29"
+  },
+  {
+    "eventId": "STATUS-20260130-MCT-DEMO-02-001",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-30T08:00:00Z",
+    "endedAt": "2026-01-30T09:14:35Z",
+    "durationSeconds": 4475,
+    "workDate": "2026-01-30"
+  },
+  {
+    "eventId": "STATUS-20260130-MCT-DEMO-02-002",
+    "machineId": "MCT-DEMO-02",
+    "status": "IDLE",
+    "startedAt": "2026-01-30T09:14:35Z",
+    "endedAt": "2026-01-30T13:24:35Z",
+    "durationSeconds": 15000,
+    "workDate": "2026-01-30"
+  },
+  {
+    "eventId": "STATUS-20260130-MCT-DEMO-02-003",
+    "machineId": "MCT-DEMO-02",
+    "status": "RUNNING",
+    "startedAt": "2026-01-30T13:24:35Z",
+    "endedAt": "2026-01-30T15:10:00Z",
+    "durationSeconds": 6325,
+    "workDate": "2026-01-30"
+  },
+  {
+    "eventId": "STATUS-20260130-MCT-DEMO-02-004",
+    "machineId": "MCT-DEMO-02",
+    "status": "ALARM",
+    "startedAt": "2026-01-30T15:10:00Z",
+    "endedAt": "2026-01-30T15:30:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-30"
+  },
+  {
+    "eventId": "STATUS-20260130-MCT-DEMO-02-005",
+    "machineId": "MCT-DEMO-02",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-30T15:30:00Z",
+    "endedAt": "2026-01-30T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-30"
+  },
+  {
+    "eventId": "STATUS-20260101-MCT-DEMO-03-001",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-01T08:00:00Z",
+    "endedAt": "2026-01-01T12:37:22Z",
+    "durationSeconds": 16642,
+    "workDate": "2026-01-01"
+  },
+  {
+    "eventId": "STATUS-20260101-MCT-DEMO-03-002",
+    "machineId": "MCT-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-01T12:37:22Z",
+    "endedAt": "2026-01-01T14:01:33Z",
+    "durationSeconds": 5051,
+    "workDate": "2026-01-01"
+  },
+  {
+    "eventId": "STATUS-20260101-MCT-DEMO-03-003",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-01T14:01:33Z",
+    "endedAt": "2026-01-01T15:15:00Z",
+    "durationSeconds": 4407,
+    "workDate": "2026-01-01"
+  },
+  {
+    "eventId": "STATUS-20260101-MCT-DEMO-03-004",
+    "machineId": "MCT-DEMO-03",
+    "status": "ALARM",
+    "startedAt": "2026-01-01T15:15:00Z",
+    "endedAt": "2026-01-01T15:30:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-01"
+  },
+  {
+    "eventId": "STATUS-20260101-MCT-DEMO-03-005",
+    "machineId": "MCT-DEMO-03",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-01T15:30:00Z",
+    "endedAt": "2026-01-01T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-01"
+  },
+  {
+    "eventId": "STATUS-20260102-MCT-DEMO-03-001",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-02T08:00:00Z",
+    "endedAt": "2026-01-02T13:41:30Z",
+    "durationSeconds": 20490,
+    "workDate": "2026-01-02"
+  },
+  {
+    "eventId": "STATUS-20260102-MCT-DEMO-03-002",
+    "machineId": "MCT-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-02T13:41:30Z",
+    "endedAt": "2026-01-02T14:30:52Z",
+    "durationSeconds": 2962,
+    "workDate": "2026-01-02"
+  },
+  {
+    "eventId": "STATUS-20260102-MCT-DEMO-03-003",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-02T14:30:52Z",
+    "endedAt": "2026-01-02T16:00:00Z",
+    "durationSeconds": 5348,
+    "workDate": "2026-01-02"
+  },
+  {
+    "eventId": "STATUS-20260103-MCT-DEMO-03-001",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-03T08:00:00Z",
+    "endedAt": "2026-01-03T11:08:16Z",
+    "durationSeconds": 11296,
+    "workDate": "2026-01-03"
+  },
+  {
+    "eventId": "STATUS-20260103-MCT-DEMO-03-002",
+    "machineId": "MCT-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-03T11:08:16Z",
+    "endedAt": "2026-01-03T11:44:38Z",
+    "durationSeconds": 2182,
+    "workDate": "2026-01-03"
+  },
+  {
+    "eventId": "STATUS-20260103-MCT-DEMO-03-003",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-03T11:44:38Z",
+    "endedAt": "2026-01-03T15:20:00Z",
+    "durationSeconds": 12922,
+    "workDate": "2026-01-03"
+  },
+  {
+    "eventId": "STATUS-20260103-MCT-DEMO-03-004",
+    "machineId": "MCT-DEMO-03",
+    "status": "ALARM",
+    "startedAt": "2026-01-03T15:20:00Z",
+    "endedAt": "2026-01-03T15:30:00Z",
+    "durationSeconds": 600,
+    "workDate": "2026-01-03"
+  },
+  {
+    "eventId": "STATUS-20260103-MCT-DEMO-03-005",
+    "machineId": "MCT-DEMO-03",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-03T15:30:00Z",
+    "endedAt": "2026-01-03T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-03"
+  },
+  {
+    "eventId": "STATUS-20260104-MCT-DEMO-03-001",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-04T08:00:00Z",
+    "endedAt": "2026-01-04T10:48:45Z",
+    "durationSeconds": 10125,
+    "workDate": "2026-01-04"
+  },
+  {
+    "eventId": "STATUS-20260104-MCT-DEMO-03-002",
+    "machineId": "MCT-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-04T10:48:45Z",
+    "endedAt": "2026-01-04T12:13:48Z",
+    "durationSeconds": 5103,
+    "workDate": "2026-01-04"
+  },
+  {
+    "eventId": "STATUS-20260104-MCT-DEMO-03-003",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-04T12:13:48Z",
+    "endedAt": "2026-01-04T16:00:00Z",
+    "durationSeconds": 13572,
+    "workDate": "2026-01-04"
+  },
+  {
+    "eventId": "STATUS-20260105-MCT-DEMO-03-001",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-05T08:00:00Z",
+    "endedAt": "2026-01-05T11:13:43Z",
+    "durationSeconds": 11623,
+    "workDate": "2026-01-05"
+  },
+  {
+    "eventId": "STATUS-20260105-MCT-DEMO-03-002",
+    "machineId": "MCT-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-05T11:13:43Z",
+    "endedAt": "2026-01-05T11:46:52Z",
+    "durationSeconds": 1989,
+    "workDate": "2026-01-05"
+  },
+  {
+    "eventId": "STATUS-20260105-MCT-DEMO-03-003",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-05T11:46:52Z",
+    "endedAt": "2026-01-05T16:00:00Z",
+    "durationSeconds": 15188,
+    "workDate": "2026-01-05"
+  },
+  {
+    "eventId": "STATUS-20260106-MCT-DEMO-03-001",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-06T08:00:00Z",
+    "endedAt": "2026-01-06T12:29:50Z",
+    "durationSeconds": 16190,
+    "workDate": "2026-01-06"
+  },
+  {
+    "eventId": "STATUS-20260106-MCT-DEMO-03-002",
+    "machineId": "MCT-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-06T12:29:50Z",
+    "endedAt": "2026-01-06T13:57:50Z",
+    "durationSeconds": 5280,
+    "workDate": "2026-01-06"
+  },
+  {
+    "eventId": "STATUS-20260106-MCT-DEMO-03-003",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-06T13:57:50Z",
+    "endedAt": "2026-01-06T15:25:00Z",
+    "durationSeconds": 5230,
+    "workDate": "2026-01-06"
+  },
+  {
+    "eventId": "STATUS-20260106-MCT-DEMO-03-004",
+    "machineId": "MCT-DEMO-03",
+    "status": "ALARM",
+    "startedAt": "2026-01-06T15:25:00Z",
+    "endedAt": "2026-01-06T15:45:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-06"
+  },
+  {
+    "eventId": "STATUS-20260106-MCT-DEMO-03-005",
+    "machineId": "MCT-DEMO-03",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-06T15:45:00Z",
+    "endedAt": "2026-01-06T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-06"
+  },
+  {
+    "eventId": "STATUS-20260107-MCT-DEMO-03-001",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-07T08:00:00Z",
+    "endedAt": "2026-01-07T09:04:58Z",
+    "durationSeconds": 3898,
+    "workDate": "2026-01-07"
+  },
+  {
+    "eventId": "STATUS-20260107-MCT-DEMO-03-002",
+    "machineId": "MCT-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-07T09:04:58Z",
+    "endedAt": "2026-01-07T13:14:58Z",
+    "durationSeconds": 15000,
+    "workDate": "2026-01-07"
+  },
+  {
+    "eventId": "STATUS-20260107-MCT-DEMO-03-003",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-07T13:14:58Z",
+    "endedAt": "2026-01-07T15:10:00Z",
+    "durationSeconds": 6902,
+    "workDate": "2026-01-07"
+  },
+  {
+    "eventId": "STATUS-20260107-MCT-DEMO-03-004",
+    "machineId": "MCT-DEMO-03",
+    "status": "ALARM",
+    "startedAt": "2026-01-07T15:10:00Z",
+    "endedAt": "2026-01-07T15:30:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-07"
+  },
+  {
+    "eventId": "STATUS-20260107-MCT-DEMO-03-005",
+    "machineId": "MCT-DEMO-03",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-07T15:30:00Z",
+    "endedAt": "2026-01-07T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-07"
+  },
+  {
+    "eventId": "STATUS-20260108-MCT-DEMO-03-001",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-08T08:00:00Z",
+    "endedAt": "2026-01-08T11:37:11Z",
+    "durationSeconds": 13031,
+    "workDate": "2026-01-08"
+  },
+  {
+    "eventId": "STATUS-20260108-MCT-DEMO-03-002",
+    "machineId": "MCT-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-08T11:37:11Z",
+    "endedAt": "2026-01-08T12:50:10Z",
+    "durationSeconds": 4379,
+    "workDate": "2026-01-08"
+  },
+  {
+    "eventId": "STATUS-20260108-MCT-DEMO-03-003",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-08T12:50:10Z",
+    "endedAt": "2026-01-08T15:30:00Z",
+    "durationSeconds": 9590,
+    "workDate": "2026-01-08"
+  },
+  {
+    "eventId": "STATUS-20260108-MCT-DEMO-03-004",
+    "machineId": "MCT-DEMO-03",
+    "status": "ALARM",
+    "startedAt": "2026-01-08T15:30:00Z",
+    "endedAt": "2026-01-08T15:45:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-08"
+  },
+  {
+    "eventId": "STATUS-20260108-MCT-DEMO-03-005",
+    "machineId": "MCT-DEMO-03",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-08T15:45:00Z",
+    "endedAt": "2026-01-08T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-08"
+  },
+  {
+    "eventId": "STATUS-20260109-MCT-DEMO-03-001",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-09T08:00:00Z",
+    "endedAt": "2026-01-09T12:38:15Z",
+    "durationSeconds": 16695,
+    "workDate": "2026-01-09"
+  },
+  {
+    "eventId": "STATUS-20260109-MCT-DEMO-03-002",
+    "machineId": "MCT-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-09T12:38:15Z",
+    "endedAt": "2026-01-09T13:41:59Z",
+    "durationSeconds": 3824,
+    "workDate": "2026-01-09"
+  },
+  {
+    "eventId": "STATUS-20260109-MCT-DEMO-03-003",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-09T13:41:59Z",
+    "endedAt": "2026-01-09T15:45:00Z",
+    "durationSeconds": 7381,
+    "workDate": "2026-01-09"
+  },
+  {
+    "eventId": "STATUS-20260109-MCT-DEMO-03-004",
+    "machineId": "MCT-DEMO-03",
+    "status": "ALARM",
+    "startedAt": "2026-01-09T15:45:00Z",
+    "endedAt": "2026-01-09T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-09"
+  },
+  {
+    "eventId": "STATUS-20260110-MCT-DEMO-03-001",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-10T08:00:00Z",
+    "endedAt": "2026-01-10T09:03:01Z",
+    "durationSeconds": 3781,
+    "workDate": "2026-01-10"
+  },
+  {
+    "eventId": "STATUS-20260110-MCT-DEMO-03-002",
+    "machineId": "MCT-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-10T09:03:01Z",
+    "endedAt": "2026-01-10T10:17:48Z",
+    "durationSeconds": 4487,
+    "workDate": "2026-01-10"
+  },
+  {
+    "eventId": "STATUS-20260110-MCT-DEMO-03-003",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-10T10:17:48Z",
+    "endedAt": "2026-01-10T16:00:00Z",
+    "durationSeconds": 20532,
+    "workDate": "2026-01-10"
+  },
+  {
+    "eventId": "STATUS-20260111-MCT-DEMO-03-001",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-11T08:00:00Z",
+    "endedAt": "2026-01-11T10:36:03Z",
+    "durationSeconds": 9363,
+    "workDate": "2026-01-11"
+  },
+  {
+    "eventId": "STATUS-20260111-MCT-DEMO-03-002",
+    "machineId": "MCT-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-11T10:36:03Z",
+    "endedAt": "2026-01-11T11:20:59Z",
+    "durationSeconds": 2696,
+    "workDate": "2026-01-11"
+  },
+  {
+    "eventId": "STATUS-20260111-MCT-DEMO-03-003",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-11T11:20:59Z",
+    "endedAt": "2026-01-11T15:45:00Z",
+    "durationSeconds": 15841,
+    "workDate": "2026-01-11"
+  },
+  {
+    "eventId": "STATUS-20260111-MCT-DEMO-03-004",
+    "machineId": "MCT-DEMO-03",
+    "status": "ALARM",
+    "startedAt": "2026-01-11T15:45:00Z",
+    "endedAt": "2026-01-11T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-11"
+  },
+  {
+    "eventId": "STATUS-20260112-MCT-DEMO-03-001",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-12T08:00:00Z",
+    "endedAt": "2026-01-12T11:16:05Z",
+    "durationSeconds": 11765,
+    "workDate": "2026-01-12"
+  },
+  {
+    "eventId": "STATUS-20260112-MCT-DEMO-03-002",
+    "machineId": "MCT-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-12T11:16:05Z",
+    "endedAt": "2026-01-12T11:49:30Z",
+    "durationSeconds": 2005,
+    "workDate": "2026-01-12"
+  },
+  {
+    "eventId": "STATUS-20260112-MCT-DEMO-03-003",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-12T11:49:30Z",
+    "endedAt": "2026-01-12T15:15:00Z",
+    "durationSeconds": 12330,
+    "workDate": "2026-01-12"
+  },
+  {
+    "eventId": "STATUS-20260112-MCT-DEMO-03-004",
+    "machineId": "MCT-DEMO-03",
+    "status": "ALARM",
+    "startedAt": "2026-01-12T15:15:00Z",
+    "endedAt": "2026-01-12T15:30:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-12"
+  },
+  {
+    "eventId": "STATUS-20260112-MCT-DEMO-03-005",
+    "machineId": "MCT-DEMO-03",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-12T15:30:00Z",
+    "endedAt": "2026-01-12T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-12"
+  },
+  {
+    "eventId": "STATUS-20260113-MCT-DEMO-03-001",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-13T08:00:00Z",
+    "endedAt": "2026-01-13T10:00:00Z",
+    "durationSeconds": 7200,
+    "workDate": "2026-01-13"
+  },
+  {
+    "eventId": "STATUS-20260113-MCT-DEMO-03-002",
+    "machineId": "MCT-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-13T10:00:00Z",
+    "endedAt": "2026-01-13T12:00:00Z",
+    "durationSeconds": 7200,
+    "workDate": "2026-01-13"
+  },
+  {
+    "eventId": "STATUS-20260113-MCT-DEMO-03-003",
+    "machineId": "MCT-DEMO-03",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-13T12:00:00Z",
+    "endedAt": "2026-01-13T16:00:00Z",
+    "durationSeconds": 14400,
+    "workDate": "2026-01-13"
+  },
+  {
+    "eventId": "STATUS-20260114-MCT-DEMO-03-001",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-14T08:00:00Z",
+    "endedAt": "2026-01-14T13:13:45Z",
+    "durationSeconds": 18825,
+    "workDate": "2026-01-14"
+  },
+  {
+    "eventId": "STATUS-20260114-MCT-DEMO-03-002",
+    "machineId": "MCT-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-14T13:13:45Z",
+    "endedAt": "2026-01-14T13:52:51Z",
+    "durationSeconds": 2346,
+    "workDate": "2026-01-14"
+  },
+  {
+    "eventId": "STATUS-20260114-MCT-DEMO-03-003",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-14T13:52:51Z",
+    "endedAt": "2026-01-14T15:45:00Z",
+    "durationSeconds": 6729,
+    "workDate": "2026-01-14"
+  },
+  {
+    "eventId": "STATUS-20260114-MCT-DEMO-03-004",
+    "machineId": "MCT-DEMO-03",
+    "status": "ALARM",
+    "startedAt": "2026-01-14T15:45:00Z",
+    "endedAt": "2026-01-14T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-14"
+  },
+  {
+    "eventId": "STATUS-20260115-MCT-DEMO-03-001",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-15T08:00:00Z",
+    "endedAt": "2026-01-15T10:26:38Z",
+    "durationSeconds": 8798,
+    "workDate": "2026-01-15"
+  },
+  {
+    "eventId": "STATUS-20260115-MCT-DEMO-03-002",
+    "machineId": "MCT-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-15T10:26:38Z",
+    "endedAt": "2026-01-15T11:37:16Z",
+    "durationSeconds": 4238,
+    "workDate": "2026-01-15"
+  },
+  {
+    "eventId": "STATUS-20260115-MCT-DEMO-03-003",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-15T11:37:16Z",
+    "endedAt": "2026-01-15T15:10:00Z",
+    "durationSeconds": 12764,
+    "workDate": "2026-01-15"
+  },
+  {
+    "eventId": "STATUS-20260115-MCT-DEMO-03-004",
+    "machineId": "MCT-DEMO-03",
+    "status": "ALARM",
+    "startedAt": "2026-01-15T15:10:00Z",
+    "endedAt": "2026-01-15T15:30:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-15"
+  },
+  {
+    "eventId": "STATUS-20260115-MCT-DEMO-03-005",
+    "machineId": "MCT-DEMO-03",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-15T15:30:00Z",
+    "endedAt": "2026-01-15T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-15"
+  },
+  {
+    "eventId": "STATUS-20260116-MCT-DEMO-03-001",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-16T08:00:00Z",
+    "endedAt": "2026-01-16T12:16:24Z",
+    "durationSeconds": 15384,
+    "workDate": "2026-01-16"
+  },
+  {
+    "eventId": "STATUS-20260116-MCT-DEMO-03-002",
+    "machineId": "MCT-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-16T12:16:24Z",
+    "endedAt": "2026-01-16T13:42:02Z",
+    "durationSeconds": 5138,
+    "workDate": "2026-01-16"
+  },
+  {
+    "eventId": "STATUS-20260116-MCT-DEMO-03-003",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-16T13:42:02Z",
+    "endedAt": "2026-01-16T15:25:00Z",
+    "durationSeconds": 6178,
+    "workDate": "2026-01-16"
+  },
+  {
+    "eventId": "STATUS-20260116-MCT-DEMO-03-004",
+    "machineId": "MCT-DEMO-03",
+    "status": "ALARM",
+    "startedAt": "2026-01-16T15:25:00Z",
+    "endedAt": "2026-01-16T15:45:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-16"
+  },
+  {
+    "eventId": "STATUS-20260116-MCT-DEMO-03-005",
+    "machineId": "MCT-DEMO-03",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-16T15:45:00Z",
+    "endedAt": "2026-01-16T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-16"
+  },
+  {
+    "eventId": "STATUS-20260117-MCT-DEMO-03-001",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-17T08:00:00Z",
+    "endedAt": "2026-01-17T11:29:36Z",
+    "durationSeconds": 12576,
+    "workDate": "2026-01-17"
+  },
+  {
+    "eventId": "STATUS-20260117-MCT-DEMO-03-002",
+    "machineId": "MCT-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-17T11:29:36Z",
+    "endedAt": "2026-01-17T12:56:18Z",
+    "durationSeconds": 5202,
+    "workDate": "2026-01-17"
+  },
+  {
+    "eventId": "STATUS-20260117-MCT-DEMO-03-003",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-17T12:56:18Z",
+    "endedAt": "2026-01-17T15:15:00Z",
+    "durationSeconds": 8322,
+    "workDate": "2026-01-17"
+  },
+  {
+    "eventId": "STATUS-20260117-MCT-DEMO-03-004",
+    "machineId": "MCT-DEMO-03",
+    "status": "ALARM",
+    "startedAt": "2026-01-17T15:15:00Z",
+    "endedAt": "2026-01-17T15:30:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-17"
+  },
+  {
+    "eventId": "STATUS-20260117-MCT-DEMO-03-005",
+    "machineId": "MCT-DEMO-03",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-17T15:30:00Z",
+    "endedAt": "2026-01-17T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-17"
+  },
+  {
+    "eventId": "STATUS-20260118-MCT-DEMO-03-001",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-18T08:00:00Z",
+    "endedAt": "2026-01-18T09:30:26Z",
+    "durationSeconds": 5426,
+    "workDate": "2026-01-18"
+  },
+  {
+    "eventId": "STATUS-20260118-MCT-DEMO-03-002",
+    "machineId": "MCT-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-18T09:30:26Z",
+    "endedAt": "2026-01-18T13:40:26Z",
+    "durationSeconds": 15000,
+    "workDate": "2026-01-18"
+  },
+  {
+    "eventId": "STATUS-20260118-MCT-DEMO-03-003",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-18T13:40:26Z",
+    "endedAt": "2026-01-18T15:10:00Z",
+    "durationSeconds": 5374,
+    "workDate": "2026-01-18"
+  },
+  {
+    "eventId": "STATUS-20260118-MCT-DEMO-03-004",
+    "machineId": "MCT-DEMO-03",
+    "status": "ALARM",
+    "startedAt": "2026-01-18T15:10:00Z",
+    "endedAt": "2026-01-18T15:30:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-18"
+  },
+  {
+    "eventId": "STATUS-20260118-MCT-DEMO-03-005",
+    "machineId": "MCT-DEMO-03",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-18T15:30:00Z",
+    "endedAt": "2026-01-18T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-18"
+  },
+  {
+    "eventId": "STATUS-20260119-MCT-DEMO-03-001",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-19T08:00:00Z",
+    "endedAt": "2026-01-19T11:21:33Z",
+    "durationSeconds": 12093,
+    "workDate": "2026-01-19"
+  },
+  {
+    "eventId": "STATUS-20260119-MCT-DEMO-03-002",
+    "machineId": "MCT-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-19T11:21:33Z",
+    "endedAt": "2026-01-19T12:22:16Z",
+    "durationSeconds": 3643,
+    "workDate": "2026-01-19"
+  },
+  {
+    "eventId": "STATUS-20260119-MCT-DEMO-03-003",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-19T12:22:16Z",
+    "endedAt": "2026-01-19T15:45:00Z",
+    "durationSeconds": 12164,
+    "workDate": "2026-01-19"
+  },
+  {
+    "eventId": "STATUS-20260119-MCT-DEMO-03-004",
+    "machineId": "MCT-DEMO-03",
+    "status": "ALARM",
+    "startedAt": "2026-01-19T15:45:00Z",
+    "endedAt": "2026-01-19T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-19"
+  },
+  {
+    "eventId": "STATUS-20260120-MCT-DEMO-03-001",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-20T08:00:00Z",
+    "endedAt": "2026-01-20T12:32:21Z",
+    "durationSeconds": 16341,
+    "workDate": "2026-01-20"
+  },
+  {
+    "eventId": "STATUS-20260120-MCT-DEMO-03-002",
+    "machineId": "MCT-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-20T12:32:21Z",
+    "endedAt": "2026-01-20T13:54:37Z",
+    "durationSeconds": 4936,
+    "workDate": "2026-01-20"
+  },
+  {
+    "eventId": "STATUS-20260120-MCT-DEMO-03-003",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-20T13:54:37Z",
+    "endedAt": "2026-01-20T15:50:00Z",
+    "durationSeconds": 6923,
+    "workDate": "2026-01-20"
+  },
+  {
+    "eventId": "STATUS-20260120-MCT-DEMO-03-004",
+    "machineId": "MCT-DEMO-03",
+    "status": "ALARM",
+    "startedAt": "2026-01-20T15:50:00Z",
+    "endedAt": "2026-01-20T16:00:00Z",
+    "durationSeconds": 600,
+    "workDate": "2026-01-20"
+  },
+  {
+    "eventId": "STATUS-20260121-MCT-DEMO-03-001",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-21T08:00:00Z",
+    "endedAt": "2026-01-21T10:05:19Z",
+    "durationSeconds": 7519,
+    "workDate": "2026-01-21"
+  },
+  {
+    "eventId": "STATUS-20260121-MCT-DEMO-03-002",
+    "machineId": "MCT-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-21T10:05:19Z",
+    "endedAt": "2026-01-21T11:18:06Z",
+    "durationSeconds": 4367,
+    "workDate": "2026-01-21"
+  },
+  {
+    "eventId": "STATUS-20260121-MCT-DEMO-03-003",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-21T11:18:06Z",
+    "endedAt": "2026-01-21T15:15:00Z",
+    "durationSeconds": 14214,
+    "workDate": "2026-01-21"
+  },
+  {
+    "eventId": "STATUS-20260121-MCT-DEMO-03-004",
+    "machineId": "MCT-DEMO-03",
+    "status": "ALARM",
+    "startedAt": "2026-01-21T15:15:00Z",
+    "endedAt": "2026-01-21T15:30:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-21"
+  },
+  {
+    "eventId": "STATUS-20260121-MCT-DEMO-03-005",
+    "machineId": "MCT-DEMO-03",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-21T15:30:00Z",
+    "endedAt": "2026-01-21T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-21"
+  },
+  {
+    "eventId": "STATUS-20260122-MCT-DEMO-03-001",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-22T08:00:00Z",
+    "endedAt": "2026-01-22T11:36:02Z",
+    "durationSeconds": 12962,
+    "workDate": "2026-01-22"
+  },
+  {
+    "eventId": "STATUS-20260122-MCT-DEMO-03-002",
+    "machineId": "MCT-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-22T11:36:02Z",
+    "endedAt": "2026-01-22T12:11:19Z",
+    "durationSeconds": 2117,
+    "workDate": "2026-01-22"
+  },
+  {
+    "eventId": "STATUS-20260122-MCT-DEMO-03-003",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-22T12:11:19Z",
+    "endedAt": "2026-01-22T15:45:00Z",
+    "durationSeconds": 12821,
+    "workDate": "2026-01-22"
+  },
+  {
+    "eventId": "STATUS-20260122-MCT-DEMO-03-004",
+    "machineId": "MCT-DEMO-03",
+    "status": "ALARM",
+    "startedAt": "2026-01-22T15:45:00Z",
+    "endedAt": "2026-01-22T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-22"
+  },
+  {
+    "eventId": "STATUS-20260123-MCT-DEMO-03-001",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-23T08:00:00Z",
+    "endedAt": "2026-01-23T11:54:36Z",
+    "durationSeconds": 14076,
+    "workDate": "2026-01-23"
+  },
+  {
+    "eventId": "STATUS-20260123-MCT-DEMO-03-002",
+    "machineId": "MCT-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-23T11:54:36Z",
+    "endedAt": "2026-01-23T12:47:31Z",
+    "durationSeconds": 3175,
+    "workDate": "2026-01-23"
+  },
+  {
+    "eventId": "STATUS-20260123-MCT-DEMO-03-003",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-23T12:47:31Z",
+    "endedAt": "2026-01-23T15:50:00Z",
+    "durationSeconds": 10949,
+    "workDate": "2026-01-23"
+  },
+  {
+    "eventId": "STATUS-20260123-MCT-DEMO-03-004",
+    "machineId": "MCT-DEMO-03",
+    "status": "ALARM",
+    "startedAt": "2026-01-23T15:50:00Z",
+    "endedAt": "2026-01-23T16:00:00Z",
+    "durationSeconds": 600,
+    "workDate": "2026-01-23"
+  },
+  {
+    "eventId": "STATUS-20260124-MCT-DEMO-03-001",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-24T08:00:00Z",
+    "endedAt": "2026-01-24T10:22:22Z",
+    "durationSeconds": 8542,
+    "workDate": "2026-01-24"
+  },
+  {
+    "eventId": "STATUS-20260124-MCT-DEMO-03-002",
+    "machineId": "MCT-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-24T10:22:22Z",
+    "endedAt": "2026-01-24T11:01:48Z",
+    "durationSeconds": 2366,
+    "workDate": "2026-01-24"
+  },
+  {
+    "eventId": "STATUS-20260124-MCT-DEMO-03-003",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-24T11:01:48Z",
+    "endedAt": "2026-01-24T15:30:00Z",
+    "durationSeconds": 16092,
+    "workDate": "2026-01-24"
+  },
+  {
+    "eventId": "STATUS-20260124-MCT-DEMO-03-004",
+    "machineId": "MCT-DEMO-03",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-24T15:30:00Z",
+    "endedAt": "2026-01-24T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-24"
+  },
+  {
+    "eventId": "STATUS-20260125-MCT-DEMO-03-001",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-25T08:00:00Z",
+    "endedAt": "2026-01-25T09:41:43Z",
+    "durationSeconds": 6103,
+    "workDate": "2026-01-25"
+  },
+  {
+    "eventId": "STATUS-20260125-MCT-DEMO-03-002",
+    "machineId": "MCT-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-25T09:41:43Z",
+    "endedAt": "2026-01-25T10:59:05Z",
+    "durationSeconds": 4642,
+    "workDate": "2026-01-25"
+  },
+  {
+    "eventId": "STATUS-20260125-MCT-DEMO-03-003",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-25T10:59:05Z",
+    "endedAt": "2026-01-25T15:45:00Z",
+    "durationSeconds": 17155,
+    "workDate": "2026-01-25"
+  },
+  {
+    "eventId": "STATUS-20260125-MCT-DEMO-03-004",
+    "machineId": "MCT-DEMO-03",
+    "status": "ALARM",
+    "startedAt": "2026-01-25T15:45:00Z",
+    "endedAt": "2026-01-25T16:00:00Z",
+    "durationSeconds": 900,
+    "workDate": "2026-01-25"
+  },
+  {
+    "eventId": "STATUS-20260126-MCT-DEMO-03-001",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-26T08:00:00Z",
+    "endedAt": "2026-01-26T12:42:36Z",
+    "durationSeconds": 16956,
+    "workDate": "2026-01-26"
+  },
+  {
+    "eventId": "STATUS-20260126-MCT-DEMO-03-002",
+    "machineId": "MCT-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-26T12:42:36Z",
+    "endedAt": "2026-01-26T13:40:55Z",
+    "durationSeconds": 3499,
+    "workDate": "2026-01-26"
+  },
+  {
+    "eventId": "STATUS-20260126-MCT-DEMO-03-003",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-26T13:40:55Z",
+    "endedAt": "2026-01-26T16:00:00Z",
+    "durationSeconds": 8345,
+    "workDate": "2026-01-26"
+  },
+  {
+    "eventId": "STATUS-20260127-MCT-DEMO-03-001",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-27T08:00:00Z",
+    "endedAt": "2026-01-27T12:47:04Z",
+    "durationSeconds": 17224,
+    "workDate": "2026-01-27"
+  },
+  {
+    "eventId": "STATUS-20260127-MCT-DEMO-03-002",
+    "machineId": "MCT-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-27T12:47:04Z",
+    "endedAt": "2026-01-27T13:48:52Z",
+    "durationSeconds": 3708,
+    "workDate": "2026-01-27"
+  },
+  {
+    "eventId": "STATUS-20260127-MCT-DEMO-03-003",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-27T13:48:52Z",
+    "endedAt": "2026-01-27T15:40:00Z",
+    "durationSeconds": 6668,
+    "workDate": "2026-01-27"
+  },
+  {
+    "eventId": "STATUS-20260127-MCT-DEMO-03-004",
+    "machineId": "MCT-DEMO-03",
+    "status": "ALARM",
+    "startedAt": "2026-01-27T15:40:00Z",
+    "endedAt": "2026-01-27T16:00:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-27"
+  },
+  {
+    "eventId": "STATUS-20260128-MCT-DEMO-03-001",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-28T08:00:00Z",
+    "endedAt": "2026-01-28T12:49:27Z",
+    "durationSeconds": 17367,
+    "workDate": "2026-01-28"
+  },
+  {
+    "eventId": "STATUS-20260128-MCT-DEMO-03-002",
+    "machineId": "MCT-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-28T12:49:27Z",
+    "endedAt": "2026-01-28T14:16:18Z",
+    "durationSeconds": 5211,
+    "workDate": "2026-01-28"
+  },
+  {
+    "eventId": "STATUS-20260128-MCT-DEMO-03-003",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-28T14:16:18Z",
+    "endedAt": "2026-01-28T16:00:00Z",
+    "durationSeconds": 6222,
+    "workDate": "2026-01-28"
+  },
+  {
+    "eventId": "STATUS-20260129-MCT-DEMO-03-001",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-29T08:00:00Z",
+    "endedAt": "2026-01-29T09:26:35Z",
+    "durationSeconds": 5195,
+    "workDate": "2026-01-29"
+  },
+  {
+    "eventId": "STATUS-20260129-MCT-DEMO-03-002",
+    "machineId": "MCT-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-29T09:26:35Z",
+    "endedAt": "2026-01-29T13:36:35Z",
+    "durationSeconds": 15000,
+    "workDate": "2026-01-29"
+  },
+  {
+    "eventId": "STATUS-20260129-MCT-DEMO-03-003",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-29T13:36:35Z",
+    "endedAt": "2026-01-29T15:10:00Z",
+    "durationSeconds": 5605,
+    "workDate": "2026-01-29"
+  },
+  {
+    "eventId": "STATUS-20260129-MCT-DEMO-03-004",
+    "machineId": "MCT-DEMO-03",
+    "status": "ALARM",
+    "startedAt": "2026-01-29T15:10:00Z",
+    "endedAt": "2026-01-29T15:30:00Z",
+    "durationSeconds": 1200,
+    "workDate": "2026-01-29"
+  },
+  {
+    "eventId": "STATUS-20260129-MCT-DEMO-03-005",
+    "machineId": "MCT-DEMO-03",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-29T15:30:00Z",
+    "endedAt": "2026-01-29T16:00:00Z",
+    "durationSeconds": 1800,
+    "workDate": "2026-01-29"
+  },
+  {
+    "eventId": "STATUS-20260130-MCT-DEMO-03-001",
+    "machineId": "MCT-DEMO-03",
+    "status": "RUNNING",
+    "startedAt": "2026-01-30T08:00:00Z",
+    "endedAt": "2026-01-30T10:00:00Z",
+    "durationSeconds": 7200,
+    "workDate": "2026-01-30"
+  },
+  {
+    "eventId": "STATUS-20260130-MCT-DEMO-03-002",
+    "machineId": "MCT-DEMO-03",
+    "status": "IDLE",
+    "startedAt": "2026-01-30T10:00:00Z",
+    "endedAt": "2026-01-30T12:00:00Z",
+    "durationSeconds": 7200,
+    "workDate": "2026-01-30"
+  },
+  {
+    "eventId": "STATUS-20260130-MCT-DEMO-03-003",
+    "machineId": "MCT-DEMO-03",
+    "status": "OFFLINE",
+    "startedAt": "2026-01-30T12:00:00Z",
+    "endedAt": "2026-01-30T16:00:00Z",
+    "durationSeconds": 14400,
+    "workDate": "2026-01-30"
+  }
+]

@@ -1,0 +1,1252 @@
+[
+  {
+    "alarmId": "ALARM-20260101-CNC-DEMO-01-0001",
+    "machineId": "CNC-DEMO-01",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W001",
+    "message": "Demo coolant warning",
+    "occurredAt": "2026-01-01T13:10:00Z",
+    "clearedAt": "2026-01-01T13:55:00Z",
+    "workDate": "2026-01-01"
+  },
+  {
+    "alarmId": "ALARM-20260101-CNC-DEMO-01-0002",
+    "machineId": "CNC-DEMO-01",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-01T13:30:00Z",
+    "clearedAt": "2026-01-01T13:55:00Z",
+    "workDate": "2026-01-01"
+  },
+  {
+    "alarmId": "ALARM-20260101-CNC-DEMO-03-0003",
+    "machineId": "CNC-DEMO-03",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-01T08:58:00Z",
+    "clearedAt": "2026-01-01T09:18:00Z",
+    "workDate": "2026-01-01"
+  },
+  {
+    "alarmId": "ALARM-20260101-CNC-DEMO-03-0004",
+    "machineId": "CNC-DEMO-03",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W001",
+    "message": "Demo coolant warning",
+    "occurredAt": "2026-01-01T13:00:00Z",
+    "clearedAt": "2026-01-01T13:31:00Z",
+    "workDate": "2026-01-01"
+  },
+  {
+    "alarmId": "ALARM-20260101-MCT-DEMO-03-0005",
+    "machineId": "MCT-DEMO-03",
+    "severity": "INFO",
+    "alarmCode": "DEMO-I001",
+    "message": "Demo operator note",
+    "occurredAt": "2026-01-01T12:05:00Z",
+    "clearedAt": "2026-01-01T12:38:00Z",
+    "workDate": "2026-01-01"
+  },
+  {
+    "alarmId": "ALARM-20260102-CNC-DEMO-01-0006",
+    "machineId": "CNC-DEMO-01",
+    "severity": "INFO",
+    "alarmCode": "DEMO-I001",
+    "message": "Demo operator note",
+    "occurredAt": "2026-01-02T10:51:00Z",
+    "clearedAt": "2026-01-02T11:32:00Z",
+    "workDate": "2026-01-02"
+  },
+  {
+    "alarmId": "ALARM-20260102-MCT-DEMO-03-0007",
+    "machineId": "MCT-DEMO-03",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W002",
+    "message": "Demo tool wear warning",
+    "occurredAt": "2026-01-02T10:30:00Z",
+    "clearedAt": "2026-01-02T10:40:00Z",
+    "workDate": "2026-01-02"
+  },
+  {
+    "alarmId": "ALARM-20260103-CNC-DEMO-01-0008",
+    "machineId": "CNC-DEMO-01",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W002",
+    "message": "Demo tool wear warning",
+    "occurredAt": "2026-01-03T12:57:00Z",
+    "clearedAt": "2026-01-03T13:06:00Z",
+    "workDate": "2026-01-03"
+  },
+  {
+    "alarmId": "ALARM-20260103-CNC-DEMO-01-0009",
+    "machineId": "CNC-DEMO-01",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W002",
+    "message": "Demo tool wear warning",
+    "occurredAt": "2026-01-03T08:16:00Z",
+    "clearedAt": "2026-01-03T08:47:00Z",
+    "workDate": "2026-01-03"
+  },
+  {
+    "alarmId": "ALARM-20260103-CNC-DEMO-02-0010",
+    "machineId": "CNC-DEMO-02",
+    "severity": "INFO",
+    "alarmCode": "DEMO-I001",
+    "message": "Demo operator note",
+    "occurredAt": "2026-01-03T10:44:00Z",
+    "clearedAt": "2026-01-03T10:51:00Z",
+    "workDate": "2026-01-03"
+  },
+  {
+    "alarmId": "ALARM-20260103-CNC-DEMO-03-0011",
+    "machineId": "CNC-DEMO-03",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-03T14:14:00Z",
+    "clearedAt": "2026-01-03T14:48:00Z",
+    "workDate": "2026-01-03"
+  },
+  {
+    "alarmId": "ALARM-20260103-MCT-DEMO-01-0012",
+    "machineId": "MCT-DEMO-01",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W002",
+    "message": "Demo tool wear warning",
+    "occurredAt": "2026-01-03T10:30:00Z",
+    "clearedAt": "2026-01-03T11:15:00Z",
+    "workDate": "2026-01-03"
+  },
+  {
+    "alarmId": "ALARM-20260103-MCT-DEMO-01-0013",
+    "machineId": "MCT-DEMO-01",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W002",
+    "message": "Demo tool wear warning",
+    "occurredAt": "2026-01-03T11:52:00Z",
+    "clearedAt": "2026-01-03T12:04:00Z",
+    "workDate": "2026-01-03"
+  },
+  {
+    "alarmId": "ALARM-20260104-CNC-DEMO-03-0014",
+    "machineId": "CNC-DEMO-03",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W002",
+    "message": "Demo tool wear warning",
+    "occurredAt": "2026-01-04T15:00:00Z",
+    "clearedAt": "2026-01-04T15:24:00Z",
+    "workDate": "2026-01-04"
+  },
+  {
+    "alarmId": "ALARM-20260104-CNC-DEMO-03-0015",
+    "machineId": "CNC-DEMO-03",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-04T11:59:00Z",
+    "clearedAt": "2026-01-04T12:11:00Z",
+    "workDate": "2026-01-04"
+  },
+  {
+    "alarmId": "ALARM-20260104-MCT-DEMO-01-0016",
+    "machineId": "MCT-DEMO-01",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-04T14:13:00Z",
+    "clearedAt": "2026-01-04T14:43:00Z",
+    "workDate": "2026-01-04"
+  },
+  {
+    "alarmId": "ALARM-20260104-MCT-DEMO-03-0017",
+    "machineId": "MCT-DEMO-03",
+    "severity": "INFO",
+    "alarmCode": "DEMO-I001",
+    "message": "Demo operator note",
+    "occurredAt": "2026-01-04T11:59:00Z",
+    "clearedAt": "2026-01-04T12:09:00Z",
+    "workDate": "2026-01-04"
+  },
+  {
+    "alarmId": "ALARM-20260105-MCT-DEMO-02-0018",
+    "machineId": "MCT-DEMO-02",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W002",
+    "message": "Demo tool wear warning",
+    "occurredAt": "2026-01-05T14:00:00Z",
+    "clearedAt": "2026-01-05T14:41:00Z",
+    "workDate": "2026-01-05"
+  },
+  {
+    "alarmId": "ALARM-20260105-MCT-DEMO-02-0019",
+    "machineId": "MCT-DEMO-02",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W001",
+    "message": "Demo coolant warning",
+    "occurredAt": "2026-01-05T14:46:00Z",
+    "clearedAt": "2026-01-05T15:08:00Z",
+    "workDate": "2026-01-05"
+  },
+  {
+    "alarmId": "ALARM-20260106-CNC-DEMO-02-0020",
+    "machineId": "CNC-DEMO-02",
+    "severity": "INFO",
+    "alarmCode": "DEMO-I001",
+    "message": "Demo operator note",
+    "occurredAt": "2026-01-06T10:37:00Z",
+    "clearedAt": "2026-01-06T10:53:00Z",
+    "workDate": "2026-01-06"
+  },
+  {
+    "alarmId": "ALARM-20260106-CNC-DEMO-02-0021",
+    "machineId": "CNC-DEMO-02",
+    "severity": "INFO",
+    "alarmCode": "DEMO-I001",
+    "message": "Demo operator note",
+    "occurredAt": "2026-01-06T13:40:00Z",
+    "clearedAt": "2026-01-06T14:16:00Z",
+    "workDate": "2026-01-06"
+  },
+  {
+    "alarmId": "ALARM-20260106-MCT-DEMO-01-0022",
+    "machineId": "MCT-DEMO-01",
+    "severity": "INFO",
+    "alarmCode": "DEMO-I001",
+    "message": "Demo operator note",
+    "occurredAt": "2026-01-06T11:05:00Z",
+    "clearedAt": "2026-01-06T11:30:00Z",
+    "workDate": "2026-01-06"
+  },
+  {
+    "alarmId": "ALARM-20260107-CNC-DEMO-01-0023",
+    "machineId": "CNC-DEMO-01",
+    "severity": "INFO",
+    "alarmCode": "DEMO-I001",
+    "message": "Demo operator note",
+    "occurredAt": "2026-01-07T10:42:00Z",
+    "clearedAt": "2026-01-07T11:12:00Z",
+    "workDate": "2026-01-07"
+  },
+  {
+    "alarmId": "ALARM-20260107-MCT-DEMO-01-0024",
+    "machineId": "MCT-DEMO-01",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-07T10:24:00Z",
+    "clearedAt": "2026-01-07T10:49:00Z",
+    "workDate": "2026-01-07"
+  },
+  {
+    "alarmId": "ALARM-20260107-MCT-DEMO-02-0025",
+    "machineId": "MCT-DEMO-02",
+    "severity": "INFO",
+    "alarmCode": "DEMO-I001",
+    "message": "Demo operator note",
+    "occurredAt": "2026-01-07T12:38:00Z",
+    "clearedAt": "2026-01-07T12:43:00Z",
+    "workDate": "2026-01-07"
+  },
+  {
+    "alarmId": "ALARM-20260107-MCT-DEMO-02-0026",
+    "machineId": "MCT-DEMO-02",
+    "severity": "INFO",
+    "alarmCode": "DEMO-I001",
+    "message": "Demo operator note",
+    "occurredAt": "2026-01-07T11:46:00Z",
+    "clearedAt": "2026-01-07T11:54:00Z",
+    "workDate": "2026-01-07"
+  },
+  {
+    "alarmId": "ALARM-20260107-MCT-DEMO-03-0027",
+    "machineId": "MCT-DEMO-03",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-07T13:33:00Z",
+    "clearedAt": "2026-01-07T14:09:00Z",
+    "workDate": "2026-01-07"
+  },
+  {
+    "alarmId": "ALARM-20260108-CNC-DEMO-03-0028",
+    "machineId": "CNC-DEMO-03",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W002",
+    "message": "Demo tool wear warning",
+    "occurredAt": "2026-01-08T10:42:00Z",
+    "clearedAt": "2026-01-08T11:15:00Z",
+    "workDate": "2026-01-08"
+  },
+  {
+    "alarmId": "ALARM-20260108-MCT-DEMO-02-0029",
+    "machineId": "MCT-DEMO-02",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W001",
+    "message": "Demo coolant warning",
+    "occurredAt": "2026-01-08T13:37:00Z",
+    "clearedAt": "2026-01-08T14:20:00Z",
+    "workDate": "2026-01-08"
+  },
+  {
+    "alarmId": "ALARM-20260109-CNC-DEMO-02-0030",
+    "machineId": "CNC-DEMO-02",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W001",
+    "message": "Demo coolant warning",
+    "occurredAt": "2026-01-09T12:57:00Z",
+    "clearedAt": "2026-01-09T13:28:00Z",
+    "workDate": "2026-01-09"
+  },
+  {
+    "alarmId": "ALARM-20260109-CNC-DEMO-03-0031",
+    "machineId": "CNC-DEMO-03",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W001",
+    "message": "Demo coolant warning",
+    "occurredAt": "2026-01-09T12:11:00Z",
+    "clearedAt": "2026-01-09T12:23:00Z",
+    "workDate": "2026-01-09"
+  },
+  {
+    "alarmId": "ALARM-20260109-CNC-DEMO-03-0032",
+    "machineId": "CNC-DEMO-03",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W002",
+    "message": "Demo tool wear warning",
+    "occurredAt": "2026-01-09T12:30:00Z",
+    "clearedAt": "2026-01-09T12:53:00Z",
+    "workDate": "2026-01-09"
+  },
+  {
+    "alarmId": "ALARM-20260109-MCT-DEMO-01-0033",
+    "machineId": "MCT-DEMO-01",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-09T11:47:00Z",
+    "clearedAt": "2026-01-09T12:22:00Z",
+    "workDate": "2026-01-09"
+  },
+  {
+    "alarmId": "ALARM-20260109-MCT-DEMO-03-0034",
+    "machineId": "MCT-DEMO-03",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W002",
+    "message": "Demo tool wear warning",
+    "occurredAt": "2026-01-09T11:31:00Z",
+    "clearedAt": "2026-01-09T11:48:00Z",
+    "workDate": "2026-01-09"
+  },
+  {
+    "alarmId": "ALARM-20260110-CNC-DEMO-02-0035",
+    "machineId": "CNC-DEMO-02",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W002",
+    "message": "Demo tool wear warning",
+    "occurredAt": "2026-01-10T08:50:00Z",
+    "clearedAt": "2026-01-10T09:12:00Z",
+    "workDate": "2026-01-10"
+  },
+  {
+    "alarmId": "ALARM-20260110-MCT-DEMO-02-0036",
+    "machineId": "MCT-DEMO-02",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-10T15:15:00Z",
+    "clearedAt": "2026-01-10T15:20:00Z",
+    "workDate": "2026-01-10"
+  },
+  {
+    "alarmId": "ALARM-20260110-MCT-DEMO-03-0037",
+    "machineId": "MCT-DEMO-03",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-10T13:15:00Z",
+    "clearedAt": "2026-01-10T13:57:00Z",
+    "workDate": "2026-01-10"
+  },
+  {
+    "alarmId": "ALARM-20260111-CNC-DEMO-02-0038",
+    "machineId": "CNC-DEMO-02",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W002",
+    "message": "Demo tool wear warning",
+    "occurredAt": "2026-01-11T12:03:00Z",
+    "clearedAt": "2026-01-11T12:42:00Z",
+    "workDate": "2026-01-11"
+  },
+  {
+    "alarmId": "ALARM-20260111-CNC-DEMO-03-0039",
+    "machineId": "CNC-DEMO-03",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-11T12:57:00Z",
+    "clearedAt": "2026-01-11T13:36:00Z",
+    "workDate": "2026-01-11"
+  },
+  {
+    "alarmId": "ALARM-20260111-MCT-DEMO-01-0040",
+    "machineId": "MCT-DEMO-01",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-11T09:51:00Z",
+    "clearedAt": "2026-01-11T10:11:00Z",
+    "workDate": "2026-01-11"
+  },
+  {
+    "alarmId": "ALARM-20260111-MCT-DEMO-03-0041",
+    "machineId": "MCT-DEMO-03",
+    "severity": "INFO",
+    "alarmCode": "DEMO-I001",
+    "message": "Demo operator note",
+    "occurredAt": "2026-01-11T08:37:00Z",
+    "clearedAt": "2026-01-11T09:02:00Z",
+    "workDate": "2026-01-11"
+  },
+  {
+    "alarmId": "ALARM-20260112-MCT-DEMO-01-0042",
+    "machineId": "MCT-DEMO-01",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W002",
+    "message": "Demo tool wear warning",
+    "occurredAt": "2026-01-12T12:28:00Z",
+    "clearedAt": "2026-01-12T12:35:00Z",
+    "workDate": "2026-01-12"
+  },
+  {
+    "alarmId": "ALARM-20260112-MCT-DEMO-02-0043",
+    "machineId": "MCT-DEMO-02",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-12T09:06:00Z",
+    "clearedAt": "2026-01-12T09:39:00Z",
+    "workDate": "2026-01-12"
+  },
+  {
+    "alarmId": "ALARM-20260112-MCT-DEMO-02-0044",
+    "machineId": "MCT-DEMO-02",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W001",
+    "message": "Demo coolant warning",
+    "occurredAt": "2026-01-12T12:44:00Z",
+    "clearedAt": "2026-01-12T13:18:00Z",
+    "workDate": "2026-01-12"
+  },
+  {
+    "alarmId": "ALARM-20260112-MCT-DEMO-03-0045",
+    "machineId": "MCT-DEMO-03",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W002",
+    "message": "Demo tool wear warning",
+    "occurredAt": "2026-01-12T11:44:00Z",
+    "clearedAt": "2026-01-12T11:58:00Z",
+    "workDate": "2026-01-12"
+  },
+  {
+    "alarmId": "ALARM-20260112-MCT-DEMO-03-0046",
+    "machineId": "MCT-DEMO-03",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W001",
+    "message": "Demo coolant warning",
+    "occurredAt": "2026-01-12T12:15:00Z",
+    "clearedAt": "2026-01-12T12:36:00Z",
+    "workDate": "2026-01-12"
+  },
+  {
+    "alarmId": "ALARM-20260113-CNC-DEMO-01-0047",
+    "machineId": "CNC-DEMO-01",
+    "severity": "INFO",
+    "alarmCode": "DEMO-I001",
+    "message": "Demo operator note",
+    "occurredAt": "2026-01-13T13:47:00Z",
+    "clearedAt": "2026-01-13T13:57:00Z",
+    "workDate": "2026-01-13"
+  },
+  {
+    "alarmId": "ALARM-20260113-MCT-DEMO-02-0048",
+    "machineId": "MCT-DEMO-02",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-13T13:35:00Z",
+    "clearedAt": "2026-01-13T14:11:00Z",
+    "workDate": "2026-01-13"
+  },
+  {
+    "alarmId": "ALARM-20260114-CNC-DEMO-01-0049",
+    "machineId": "CNC-DEMO-01",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W001",
+    "message": "Demo coolant warning",
+    "occurredAt": "2026-01-14T10:15:00Z",
+    "clearedAt": "2026-01-14T11:00:00Z",
+    "workDate": "2026-01-14"
+  },
+  {
+    "alarmId": "ALARM-20260114-CNC-DEMO-01-0050",
+    "machineId": "CNC-DEMO-01",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-14T10:11:00Z",
+    "clearedAt": "2026-01-14T10:21:00Z",
+    "workDate": "2026-01-14"
+  },
+  {
+    "alarmId": "ALARM-20260114-CNC-DEMO-02-0051",
+    "machineId": "CNC-DEMO-02",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W001",
+    "message": "Demo coolant warning",
+    "occurredAt": "2026-01-14T14:44:00Z",
+    "clearedAt": "2026-01-14T15:29:00Z",
+    "workDate": "2026-01-14"
+  },
+  {
+    "alarmId": "ALARM-20260114-MCT-DEMO-01-0052",
+    "machineId": "MCT-DEMO-01",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W002",
+    "message": "Demo tool wear warning",
+    "occurredAt": "2026-01-14T14:10:00Z",
+    "clearedAt": "2026-01-14T14:34:00Z",
+    "workDate": "2026-01-14"
+  },
+  {
+    "alarmId": "ALARM-20260114-MCT-DEMO-01-0053",
+    "machineId": "MCT-DEMO-01",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W001",
+    "message": "Demo coolant warning",
+    "occurredAt": "2026-01-14T08:38:00Z",
+    "clearedAt": "2026-01-14T09:03:00Z",
+    "workDate": "2026-01-14"
+  },
+  {
+    "alarmId": "ALARM-20260114-MCT-DEMO-03-0054",
+    "machineId": "MCT-DEMO-03",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-14T11:55:00Z",
+    "clearedAt": "2026-01-14T12:09:00Z",
+    "workDate": "2026-01-14"
+  },
+  {
+    "alarmId": "ALARM-20260115-CNC-DEMO-01-0055",
+    "machineId": "CNC-DEMO-01",
+    "severity": "INFO",
+    "alarmCode": "DEMO-I001",
+    "message": "Demo operator note",
+    "occurredAt": "2026-01-15T13:04:00Z",
+    "clearedAt": "2026-01-15T13:20:00Z",
+    "workDate": "2026-01-15"
+  },
+  {
+    "alarmId": "ALARM-20260115-CNC-DEMO-02-0056",
+    "machineId": "CNC-DEMO-02",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W001",
+    "message": "Demo coolant warning",
+    "occurredAt": "2026-01-15T13:27:00Z",
+    "clearedAt": "2026-01-15T13:56:00Z",
+    "workDate": "2026-01-15"
+  },
+  {
+    "alarmId": "ALARM-20260115-CNC-DEMO-02-0057",
+    "machineId": "CNC-DEMO-02",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W002",
+    "message": "Demo tool wear warning",
+    "occurredAt": "2026-01-15T12:29:00Z",
+    "clearedAt": "2026-01-15T13:11:00Z",
+    "workDate": "2026-01-15"
+  },
+  {
+    "alarmId": "ALARM-20260115-CNC-DEMO-03-0058",
+    "machineId": "CNC-DEMO-03",
+    "severity": "INFO",
+    "alarmCode": "DEMO-I001",
+    "message": "Demo operator note",
+    "occurredAt": "2026-01-15T13:41:00Z",
+    "clearedAt": "2026-01-15T14:02:00Z",
+    "workDate": "2026-01-15"
+  },
+  {
+    "alarmId": "ALARM-20260115-CNC-DEMO-03-0059",
+    "machineId": "CNC-DEMO-03",
+    "severity": "INFO",
+    "alarmCode": "DEMO-I001",
+    "message": "Demo operator note",
+    "occurredAt": "2026-01-15T10:25:00Z",
+    "clearedAt": "2026-01-15T10:30:00Z",
+    "workDate": "2026-01-15"
+  },
+  {
+    "alarmId": "ALARM-20260115-MCT-DEMO-02-0060",
+    "machineId": "MCT-DEMO-02",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-15T14:01:00Z",
+    "clearedAt": "2026-01-15T14:40:00Z",
+    "workDate": "2026-01-15"
+  },
+  {
+    "alarmId": "ALARM-20260115-MCT-DEMO-03-0061",
+    "machineId": "MCT-DEMO-03",
+    "severity": "INFO",
+    "alarmCode": "DEMO-I001",
+    "message": "Demo operator note",
+    "occurredAt": "2026-01-15T11:11:00Z",
+    "clearedAt": "2026-01-15T11:53:00Z",
+    "workDate": "2026-01-15"
+  },
+  {
+    "alarmId": "ALARM-20260115-MCT-DEMO-03-0062",
+    "machineId": "MCT-DEMO-03",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-15T13:42:00Z",
+    "clearedAt": "2026-01-15T14:14:00Z",
+    "workDate": "2026-01-15"
+  },
+  {
+    "alarmId": "ALARM-20260115-MCT-DEMO-03-0063",
+    "machineId": "MCT-DEMO-03",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-15T13:30:00Z",
+    "clearedAt": "2026-01-15T13:55:00Z",
+    "workDate": "2026-01-15"
+  },
+  {
+    "alarmId": "ALARM-20260116-CNC-DEMO-02-0064",
+    "machineId": "CNC-DEMO-02",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-16T09:56:00Z",
+    "clearedAt": "2026-01-16T10:25:00Z",
+    "workDate": "2026-01-16"
+  },
+  {
+    "alarmId": "ALARM-20260116-MCT-DEMO-01-0065",
+    "machineId": "MCT-DEMO-01",
+    "severity": "INFO",
+    "alarmCode": "DEMO-I001",
+    "message": "Demo operator note",
+    "occurredAt": "2026-01-16T13:07:00Z",
+    "clearedAt": "2026-01-16T13:34:00Z",
+    "workDate": "2026-01-16"
+  },
+  {
+    "alarmId": "ALARM-20260116-MCT-DEMO-01-0066",
+    "machineId": "MCT-DEMO-01",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-16T14:13:00Z",
+    "clearedAt": "2026-01-16T14:36:00Z",
+    "workDate": "2026-01-16"
+  },
+  {
+    "alarmId": "ALARM-20260116-MCT-DEMO-02-0067",
+    "machineId": "MCT-DEMO-02",
+    "severity": "INFO",
+    "alarmCode": "DEMO-I001",
+    "message": "Demo operator note",
+    "occurredAt": "2026-01-16T10:35:00Z",
+    "clearedAt": "2026-01-16T10:40:00Z",
+    "workDate": "2026-01-16"
+  },
+  {
+    "alarmId": "ALARM-20260116-MCT-DEMO-02-0068",
+    "machineId": "MCT-DEMO-02",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W001",
+    "message": "Demo coolant warning",
+    "occurredAt": "2026-01-16T13:25:00Z",
+    "clearedAt": "2026-01-16T14:01:00Z",
+    "workDate": "2026-01-16"
+  },
+  {
+    "alarmId": "ALARM-20260116-MCT-DEMO-02-0069",
+    "machineId": "MCT-DEMO-02",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-16T13:30:00Z",
+    "clearedAt": "2026-01-16T13:55:00Z",
+    "workDate": "2026-01-16"
+  },
+  {
+    "alarmId": "ALARM-20260117-CNC-DEMO-03-0070",
+    "machineId": "CNC-DEMO-03",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-17T10:07:00Z",
+    "clearedAt": "2026-01-17T10:52:00Z",
+    "workDate": "2026-01-17"
+  },
+  {
+    "alarmId": "ALARM-20260117-MCT-DEMO-01-0071",
+    "machineId": "MCT-DEMO-01",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-17T14:02:00Z",
+    "clearedAt": "2026-01-17T14:15:00Z",
+    "workDate": "2026-01-17"
+  },
+  {
+    "alarmId": "ALARM-20260117-MCT-DEMO-01-0072",
+    "machineId": "MCT-DEMO-01",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-17T13:30:00Z",
+    "clearedAt": "2026-01-17T13:55:00Z",
+    "workDate": "2026-01-17"
+  },
+  {
+    "alarmId": "ALARM-20260118-CNC-DEMO-02-0073",
+    "machineId": "CNC-DEMO-02",
+    "severity": "INFO",
+    "alarmCode": "DEMO-I001",
+    "message": "Demo operator note",
+    "occurredAt": "2026-01-18T08:32:00Z",
+    "clearedAt": "2026-01-18T09:14:00Z",
+    "workDate": "2026-01-18"
+  },
+  {
+    "alarmId": "ALARM-20260118-CNC-DEMO-03-0074",
+    "machineId": "CNC-DEMO-03",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W002",
+    "message": "Demo tool wear warning",
+    "occurredAt": "2026-01-18T09:01:00Z",
+    "clearedAt": "2026-01-18T09:24:00Z",
+    "workDate": "2026-01-18"
+  },
+  {
+    "alarmId": "ALARM-20260118-CNC-DEMO-03-0075",
+    "machineId": "CNC-DEMO-03",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-18T13:30:00Z",
+    "clearedAt": "2026-01-18T13:55:00Z",
+    "workDate": "2026-01-18"
+  },
+  {
+    "alarmId": "ALARM-20260118-MCT-DEMO-01-0076",
+    "machineId": "MCT-DEMO-01",
+    "severity": "INFO",
+    "alarmCode": "DEMO-I001",
+    "message": "Demo operator note",
+    "occurredAt": "2026-01-18T09:44:00Z",
+    "clearedAt": "2026-01-18T10:01:00Z",
+    "workDate": "2026-01-18"
+  },
+  {
+    "alarmId": "ALARM-20260118-MCT-DEMO-02-0077",
+    "machineId": "MCT-DEMO-02",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-18T12:46:00Z",
+    "clearedAt": "2026-01-18T13:23:00Z",
+    "workDate": "2026-01-18"
+  },
+  {
+    "alarmId": "ALARM-20260118-MCT-DEMO-02-0078",
+    "machineId": "MCT-DEMO-02",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-18T09:39:00Z",
+    "clearedAt": "2026-01-18T10:00:00Z",
+    "workDate": "2026-01-18"
+  },
+  {
+    "alarmId": "ALARM-20260119-CNC-DEMO-02-0079",
+    "machineId": "CNC-DEMO-02",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-19T13:30:00Z",
+    "clearedAt": "2026-01-19T13:55:00Z",
+    "workDate": "2026-01-19"
+  },
+  {
+    "alarmId": "ALARM-20260119-CNC-DEMO-03-0080",
+    "machineId": "CNC-DEMO-03",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-19T15:06:00Z",
+    "clearedAt": "2026-01-19T15:18:00Z",
+    "workDate": "2026-01-19"
+  },
+  {
+    "alarmId": "ALARM-20260119-MCT-DEMO-01-0081",
+    "machineId": "MCT-DEMO-01",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W001",
+    "message": "Demo coolant warning",
+    "occurredAt": "2026-01-19T09:27:00Z",
+    "clearedAt": "2026-01-19T09:46:00Z",
+    "workDate": "2026-01-19"
+  },
+  {
+    "alarmId": "ALARM-20260120-CNC-DEMO-01-0082",
+    "machineId": "CNC-DEMO-01",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-20T13:30:00Z",
+    "clearedAt": "2026-01-20T13:55:00Z",
+    "workDate": "2026-01-20"
+  },
+  {
+    "alarmId": "ALARM-20260120-MCT-DEMO-01-0083",
+    "machineId": "MCT-DEMO-01",
+    "severity": "INFO",
+    "alarmCode": "DEMO-I001",
+    "message": "Demo operator note",
+    "occurredAt": "2026-01-20T08:22:00Z",
+    "clearedAt": "2026-01-20T08:43:00Z",
+    "workDate": "2026-01-20"
+  },
+  {
+    "alarmId": "ALARM-20260120-MCT-DEMO-03-0084",
+    "machineId": "MCT-DEMO-03",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-20T13:14:00Z",
+    "clearedAt": "2026-01-20T13:43:00Z",
+    "workDate": "2026-01-20"
+  },
+  {
+    "alarmId": "ALARM-20260121-CNC-DEMO-03-0085",
+    "machineId": "CNC-DEMO-03",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W002",
+    "message": "Demo tool wear warning",
+    "occurredAt": "2026-01-21T12:16:00Z",
+    "clearedAt": "2026-01-21T12:22:00Z",
+    "workDate": "2026-01-21"
+  },
+  {
+    "alarmId": "ALARM-20260121-CNC-DEMO-03-0086",
+    "machineId": "CNC-DEMO-03",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-21T13:27:00Z",
+    "clearedAt": "2026-01-21T13:46:00Z",
+    "workDate": "2026-01-21"
+  },
+  {
+    "alarmId": "ALARM-20260121-MCT-DEMO-03-0087",
+    "machineId": "MCT-DEMO-03",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-21T13:47:00Z",
+    "clearedAt": "2026-01-21T14:18:00Z",
+    "workDate": "2026-01-21"
+  },
+  {
+    "alarmId": "ALARM-20260122-CNC-DEMO-01-0088",
+    "machineId": "CNC-DEMO-01",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W001",
+    "message": "Demo coolant warning",
+    "occurredAt": "2026-01-22T08:34:00Z",
+    "clearedAt": "2026-01-22T08:58:00Z",
+    "workDate": "2026-01-22"
+  },
+  {
+    "alarmId": "ALARM-20260122-CNC-DEMO-01-0089",
+    "machineId": "CNC-DEMO-01",
+    "severity": "INFO",
+    "alarmCode": "DEMO-I001",
+    "message": "Demo operator note",
+    "occurredAt": "2026-01-22T09:14:00Z",
+    "clearedAt": "2026-01-22T09:25:00Z",
+    "workDate": "2026-01-22"
+  },
+  {
+    "alarmId": "ALARM-20260122-CNC-DEMO-02-0090",
+    "machineId": "CNC-DEMO-02",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W002",
+    "message": "Demo tool wear warning",
+    "occurredAt": "2026-01-22T11:33:00Z",
+    "clearedAt": "2026-01-22T12:07:00Z",
+    "workDate": "2026-01-22"
+  },
+  {
+    "alarmId": "ALARM-20260122-CNC-DEMO-03-0091",
+    "machineId": "CNC-DEMO-03",
+    "severity": "INFO",
+    "alarmCode": "DEMO-I001",
+    "message": "Demo operator note",
+    "occurredAt": "2026-01-22T13:15:00Z",
+    "clearedAt": "2026-01-22T13:29:00Z",
+    "workDate": "2026-01-22"
+  },
+  {
+    "alarmId": "ALARM-20260123-CNC-DEMO-03-0092",
+    "machineId": "CNC-DEMO-03",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-23T10:06:00Z",
+    "clearedAt": "2026-01-23T10:39:00Z",
+    "workDate": "2026-01-23"
+  },
+  {
+    "alarmId": "ALARM-20260123-MCT-DEMO-01-0093",
+    "machineId": "MCT-DEMO-01",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W002",
+    "message": "Demo tool wear warning",
+    "occurredAt": "2026-01-23T11:20:00Z",
+    "clearedAt": "2026-01-23T11:31:00Z",
+    "workDate": "2026-01-23"
+  },
+  {
+    "alarmId": "ALARM-20260123-MCT-DEMO-03-0094",
+    "machineId": "MCT-DEMO-03",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-23T08:46:00Z",
+    "clearedAt": "2026-01-23T09:16:00Z",
+    "workDate": "2026-01-23"
+  },
+  {
+    "alarmId": "ALARM-20260124-CNC-DEMO-01-0095",
+    "machineId": "CNC-DEMO-01",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W001",
+    "message": "Demo coolant warning",
+    "occurredAt": "2026-01-24T12:07:00Z",
+    "clearedAt": "2026-01-24T12:17:00Z",
+    "workDate": "2026-01-24"
+  },
+  {
+    "alarmId": "ALARM-20260124-MCT-DEMO-02-0096",
+    "machineId": "MCT-DEMO-02",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-24T10:19:00Z",
+    "clearedAt": "2026-01-24T10:32:00Z",
+    "workDate": "2026-01-24"
+  },
+  {
+    "alarmId": "ALARM-20260124-MCT-DEMO-02-0097",
+    "machineId": "MCT-DEMO-02",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W002",
+    "message": "Demo tool wear warning",
+    "occurredAt": "2026-01-24T08:50:00Z",
+    "clearedAt": "2026-01-24T09:30:00Z",
+    "workDate": "2026-01-24"
+  },
+  {
+    "alarmId": "ALARM-20260124-MCT-DEMO-03-0098",
+    "machineId": "MCT-DEMO-03",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W002",
+    "message": "Demo tool wear warning",
+    "occurredAt": "2026-01-24T15:11:00Z",
+    "clearedAt": "2026-01-24T15:30:00Z",
+    "workDate": "2026-01-24"
+  },
+  {
+    "alarmId": "ALARM-20260125-CNC-DEMO-01-0099",
+    "machineId": "CNC-DEMO-01",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W002",
+    "message": "Demo tool wear warning",
+    "occurredAt": "2026-01-25T14:58:00Z",
+    "clearedAt": "2026-01-25T15:41:00Z",
+    "workDate": "2026-01-25"
+  },
+  {
+    "alarmId": "ALARM-20260125-CNC-DEMO-02-0100",
+    "machineId": "CNC-DEMO-02",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W002",
+    "message": "Demo tool wear warning",
+    "occurredAt": "2026-01-25T09:21:00Z",
+    "clearedAt": "2026-01-25T10:00:00Z",
+    "workDate": "2026-01-25"
+  },
+  {
+    "alarmId": "ALARM-20260125-CNC-DEMO-02-0101",
+    "machineId": "CNC-DEMO-02",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-25T15:03:00Z",
+    "clearedAt": "2026-01-25T15:19:00Z",
+    "workDate": "2026-01-25"
+  },
+  {
+    "alarmId": "ALARM-20260125-CNC-DEMO-03-0102",
+    "machineId": "CNC-DEMO-03",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W001",
+    "message": "Demo coolant warning",
+    "occurredAt": "2026-01-25T09:22:00Z",
+    "clearedAt": "2026-01-25T09:27:00Z",
+    "workDate": "2026-01-25"
+  },
+  {
+    "alarmId": "ALARM-20260125-CNC-DEMO-03-0103",
+    "machineId": "CNC-DEMO-03",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-25T14:59:00Z",
+    "clearedAt": "2026-01-25T15:19:00Z",
+    "workDate": "2026-01-25"
+  },
+  {
+    "alarmId": "ALARM-20260125-MCT-DEMO-02-0104",
+    "machineId": "MCT-DEMO-02",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-25T08:41:00Z",
+    "clearedAt": "2026-01-25T08:54:00Z",
+    "workDate": "2026-01-25"
+  },
+  {
+    "alarmId": "ALARM-20260125-MCT-DEMO-02-0105",
+    "machineId": "MCT-DEMO-02",
+    "severity": "INFO",
+    "alarmCode": "DEMO-I001",
+    "message": "Demo operator note",
+    "occurredAt": "2026-01-25T12:44:00Z",
+    "clearedAt": "2026-01-25T12:56:00Z",
+    "workDate": "2026-01-25"
+  },
+  {
+    "alarmId": "ALARM-20260126-CNC-DEMO-01-0106",
+    "machineId": "CNC-DEMO-01",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-26T12:37:00Z",
+    "clearedAt": "2026-01-26T13:19:00Z",
+    "workDate": "2026-01-26"
+  },
+  {
+    "alarmId": "ALARM-20260126-CNC-DEMO-02-0107",
+    "machineId": "CNC-DEMO-02",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W002",
+    "message": "Demo tool wear warning",
+    "occurredAt": "2026-01-26T13:29:00Z",
+    "clearedAt": "2026-01-26T13:36:00Z",
+    "workDate": "2026-01-26"
+  },
+  {
+    "alarmId": "ALARM-20260126-CNC-DEMO-02-0108",
+    "machineId": "CNC-DEMO-02",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-26T12:09:00Z",
+    "clearedAt": "2026-01-26T12:15:00Z",
+    "workDate": "2026-01-26"
+  },
+  {
+    "alarmId": "ALARM-20260126-CNC-DEMO-03-0109",
+    "machineId": "CNC-DEMO-03",
+    "severity": "INFO",
+    "alarmCode": "DEMO-I001",
+    "message": "Demo operator note",
+    "occurredAt": "2026-01-26T11:40:00Z",
+    "clearedAt": "2026-01-26T12:12:00Z",
+    "workDate": "2026-01-26"
+  },
+  {
+    "alarmId": "ALARM-20260126-CNC-DEMO-03-0110",
+    "machineId": "CNC-DEMO-03",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W001",
+    "message": "Demo coolant warning",
+    "occurredAt": "2026-01-26T12:26:00Z",
+    "clearedAt": "2026-01-26T12:59:00Z",
+    "workDate": "2026-01-26"
+  },
+  {
+    "alarmId": "ALARM-20260126-MCT-DEMO-01-0111",
+    "machineId": "MCT-DEMO-01",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W001",
+    "message": "Demo coolant warning",
+    "occurredAt": "2026-01-26T10:59:00Z",
+    "clearedAt": "2026-01-26T11:42:00Z",
+    "workDate": "2026-01-26"
+  },
+  {
+    "alarmId": "ALARM-20260126-MCT-DEMO-01-0112",
+    "machineId": "MCT-DEMO-01",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W002",
+    "message": "Demo tool wear warning",
+    "occurredAt": "2026-01-26T08:48:00Z",
+    "clearedAt": "2026-01-26T09:01:00Z",
+    "workDate": "2026-01-26"
+  },
+  {
+    "alarmId": "ALARM-20260126-MCT-DEMO-02-0113",
+    "machineId": "MCT-DEMO-02",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-26T11:30:00Z",
+    "clearedAt": "2026-01-26T12:13:00Z",
+    "workDate": "2026-01-26"
+  },
+  {
+    "alarmId": "ALARM-20260127-CNC-DEMO-01-0114",
+    "machineId": "CNC-DEMO-01",
+    "severity": "INFO",
+    "alarmCode": "DEMO-I001",
+    "message": "Demo operator note",
+    "occurredAt": "2026-01-27T09:05:00Z",
+    "clearedAt": "2026-01-27T09:17:00Z",
+    "workDate": "2026-01-27"
+  },
+  {
+    "alarmId": "ALARM-20260127-MCT-DEMO-03-0115",
+    "machineId": "MCT-DEMO-03",
+    "severity": "INFO",
+    "alarmCode": "DEMO-I001",
+    "message": "Demo operator note",
+    "occurredAt": "2026-01-27T10:11:00Z",
+    "clearedAt": "2026-01-27T10:42:00Z",
+    "workDate": "2026-01-27"
+  },
+  {
+    "alarmId": "ALARM-20260128-CNC-DEMO-01-0116",
+    "machineId": "CNC-DEMO-01",
+    "severity": "INFO",
+    "alarmCode": "DEMO-I001",
+    "message": "Demo operator note",
+    "occurredAt": "2026-01-28T11:39:00Z",
+    "clearedAt": "2026-01-28T12:10:00Z",
+    "workDate": "2026-01-28"
+  },
+  {
+    "alarmId": "ALARM-20260128-CNC-DEMO-03-0117",
+    "machineId": "CNC-DEMO-03",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-28T13:55:00Z",
+    "clearedAt": "2026-01-28T14:16:00Z",
+    "workDate": "2026-01-28"
+  },
+  {
+    "alarmId": "ALARM-20260128-MCT-DEMO-01-0118",
+    "machineId": "MCT-DEMO-01",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W002",
+    "message": "Demo tool wear warning",
+    "occurredAt": "2026-01-28T14:06:00Z",
+    "clearedAt": "2026-01-28T14:41:00Z",
+    "workDate": "2026-01-28"
+  },
+  {
+    "alarmId": "ALARM-20260128-MCT-DEMO-02-0119",
+    "machineId": "MCT-DEMO-02",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W001",
+    "message": "Demo coolant warning",
+    "occurredAt": "2026-01-28T09:02:00Z",
+    "clearedAt": "2026-01-28T09:34:00Z",
+    "workDate": "2026-01-28"
+  },
+  {
+    "alarmId": "ALARM-20260128-MCT-DEMO-02-0120",
+    "machineId": "MCT-DEMO-02",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W001",
+    "message": "Demo coolant warning",
+    "occurredAt": "2026-01-28T14:36:00Z",
+    "clearedAt": "2026-01-28T15:04:00Z",
+    "workDate": "2026-01-28"
+  },
+  {
+    "alarmId": "ALARM-20260129-MCT-DEMO-01-0121",
+    "machineId": "MCT-DEMO-01",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W001",
+    "message": "Demo coolant warning",
+    "occurredAt": "2026-01-29T11:45:00Z",
+    "clearedAt": "2026-01-29T12:12:00Z",
+    "workDate": "2026-01-29"
+  },
+  {
+    "alarmId": "ALARM-20260130-CNC-DEMO-01-0122",
+    "machineId": "CNC-DEMO-01",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W001",
+    "message": "Demo coolant warning",
+    "occurredAt": "2026-01-30T10:42:00Z",
+    "clearedAt": "2026-01-30T11:25:00Z",
+    "workDate": "2026-01-30"
+  },
+  {
+    "alarmId": "ALARM-20260130-CNC-DEMO-02-0123",
+    "machineId": "CNC-DEMO-02",
+    "severity": "WARNING",
+    "alarmCode": "DEMO-W001",
+    "message": "Demo coolant warning",
+    "occurredAt": "2026-01-30T13:10:00Z",
+    "clearedAt": "2026-01-30T13:47:00Z",
+    "workDate": "2026-01-30"
+  },
+  {
+    "alarmId": "ALARM-20260130-CNC-DEMO-03-0124",
+    "machineId": "CNC-DEMO-03",
+    "severity": "INFO",
+    "alarmCode": "DEMO-I001",
+    "message": "Demo operator note",
+    "occurredAt": "2026-01-30T10:09:00Z",
+    "clearedAt": "2026-01-30T10:20:00Z",
+    "workDate": "2026-01-30"
+  },
+  {
+    "alarmId": "ALARM-20260130-MCT-DEMO-01-0125",
+    "machineId": "MCT-DEMO-01",
+    "severity": "CRITICAL",
+    "alarmCode": "DEMO-C001",
+    "message": "Demo spindle stop",
+    "occurredAt": "2026-01-30T09:13:00Z",
+    "clearedAt": "2026-01-30T09:35:00Z",
+    "workDate": "2026-01-30"
+  }
+]

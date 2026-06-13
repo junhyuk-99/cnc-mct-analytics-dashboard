@@ -33,6 +33,16 @@ The planned demo will show analytics workflows for CNC/MCT equipment using a loc
 4. Run the React frontend.
 5. Open the dashboard and review synthetic CNC/MCT analytics.
 
+## Sample Data
+
+Generate local synthetic sample data with:
+
+```bash
+python scripts/generate_sample_data.py
+```
+
+The generated files under `sample-data/` are fake demo records only. They are not copied from real production systems.
+
 ## Security Notice
 
 - Do not add production `.env` files.

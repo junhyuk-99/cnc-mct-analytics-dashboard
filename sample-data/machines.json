@@ -1,0 +1,50 @@
+[
+  {
+    "machineId": "CNC-DEMO-01",
+    "machineName": "Demo CNC 01",
+    "machineType": "CNC",
+    "line": "Demo Line A",
+    "enabled": true,
+    "plannedDailySeconds": 28800
+  },
+  {
+    "machineId": "CNC-DEMO-02",
+    "machineName": "Demo CNC 02",
+    "machineType": "CNC",
+    "line": "Demo Line A",
+    "enabled": true,
+    "plannedDailySeconds": 28800
+  },
+  {
+    "machineId": "CNC-DEMO-03",
+    "machineName": "Demo CNC 03",
+    "machineType": "CNC",
+    "line": "Demo Line B",
+    "enabled": true,
+    "plannedDailySeconds": 28800
+  },
+  {
+    "machineId": "MCT-DEMO-01",
+    "machineName": "Demo MCT 01",
+    "machineType": "MCT",
+    "line": "Demo Line C",
+    "enabled": true,
+    "plannedDailySeconds": 28800
+  },
+  {
+    "machineId": "MCT-DEMO-02",
+    "machineName": "Demo MCT 02",
+    "machineType": "MCT",
+    "line": "Demo Line C",
+    "enabled": true,
+    "plannedDailySeconds": 28800
+  },
+  {
+    "machineId": "MCT-DEMO-03",
+    "machineName": "Demo MCT 03",
+    "machineType": "MCT",
+    "line": "Demo Line D",
+    "enabled": true,
+    "plannedDailySeconds": 28800
+  }
+]
