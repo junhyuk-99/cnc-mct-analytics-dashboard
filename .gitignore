@@ -1,24 +1,103 @@
-# Compiled class file
+# Dependencies
+node_modules/
+.pnp/
+.pnp.*
+
+# Java / Spring Boot / Gradle
+.gradle/
+build/
+target/
+out/
+bin/
 *.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
 *.jar
 *.war
-*.nar
 *.ear
-*.zip
-*.tar.gz
-*.rar
+*.nar
+!gradle/wrapper/gradle-wrapper.jar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# React / frontend build output
+dist/
+coverage/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.local
+*.local.*
+application-local.yml
+application-local.yaml
+application-prod.yml
+application-prod.yaml
+application-*.local.yml
+application-*.local.yaml
+bootstrap-local.yml
+bootstrap-prod.yml
+
+# Keys and certificates
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+*.cert
+*.crt
+ssl/
+certs/
+
+# Logs and runtime output
+logs/
+*.log
+*.err
+*.out
+bootrun*
 hs_err_pid*
 replay_pid*
+
+# Database dumps, backups, and real exports
+*.sql
+*.dump
+*.bak
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+*.xlsx
+*.xls
+*.parquet
+dumps/
+backups/
+exports/
+real-data/
+captures/
+real-screenshots/
+
+# Synthetic demo data is allowed here
+!sample-data/
+!sample-data/**/*.json
+!sample-data/**/*.md
+
+# Screenshots are allowed only when demo/synthetic
+!screenshots/
+!screenshots/**/*.png
+!screenshots/**/*.jpg
+!screenshots/**/*.jpeg
+!screenshots/**/*.md
+
+# IDE and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
