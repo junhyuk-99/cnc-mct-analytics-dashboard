@@ -47,7 +47,6 @@ The demo shows analytics workflows for CNC/MCT equipment using a local-only stac
 
 ![Alarm History](screenshots/dashboard-alarm-history.png)
 
-
 ## Sample Data
 
 Generate local synthetic sample data with:
