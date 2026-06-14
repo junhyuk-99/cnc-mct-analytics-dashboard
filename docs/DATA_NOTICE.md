@@ -1,25 +1,25 @@
-# Data Notice
+# 데이터 고지
 
-All data in this repository must be synthetic sample data.
+이 저장소의 모든 데이터는 합성 샘플 데이터입니다.
 
-This demo must not include real production data, equipment history, alarm history, LOT numbers, production order numbers, user information, customer information, logs, screenshots, or operational exports.
+이 데모는 실제 운영 데이터, 설비 이력, 알람 이력, LOT 번호, 생산 지시 번호, 사용자 정보, 고객 정보, 로그, 스크린샷, 운영 익스포트를 포함하지 않습니다.
 
-## Planned Synthetic Sample Files
+## 합성 샘플 파일
 
-The `sample-data/` directory may later contain files such as:
+`sample-data/` 디렉터리는 다음 파일로 구성됩니다:
 
 - `machines.json`
 - `status-history.json`
 - `runtime-cuttime.json`
 - `alarm-history.json`
-- `utilization-summary.json`
+- `daily-summary.json`
 
-These files must be generated for the demo and must not be copied from real systems.
+이 파일들은 데모용으로 생성된 것이며, 실제 시스템에서 복사한 데이터가 아닙니다.
 
-## Data Generation Rules
+## 데이터 생성 규칙
 
-- Use fake machine IDs such as `CNC-DEMO-01` or `MCT-DEMO-01`.
-- Use fake timestamps and metric values.
-- Use fake alarm codes and descriptions.
-- Avoid real customer names, real site names, real operator names, real phone numbers, and real emails.
-- Keep sample volume small enough for public review and local testing.
+- `CNC-DEMO-01`, `MCT-DEMO-01` 같은 가짜 설비 ID 사용
+- 가짜 타임스탬프 및 지표 값 사용
+- 가짜 알람 코드 및 설명 사용
+- 실제 고객명, 사이트명, 작업자명, 전화번호, 이메일 사용 금지
+- 공개 검토 및 로컬 테스트에 적합하도록 샘플 규모를 작게 유지
