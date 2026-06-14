@@ -33,6 +33,19 @@ The demo shows analytics workflows for CNC/MCT equipment using a local-only stac
 
 The frontend uses a dark `Synthetic Precision` command-center interface. It is read-only and replaces unavailable live camera, G-code, and production-control concepts with synthetic analytics panels derived from the local demo API.
 
+## My Role / Contribution
+
+Role: Sole developer
+
+Contribution:
+
+- Designed and implemented the Spring Boot backend API.
+- Designed and implemented the React + TypeScript dashboard frontend.
+- Designed the MongoDB demo schema and synthetic sample dataset.
+- Implemented equipment utilization, Runtime / CutTime ratio, alarm history, machine status distribution, and KPI dashboard views.
+- Rebuilt the public demo repository from the architecture and workflows of a real deployed manufacturing dashboard project.
+- Removed production source code, production data, customer information, credentials, infrastructure details, and private environment values.
+
 ## Tech Stack
 
 * Spring Boot API
