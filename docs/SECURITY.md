@@ -1,39 +1,39 @@
-# Security Policy for the Public Demo
+# 공개 데모 보안 정책
 
-This repository is a public portfolio demo. It must remain independent from private production repositories and private Git history.
+이 저장소는 공개 포트폴리오 데모입니다. 비공개 운영 저장소 및 비공개 Git 히스토리와 독립적으로 유지되어야 합니다.
 
-## Core Rules
+## 핵심 규칙
 
-- Do not connect this project to any production database.
-- Do not commit real DB URIs, server IP addresses, usernames, passwords, tokens, API keys, access keys, JWT secrets, encryption keys, private keys, certificates, or keystores.
-- Do not commit real customer names, site names, equipment names, LOT numbers, production order numbers, user accounts, phone numbers, emails, alarm history, production history, or equipment history.
-- Do not commit production logs, error output, build output, dumps, backups, exports, or raw operational data.
-- Do not commit screenshots from real production systems.
-- Do not copy files directly from private repositories into this demo repo.
-- Do not import private repository Git history.
+- 이 프로젝트를 운영 DB에 연결하지 마십시오.
+- 실제 DB URI, 서버 IP, 사용자명, 비밀번호, 토큰, API 키, 액세스 키, JWT 시크릿, 암호화 키, 개인 키, 인증서, 키스토어를 커밋하지 마십시오.
+- 실제 고객명, 사이트명, 설비명, LOT 번호, 생산 지시 번호, 사용자 계정, 전화번호, 이메일, 알람 이력, 생산 이력, 설비 이력을 커밋하지 마십시오.
+- 운영 로그, 에러 출력, 빌드 산출물, 덤프, 백업, 익스포트, 원천 운영 데이터를 커밋하지 마십시오.
+- 실제 운영 시스템의 스크린샷을 커밋하지 마십시오.
+- 비공개 저장소의 파일을 이 데모 저장소로 직접 복사하지 마십시오.
+- 비공개 저장소의 Git 히스토리를 가져오지 마십시오.
 
-## Allowed Data
+## 허용 데이터
 
-Only synthetic data is allowed.
+합성 데이터만 허용됩니다.
 
-Allowed examples:
+허용 예시:
 
-- Fake machine IDs created for the demo
-- Fake status history
-- Fake runtime and cuttime measurements
-- Fake alarm events
-- Fake utilization summaries
+- 데모용으로 만든 가짜 설비 ID
+- 가짜 상태 이력
+- 가짜 runtime / cuttime 측정값
+- 가짜 알람 이벤트
+- 가짜 가동률 요약
 
-## Blocked File Types
+## 차단 파일 유형
 
-The following files must not be committed:
+다음 파일은 커밋하면 안 됩니다:
 
-- `.env` and `.env.*` files other than `.env.example`
+- `.env.example`을 제외한 `.env`, `.env.*` 파일
 - `*.pem`, `*.key`, `*.p12`, `*.jks`, `*.keystore`, `*.cert`, `*.crt`
 - `*.log`, `*.err`, `*.out`, `bootrun*`
 - `*.sql`, `*.dump`, `*.bak`, `*.db`, `*.sqlite`, `*.sqlite3`
-- real exports such as production CSV/XLSX files
+- 운영 CSV/XLSX 등 실제 익스포트 파일
 
-## Before Publishing Changes
+## 변경 사항 공개 전
 
-Run a secret scan and review changed files manually. Any value that looks like a real credential, private network detail, customer identifier, or production dataset must be removed before commit.
+시크릿 스캔을 실행하고 변경 파일을 수동으로 검토하십시오. 실제 인증 정보, 비공개 네트워크 정보, 고객 식별자, 운영 데이터로 보이는 값은 커밋 전에 반드시 제거해야 합니다.
