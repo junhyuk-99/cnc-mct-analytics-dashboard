@@ -89,14 +89,14 @@ If `success` is not `true`, or if the HTTP request fails, the dashboard shows an
 
 ## Implemented UI
 
-- Synthetic Precision command-center app shell with demo data notices
+- Synthetic Precision command-center app shell with synthetic-data notices
 - Date, machine, and severity filters
 - `REFRESH_ANALYTICS` action, measured frontend request latency, and loading state
 - API error and empty states
 - Cyber telemetry KPI cards for fleet size, average utilization, cutting ratio, derived active ratio, alarm events, and critical vectors
 - Data-backed fleet overview and selected machine focus panel
 - CSS/SVG-only `SYNTHETIC MACHINING ENVELOPE` visualization with `NO LIVE CONTROL LINK` and `READ_ONLY_ANALYTICS` labels
-- Critical vectors panel derived from critical alarm records, with read-only demo labels instead of control actions
+- Critical vectors panel derived from critical alarm records, with read-only synthetic labels instead of control actions
 - Frontend-generated `ANALYTICS_EVENT_LOG` based on loaded API results and active filters
 - Dark themed utilization, cutting ratio, status distribution, and daily trend Recharts visualizations
 - `HOURLY_ROLLUP` chart reading the rollup engine's pre-aggregated hourly buckets, with its own date picker and the shared machine filter; failures on the rollup endpoint never block the rest of the dashboard
@@ -107,7 +107,7 @@ If `success` is not `true`, or if the HTTP request fails, the dashboard shows an
 
 ## Data Mapping Notes
 
-The reference command-center style includes live camera, G-code, OEE, and production control concepts that are not exposed by the demo API. The frontend intentionally maps or replaces those concepts with available synthetic analytics data:
+The reference command-center style includes live camera, G-code, OEE, and production control concepts that are not exposed by the public API. The frontend intentionally maps or replaces those concepts with available synthetic analytics data:
 
 - `OEE_INDEX` style KPI is represented by `AVG_UTIL`.
 - `PERFORMANCE` style KPI is represented by `CUT_RATIO`.

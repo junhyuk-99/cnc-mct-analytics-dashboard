@@ -31,7 +31,7 @@ The backend runs on:
 http://localhost:8090
 ```
 
-MongoDB uses the local demo URI:
+MongoDB uses the local URI:
 
 ```text
 mongodb://localhost:27017/cnc_mct_demo
@@ -99,7 +99,7 @@ See [ROLLUP_ARCHITECTURE.md](ROLLUP_ARCHITECTURE.md) for details.
 
 ## 5. Reset MongoDB Data
 
-To remove the demo volume and reseed from `sample-data/*.json` on the next backend startup:
+To remove the local volume and reseed from `sample-data/*.json` on the next backend startup:
 
 ```powershell
 docker compose down -v

@@ -12,7 +12,13 @@ $endpoints = @(
     "/dashboard/status-distribution",
     "/dashboard/daily-trend",
     "/alarms",
-    "/alarms?severity=CRITICAL"
+    "/alarms?severity=CRITICAL",
+    "/rollup/hourly?date=2026-01-01",
+    "/rollup/daily?year=2026&month=1",
+    "/rollup/monthly?year=2026",
+    "/machines/history?machineId=CNC-DEMO-01&page=0&size=5",
+    "/prealarm/summary",
+    "/prealarm/indicators"
 )
 
 $failed = 0
