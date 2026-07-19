@@ -214,6 +214,112 @@ Example:
 }
 ```
 
+### GET `/api/rollup/daily`
+
+Per-day runtime/cutting totals for one month, rolled forward from the hourly
+buckets. Query parameters: `year` (required), `month` (required, 1-12).
+Ordered by `machineId`, then `day`.
+
+```json
+{
+  "success": true,
+  "data": [
+    { "machineId": "CNC-DEMO-01", "day": 1, "runTimeSeconds": 6960.0, "cutTimeSeconds": 4956.0 }
+  ]
+}
+```
+
+### GET `/api/rollup/monthly`
+
+Per-month runtime/cutting totals for one year, rolled forward from the hourly
+buckets. Query parameter: `year` (required). Ordered by `machineId`, then
+`month`.
+
+```json
+{
+  "success": true,
+  "data": [
+    { "machineId": "CNC-DEMO-01", "month": 1, "runTimeSeconds": 561240.0, "cutTimeSeconds": 392868.0 }
+  ]
+}
+```
+
+### GET `/api/machines/history`
+
+Paged status-event timeline for one machine, newest first.
+
+| Name | Required | Description |
+| --- | --- | --- |
+| `machineId` | Yes | Machine ID. |
+| `from` / `to` | No | Work date range, `yyyy-MM-dd`. |
+| `page` | No | Zero-based page index (default 0). |
+| `size` | No | Page size (default 20, max 100). |
+
+```json
+{
+  "success": true,
+  "data": {
+    "items": [
+      {
+        "eventId": "STATUS-20260128-CNC-DEMO-01-003",
+        "machineId": "CNC-DEMO-01",
+        "status": "RUNNING",
+        "startedAt": "2026-01-28T10:43:00Z",
+        "endedAt": "2026-01-28T16:00:00Z",
+        "durationSeconds": 19020,
+        "workDate": "2026-01-28"
+      }
+    ],
+    "page": 0,
+    "size": 20,
+    "totalElements": 117,
+    "totalPages": 6
+  }
+}
+```
+
+### GET `/api/prealarm/summary`
+
+Aggregated alarm landscape for the pre-alarm view: totals by severity, the most
+frequent alarm codes, and per-machine counts. Query parameters: `from`, `to`.
+
+```json
+{
+  "success": true,
+  "data": {
+    "total": 125,
+    "infoCount": 29,
+    "warningCount": 51,
+    "criticalCount": 45,
+    "topCodes": [{ "alarmCode": "DEMO-C001", "severity": "CRITICAL", "count": 45 }],
+    "byMachine": [{ "machineId": "CNC-DEMO-03", "count": 28, "criticalCount": 11 }]
+  }
+}
+```
+
+### GET `/api/prealarm/indicators`
+
+Threshold-based early-warning indicators computed over the window: utilization
+decay, cutting-ratio decay, and alarm frequency. Thresholds are configured via
+`prealarm.*` properties. Severity is `WARNING` or `WATCH`, warnings first.
+Query parameters: `from`, `to`.
+
+```json
+{
+  "success": true,
+  "data": [
+    {
+      "machineId": "CNC-DEMO-03",
+      "rule": "CRITICAL_ALARM_FREQUENCY",
+      "metricValue": 11,
+      "threshold": 6,
+      "severity": "WARNING",
+      "message": "11 critical alarms in the window reached the warning threshold 6"
+    }
+  ]
+}
+```
+
 ### GET `/api/alarms`
 
 Query parameters:

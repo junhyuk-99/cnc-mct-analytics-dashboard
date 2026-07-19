@@ -13,6 +13,9 @@ const demoNavigation = [
   { label: "Status", href: "#status-distribution" },
   { label: "Trend", href: "#daily-trend" },
   { label: "Hourly Rollup", href: "#hourly-rollup" },
+  { label: "Cut Period", href: "#cut-period" },
+  { label: "Pre-Alarm", href: "#prealarm" },
+  { label: "Machine History", href: "#machine-history" },
   { label: "Critical Vectors", href: "#critical-vectors" }
 ];
 

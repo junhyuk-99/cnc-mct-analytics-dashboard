@@ -26,6 +26,15 @@ rollup:
     to: ${ROLLUP_BACKFILL_TO:}
     machineIds: ${ROLLUP_BACKFILL_MACHINE_IDS:}
 
+# Pre-alarm early-warning thresholds ("lower is worse" pairs + frequency rules).
+prealarm:
+  utilization-watch: ${PREALARM_UTILIZATION_WATCH:70.0}
+  utilization-warning: ${PREALARM_UTILIZATION_WARNING:55.0}
+  cutting-ratio-watch: ${PREALARM_CUTTING_RATIO_WATCH:70.0}
+  cutting-ratio-warning: ${PREALARM_CUTTING_RATIO_WARNING:60.0}
+  alarm-count-watch: ${PREALARM_ALARM_COUNT_WATCH:15}
+  critical-count-warning: ${PREALARM_CRITICAL_COUNT_WARNING:6}
+
 cors:
   allowed-origins:
     - http://localhost:3000

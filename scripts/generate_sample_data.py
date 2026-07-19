@@ -278,6 +278,107 @@ def signal_reading(machine_id: str, signal_name: str, value: float, at: datetime
     }
 
 
+KST = timezone(timedelta(hours=9))
+ROLLUP_MAX_STEP_SEC = 120.0
+ROLLUP_MAX_GAP_SEC = 600.0
+ROLLUP_SEED_STAMP = "2026-01-31T00:00:00Z"
+
+
+def rollup_resolve_delta(prev_value: float, prev_ts: datetime, cur_value: float, cur_ts: datetime) -> float:
+    """Mirror of the backend DeltaRule so seeded buckets match engine output."""
+    raw_delta = cur_value - prev_value
+    if raw_delta <= 0:
+        return 0.0
+    gap_sec = (cur_ts - prev_ts).total_seconds()
+    if gap_sec <= 0 or gap_sec > ROLLUP_MAX_GAP_SEC:
+        return 0.0
+    return min(raw_delta, min(gap_sec, ROLLUP_MAX_STEP_SEC))
+
+
+def build_rollup_daily(
+    status_history: list[dict],
+    runtime_cuttime: list[dict],
+    machine_signal_pool: list[dict],
+) -> tuple[list[dict], list[dict]]:
+    """Seed the rollup target collections for the full sample range.
+
+    - Signal days (first ``SIGNAL_DAYS``): buckets are computed by running the
+      same delta rules the backend rollup engine applies, so a live backfill
+      over ``machine_signal_pool`` reproduces these exact values.
+    - Remaining days: buckets are derived from RUNNING status segments split by
+      KST hour, with cutting time scaled by that day's cutting ratio.
+    """
+    run_buckets: dict[tuple[str, str, int], float] = defaultdict(float)
+    cut_buckets: dict[tuple[str, str, int], float] = defaultdict(float)
+
+    # --- Signal days: replay the engine's delta walk over the signal pool.
+    by_signal: dict[tuple[str, str], list[tuple[datetime, float]]] = defaultdict(list)
+    for row in machine_signal_pool:
+        ts = parse_z(row["endDate"])
+        by_signal[(row["machineId"], row["signalName"])].append((ts, row["value"]))
+
+    for (machine_id, signal_name), points in by_signal.items():
+        points.sort(key=lambda item: item[0])
+        prev: tuple[datetime, float] | None = None
+        for ts, value in points:
+            if prev is not None:
+                delta = rollup_resolve_delta(prev[1], prev[0], value, ts)
+                if delta > 0:
+                    kst = ts.astimezone(KST)
+                    key = (machine_id, kst.date().isoformat(), kst.hour)
+                    if signal_name.lower().startswith("runtime"):
+                        run_buckets[key] += delta
+                    else:
+                        cut_buckets[key] += delta
+            prev = (ts, value)
+
+    # --- Remaining days: split RUNNING segments into KST hour buckets.
+    signal_dates = {day.isoformat() for day in work_dates()[:SIGNAL_DAYS]}
+    ratio_by_day_machine = {
+        (row["workDate"], row["machineId"]): (
+            row["cuttimeSeconds"] / row["runtimeSeconds"] if row["runtimeSeconds"] else 0.0
+        )
+        for row in runtime_cuttime
+    }
+
+    for event in status_history:
+        if event["status"] != "RUNNING" or event["workDate"] in signal_dates:
+            continue
+        ratio = ratio_by_day_machine.get((event["workDate"], event["machineId"]), 0.0)
+        cursor = parse_z(event["startedAt"]).astimezone(KST)
+        segment_end = parse_z(event["endedAt"]).astimezone(KST)
+        while cursor < segment_end:
+            hour_end = (cursor + timedelta(hours=1)).replace(minute=0, second=0, microsecond=0)
+            slice_end = min(hour_end, segment_end)
+            seconds = (slice_end - cursor).total_seconds()
+            key = (event["machineId"], cursor.date().isoformat(), cursor.hour)
+            run_buckets[key] += seconds
+            cut_buckets[key] += seconds * ratio
+            cursor = slice_end
+
+    def to_rows(buckets: dict[tuple[str, str, int], float], value_field: str) -> list[dict]:
+        rows: list[dict] = []
+        for (machine_id, kst_date, hour), seconds in sorted(buckets.items()):
+            day = date.fromisoformat(kst_date)
+            base_date_utc = datetime.combine(day, time(0, 0), KST).astimezone(timezone.utc)
+            rows.append(
+                {
+                    "machineId": machine_id,
+                    "baseDate": iso_z(base_date_utc),
+                    "year": day.year,
+                    "month": day.month,
+                    "day": day.day,
+                    "hour": hour,
+                    value_field: round(seconds, 1),
+                    "createdAt": ROLLUP_SEED_STAMP,
+                    "updatedAt": ROLLUP_SEED_STAMP,
+                }
+            )
+        return rows
+
+    return to_rows(run_buckets, "runTime"), to_rows(cut_buckets, "cutTime")
+
+
 def dominant_status(events: list[dict]) -> str:
     totals: dict[str, int] = defaultdict(int)
     for event in events:
@@ -364,6 +465,7 @@ def main() -> None:
     alarm_history = build_alarm_history()
     daily_summary = build_daily_summary(machines, status_history, runtime_cuttime, alarm_history)
     machine_signal_pool = build_machine_signal_pool(status_history)
+    runtime_daily, cuttime_daily = build_rollup_daily(status_history, runtime_cuttime, machine_signal_pool)
 
     write_json("machines.json", machines)
     write_json("status-history.json", status_history)
@@ -371,6 +473,8 @@ def main() -> None:
     write_json("alarm-history.json", alarm_history)
     write_json("daily-summary.json", daily_summary)
     write_json("machine-signal-pool.json", machine_signal_pool)
+    write_json("runtime-daily.json", runtime_daily)
+    write_json("cuttime-daily.json", cuttime_daily)
 
 
 if __name__ == "__main__":

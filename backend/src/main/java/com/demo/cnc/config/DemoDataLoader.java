@@ -1,17 +1,21 @@
 package com.demo.cnc.config;
 
 import com.demo.cnc.model.AlarmEvent;
+import com.demo.cnc.model.CuttimeDaily;
 import com.demo.cnc.model.DailySummary;
 import com.demo.cnc.model.Machine;
 import com.demo.cnc.model.MachineSignal;
 import com.demo.cnc.model.MachineStatusEvent;
 import com.demo.cnc.model.RuntimeCuttimeEvent;
+import com.demo.cnc.model.RuntimeDaily;
 import com.demo.cnc.repository.AlarmEventRepository;
+import com.demo.cnc.repository.CuttimeDailyRepository;
 import com.demo.cnc.repository.DailySummaryRepository;
 import com.demo.cnc.repository.MachineRepository;
 import com.demo.cnc.repository.MachineSignalRepository;
 import com.demo.cnc.repository.MachineStatusEventRepository;
 import com.demo.cnc.repository.RuntimeCuttimeEventRepository;
+import com.demo.cnc.repository.RuntimeDailyRepository;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.IOException;
@@ -31,6 +35,8 @@ public class DemoDataLoader implements CommandLineRunner {
     private final AlarmEventRepository alarmEventRepository;
     private final DailySummaryRepository dailySummaryRepository;
     private final MachineSignalRepository machineSignalRepository;
+    private final RuntimeDailyRepository runtimeDailyRepository;
+    private final CuttimeDailyRepository cuttimeDailyRepository;
 
     public DemoDataLoader(
             ObjectMapper objectMapper,
@@ -39,7 +45,9 @@ public class DemoDataLoader implements CommandLineRunner {
             RuntimeCuttimeEventRepository runtimeCuttimeEventRepository,
             AlarmEventRepository alarmEventRepository,
             DailySummaryRepository dailySummaryRepository,
-            MachineSignalRepository machineSignalRepository
+            MachineSignalRepository machineSignalRepository,
+            RuntimeDailyRepository runtimeDailyRepository,
+            CuttimeDailyRepository cuttimeDailyRepository
     ) {
         this.objectMapper = objectMapper;
         this.machineRepository = machineRepository;
@@ -48,6 +56,8 @@ public class DemoDataLoader implements CommandLineRunner {
         this.alarmEventRepository = alarmEventRepository;
         this.dailySummaryRepository = dailySummaryRepository;
         this.machineSignalRepository = machineSignalRepository;
+        this.runtimeDailyRepository = runtimeDailyRepository;
+        this.cuttimeDailyRepository = cuttimeDailyRepository;
     }
 
     @Override
@@ -72,6 +82,15 @@ public class DemoDataLoader implements CommandLineRunner {
         }
         if (machineSignalRepository.count() == 0) {
             machineSignalRepository.saveAll(read(sampleDataPath.resolve("machine-signal-pool.json"), new TypeReference<List<MachineSignal>>() {}));
+        }
+        // Pre-aggregated rollup buckets for the whole sample range. The first
+        // days match what a live backfill over machine_signal_pool produces,
+        // so re-running the rollup engine overwrites them idempotently.
+        if (runtimeDailyRepository.count() == 0) {
+            runtimeDailyRepository.saveAll(read(sampleDataPath.resolve("runtime-daily.json"), new TypeReference<List<RuntimeDaily>>() {}));
+        }
+        if (cuttimeDailyRepository.count() == 0) {
+            cuttimeDailyRepository.saveAll(read(sampleDataPath.resolve("cuttime-daily.json"), new TypeReference<List<CuttimeDaily>>() {}));
         }
     }
 

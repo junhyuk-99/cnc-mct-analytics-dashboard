@@ -115,6 +115,16 @@ sequenceDiagram
 - 소스 `machine_signal_pool`: `idx_signal_machineId_signalName_endDate` — 설비·신호별 범위 스캔 최적화.
 - 타깃 `runtime_daily` / `cuttime_daily`: `ux_rollup_machineId_baseDate_hour` (unique) — upsert 조회 + 중복 방지.
 
+## 7-1. 읽기 API의 상향 집계 (roll-forward)
+
+시간 버킷은 최소 집계 단위이고, 상위 기간 뷰는 버킷을 그대로 상향 합산합니다:
+
+- `GET /api/rollup/hourly?date=` — 하루의 시간별 버킷
+- `GET /api/rollup/daily?year=&month=` — 한 달의 일별 합계
+- `GET /api/rollup/monthly?year=` — 한 해의 월별 합계
+
+원천 신호는 어떤 조회 경로에서도 다시 스캔하지 않습니다. (`RollupQueryService`)
+
 ## 8. 운영 모드 vs 백필 모드
 
 | 항목 | 운영(스케줄) | 백필(1회) |

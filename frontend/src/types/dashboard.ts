@@ -72,6 +72,56 @@ export type HourlyRollup = {
   cutTimeSeconds: number;
 };
 
+export type DailyRollup = {
+  machineId: string;
+  day: number;
+  runTimeSeconds: number;
+  cutTimeSeconds: number;
+};
+
+export type MonthlyRollup = {
+  machineId: string;
+  month: number;
+  runTimeSeconds: number;
+  cutTimeSeconds: number;
+};
+
+export type MachineHistoryItem = {
+  eventId: string;
+  machineId: string;
+  status: string;
+  startedAt: string;
+  endedAt: string;
+  durationSeconds: number;
+  workDate: string;
+};
+
+export type MachineHistoryPage = {
+  items: MachineHistoryItem[];
+  page: number;
+  size: number;
+  totalElements: number;
+  totalPages: number;
+};
+
+export type PreAlarmSummary = {
+  total: number;
+  infoCount: number;
+  warningCount: number;
+  criticalCount: number;
+  topCodes: { alarmCode: string; severity: string; count: number }[];
+  byMachine: { machineId: string; count: number; criticalCount: number }[];
+};
+
+export type PreAlarmIndicator = {
+  machineId: string;
+  rule: string;
+  metricValue: number;
+  threshold: number;
+  severity: "WATCH" | "WARNING" | string;
+  message: string;
+};
+
 export type DashboardFilters = {
   from: string;
   to: string;

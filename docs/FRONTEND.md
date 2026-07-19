@@ -64,6 +64,10 @@ The frontend calls:
 - `GET /dashboard/daily-trend?from=YYYY-MM-DD&to=YYYY-MM-DD`
 - `GET /alarms?from=YYYY-MM-DD&to=YYYY-MM-DD&machineId=&severity=`
 - `GET /rollup/hourly?date=YYYY-MM-DD`
+- `GET /rollup/daily?year=YYYY&month=M`
+- `GET /rollup/monthly?year=YYYY`
+- `GET /machines/history?machineId=&from=&to=&page=&size=`
+- `GET /prealarm/summary?from=&to=` / `GET /prealarm/indicators?from=&to=`
 
 The API client expects the common response wrapper:
 
@@ -96,6 +100,9 @@ If `success` is not `true`, or if the HTTP request fails, the dashboard shows an
 - Frontend-generated `ANALYTICS_EVENT_LOG` based on loaded API results and active filters
 - Dark themed utilization, cutting ratio, status distribution, and daily trend Recharts visualizations
 - `HOURLY_ROLLUP` chart reading the rollup engine's pre-aggregated hourly buckets, with its own date picker and the shared machine filter; failures on the rollup endpoint never block the rest of the dashboard
+- `CUT_PERIOD` chart with a MONTHLY/DAILY granularity toggle and month picker, rolling the hourly buckets forward to per-day and per-month totals
+- `PRE_ALARM` panel combining the aggregated alarm landscape (level totals, top codes) with the backend's threshold-based early-warning indicators
+- `MACHINE_HISTORY` paged status-event timeline per machine (global machine filter takes precedence over the panel's own picker)
 - Terminal-style alarm history table capped at 50 visible rows
 
 ## Data Mapping Notes
