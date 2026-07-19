@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { CuttingRatioChart } from "../components/charts/CuttingRatioChart";
 import { DailyTrendChart } from "../components/charts/DailyTrendChart";
+import { HourlyRollupChart } from "../components/charts/HourlyRollupChart";
 import { StatusDistributionChart } from "../components/charts/StatusDistributionChart";
 import { UtilizationBarChart } from "../components/charts/UtilizationBarChart";
 import { DateRangeFilter } from "../components/filters/DateRangeFilter";
@@ -11,6 +12,7 @@ import {
   fetchAlarms,
   fetchCuttingRatio,
   fetchDailyTrend,
+  fetchHourlyRollup,
   fetchMachines,
   fetchStatusDistribution,
   fetchSummary,
@@ -22,6 +24,7 @@ import type {
   DailyTrend,
   DashboardFilters,
   DashboardSummary,
+  HourlyRollup,
   Machine,
   StatusDistribution,
   Utilization
@@ -60,6 +63,9 @@ export function DashboardPage() {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [requestMs, setRequestMs] = useState<number | null>(null);
+  const [rollupDate, setRollupDate] = useState("2026-01-01");
+  const [hourlyRollup, setHourlyRollup] = useState<HourlyRollup[]>([]);
+  const [rollupError, setRollupError] = useState<string | null>(null);
 
   const updateFilter = (key: keyof DashboardFilters, value: string) => {
     setFilters((current) => ({ ...current, [key]: value }));
@@ -107,6 +113,28 @@ export function DashboardPage() {
   useEffect(() => {
     void loadDashboard();
   }, [loadDashboard]);
+
+  // Rollup buckets are fetched separately so a rollup-side failure (for example
+  // before the backfill has run) never blocks the rest of the dashboard.
+  useEffect(() => {
+    let cancelled = false;
+    setRollupError(null);
+    fetchHourlyRollup(rollupDate)
+      .then((rows) => {
+        if (!cancelled) {
+          setHourlyRollup(rows);
+        }
+      })
+      .catch((caught) => {
+        if (!cancelled) {
+          setHourlyRollup([]);
+          setRollupError(caught instanceof Error ? caught.message : "Unable to load rollup data");
+        }
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [rollupDate]);
 
   const filteredUtilization = useMemo(
     () =>
@@ -309,6 +337,15 @@ export function DashboardPage() {
         </div>
         <div id="daily-trend" className="section-anchor grid-wide">
           <DailyTrendChart data={dailyTrend} />
+        </div>
+        <div id="hourly-rollup" className="section-anchor grid-wide">
+          <HourlyRollupChart
+            data={hourlyRollup}
+            date={rollupDate}
+            machineId={filters.machineId}
+            error={rollupError}
+            onDateChange={setRollupDate}
+          />
         </div>
         <div id="alarm-history" className="section-anchor grid-wide">
           <AlarmHistoryTable data={alarms} />

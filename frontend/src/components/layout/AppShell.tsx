@@ -12,6 +12,7 @@ const demoNavigation = [
   { label: "Cutting Ratio", href: "#cutting-ratio" },
   { label: "Status", href: "#status-distribution" },
   { label: "Trend", href: "#daily-trend" },
+  { label: "Hourly Rollup", href: "#hourly-rollup" },
   { label: "Critical Vectors", href: "#critical-vectors" }
 ];
 

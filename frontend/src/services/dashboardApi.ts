@@ -5,6 +5,7 @@ import type {
   DailyTrend,
   DashboardFilters,
   DashboardSummary,
+  HourlyRollup,
   Machine,
   StatusDistribution,
   Utilization
@@ -38,4 +39,8 @@ export function fetchDailyTrend(filters: DateRange): Promise<DailyTrend[]> {
 
 export function fetchAlarms(filters: DashboardFilters): Promise<AlarmHistory[]> {
   return getJson<AlarmHistory[]>("/alarms", filters);
+}
+
+export function fetchHourlyRollup(date: string): Promise<HourlyRollup[]> {
+  return getJson<HourlyRollup[]>("/rollup/hourly", { date });
 }

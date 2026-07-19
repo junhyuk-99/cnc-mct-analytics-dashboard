@@ -65,6 +65,13 @@ export type AlarmHistory = {
   workDate: string;
 };
 
+export type HourlyRollup = {
+  machineId: string;
+  hour: number;
+  runTimeSeconds: number;
+  cutTimeSeconds: number;
+};
+
 export type DashboardFilters = {
   from: string;
   to: string;

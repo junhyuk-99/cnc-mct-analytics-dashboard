@@ -485,6 +485,16 @@ select:focus {
   text-transform: uppercase;
 }
 
+.rollup-date-picker {
+  flex-shrink: 0;
+}
+
+.rollup-date-picker input {
+  min-width: 150px;
+  min-height: 34px;
+  font-size: 0.78rem;
+}
+
 .focus-panel {
   min-height: 510px;
 }
