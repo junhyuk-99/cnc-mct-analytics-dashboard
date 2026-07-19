@@ -3,11 +3,13 @@ package com.demo.cnc.config;
 import com.demo.cnc.model.AlarmEvent;
 import com.demo.cnc.model.DailySummary;
 import com.demo.cnc.model.Machine;
+import com.demo.cnc.model.MachineSignal;
 import com.demo.cnc.model.MachineStatusEvent;
 import com.demo.cnc.model.RuntimeCuttimeEvent;
 import com.demo.cnc.repository.AlarmEventRepository;
 import com.demo.cnc.repository.DailySummaryRepository;
 import com.demo.cnc.repository.MachineRepository;
+import com.demo.cnc.repository.MachineSignalRepository;
 import com.demo.cnc.repository.MachineStatusEventRepository;
 import com.demo.cnc.repository.RuntimeCuttimeEventRepository;
 import com.fasterxml.jackson.core.type.TypeReference;
@@ -28,6 +30,7 @@ public class DemoDataLoader implements CommandLineRunner {
     private final RuntimeCuttimeEventRepository runtimeCuttimeEventRepository;
     private final AlarmEventRepository alarmEventRepository;
     private final DailySummaryRepository dailySummaryRepository;
+    private final MachineSignalRepository machineSignalRepository;
 
     public DemoDataLoader(
             ObjectMapper objectMapper,
@@ -35,7 +38,8 @@ public class DemoDataLoader implements CommandLineRunner {
             MachineStatusEventRepository statusEventRepository,
             RuntimeCuttimeEventRepository runtimeCuttimeEventRepository,
             AlarmEventRepository alarmEventRepository,
-            DailySummaryRepository dailySummaryRepository
+            DailySummaryRepository dailySummaryRepository,
+            MachineSignalRepository machineSignalRepository
     ) {
         this.objectMapper = objectMapper;
         this.machineRepository = machineRepository;
@@ -43,6 +47,7 @@ public class DemoDataLoader implements CommandLineRunner {
         this.runtimeCuttimeEventRepository = runtimeCuttimeEventRepository;
         this.alarmEventRepository = alarmEventRepository;
         this.dailySummaryRepository = dailySummaryRepository;
+        this.machineSignalRepository = machineSignalRepository;
     }
 
     @Override
@@ -64,6 +69,9 @@ public class DemoDataLoader implements CommandLineRunner {
         }
         if (dailySummaryRepository.count() == 0) {
             dailySummaryRepository.saveAll(read(sampleDataPath.resolve("daily-summary.json"), new TypeReference<List<DailySummary>>() {}));
+        }
+        if (machineSignalRepository.count() == 0) {
+            machineSignalRepository.saveAll(read(sampleDataPath.resolve("machine-signal-pool.json"), new TypeReference<List<MachineSignal>>() {}));
         }
     }
 

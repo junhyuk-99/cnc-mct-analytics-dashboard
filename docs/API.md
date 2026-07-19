@@ -1,6 +1,6 @@
 # Backend API
 
-This API is a public portfolio demo backend for synthetic CNC/MCT dashboard data. All records are loaded from `sample-data/*.json`; no production database, equipment, customer, credential, or private repository data is used.
+This is the public portfolio backend for the CNC/MCT dashboard, serving synthetic data. All records are loaded from `sample-data/*.json`; no production database, equipment, customer, credential, or private repository data is used.
 
 Base URL:
 
@@ -177,6 +177,38 @@ Example:
       "averageCuttingRatio": 78.02,
       "alarmCount": 5,
       "criticalAlarmCount": 2
+    }
+  ]
+}
+```
+
+### GET `/api/rollup/hourly`
+
+Reads the hourly runtime/cutting buckets produced by the rollup engine straight
+from the pre-aggregated `runtime_daily` / `cuttime_daily` summary collections, so
+this endpoint never scans the raw signal pool.
+
+Query parameters:
+
+| Name | Required | Description |
+| --- | --- | --- |
+| `date` | Yes | KST work date, `yyyy-MM-dd`. |
+
+Results are ordered by `machineId`, then `hour`. Requires the rollup to have run
+for the requested date (schedule or backfill — see
+[ROLLUP_ARCHITECTURE.md](ROLLUP_ARCHITECTURE.md)).
+
+Example:
+
+```json
+{
+  "success": true,
+  "data": [
+    {
+      "machineId": "CNC-DEMO-01",
+      "hour": 17,
+      "runTimeSeconds": 3360.0,
+      "cutTimeSeconds": 2352.0
     }
   ]
 }

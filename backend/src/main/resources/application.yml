@@ -3,13 +3,30 @@ server:
 
 spring:
   application:
-    name: cnc-mct-dashboard-demo-backend
+    name: cnc-mct-dashboard-backend
   data:
     mongodb:
       uri: ${MONGODB_URI:mongodb://localhost:27017/cnc_mct_demo}
+  task:
+    scheduling:
+      time-zone: Asia/Seoul
 
-demo:
-  cors:
-    allowed-origins:
-      - http://localhost:3000
-      - http://localhost:5173
+# Rollup engine: converts raw cumulative signals into hourly summary buckets.
+rollup:
+  # Set to false to disable the scheduled rollup entirely (bean is not created).
+  enabled: ${ROLLUP_ENABLED:false}
+  # Every 5 minutes by default; a specific hour (e.g. "0 0 * * * *") is also fine.
+  cron: ${ROLLUP_CRON:0 */5 * * * *}
+  # Recent window (days) rolled up on each tick.
+  lookback-days: ${ROLLUP_LOOKBACK_DAYS:2}
+  # One-shot historical backfill at startup (see RollupBackfillRunner).
+  backfill:
+    enabled: ${ROLLUP_BACKFILL_ENABLED:false}
+    from: ${ROLLUP_BACKFILL_FROM:}
+    to: ${ROLLUP_BACKFILL_TO:}
+    machineIds: ${ROLLUP_BACKFILL_MACHINE_IDS:}
+
+cors:
+  allowed-origins:
+    - http://localhost:3000
+    - http://localhost:5173
