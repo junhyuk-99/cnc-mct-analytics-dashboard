@@ -286,22 +286,22 @@ export function DashboardPage() {
     `[ANALYSIS] CRITICAL_EVENTS count=${summary?.criticalAlarmCount ?? criticalAlarms.length}`,
     `[ANALYSIS] ALARM_EVENTS count=${summary?.alarmCount ?? alarms.length}`,
     `[FILTER] MACHINE=${filters.machineId || "ALL"} SEVERITY=${filters.severity || "ALL"}`,
-    `[STATE] READ_ONLY_DEMO_MODE`
+    `[STATE] READ_ONLY_SYNTHETIC_MODE`
   ];
 
   return (
     <div className="dashboard-page">
       <header className="top-header">
         <div>
-          <p className="system-link">SYSTEM_LINK_ACTIVE: CNC_MCT_DEMO_CORE</p>
+          <p className="system-link">SYSTEM_LINK_ACTIVE: CNC_MCT_CORE</p>
           <h2>Synthetic Precision Command Center</h2>
         </div>
-        <div className="header-telemetry" aria-label="demo runtime status">
+        <div className="header-telemetry" aria-label="runtime status">
           <span className={error ? "status-pill danger" : summary ? "status-pill online" : "status-pill"}>
             API {error ? "ERROR" : summary ? "ONLINE" : "PENDING"}
           </span>
           <span>LATENCY: {requestMs === null ? "--" : `${requestMs}ms`}</span>
-          <span>OPERATOR: DEMO_USER</span>
+          <span>OPERATOR: LOCAL_USER</span>
         </div>
       </header>
 
@@ -334,7 +334,7 @@ export function DashboardPage() {
         </button>
         <div className="filter-status">
           <span>WINDOW: {filters.from} TO {filters.to}</span>
-          <span>MODE: READ_ONLY_LOCAL_DEMO</span>
+          <span>MODE: READ_ONLY_SYNTHETIC</span>
         </div>
       </section>
 
@@ -557,7 +557,7 @@ function CriticalVectorsPanel({ alarms }: { alarms: AlarmHistory[] }) {
               <div className="critical-actions">
                 <span className="severity-badge critical">{alarm.severity}</span>
                 <span>READ_ONLY</span>
-                <span>DEMO_EVENT</span>
+                <span>SYNTHETIC_EVENT</span>
                 <span>CLEARED: {formatDateTime(alarm.clearedAt)}</span>
               </div>
             </article>

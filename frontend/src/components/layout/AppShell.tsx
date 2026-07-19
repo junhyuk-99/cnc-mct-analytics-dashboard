@@ -25,7 +25,7 @@ export function AppShell({ children }: AppShellProps) {
       <aside className="sidebar">
         <div className="sidebar-main">
           <div>
-            <p className="eyebrow">PRECISION_CORE_DEMO</p>
+            <p className="eyebrow">PRECISION_CORE</p>
             <h1>CNC/MCT COMMAND CENTER</h1>
             <p className="subtitle">Synthetic Precision analytics shell</p>
           </div>

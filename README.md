@@ -87,6 +87,14 @@
 
 ![Analytics Panels](screenshots/dashboard-analytics-panels.png)
 
+### Rollup Engine — Hourly & Period Views
+
+![Rollup Panels](screenshots/dashboard-rollup-panels.png)
+
+### Pre-Alarm & Machine History
+
+![Pre-Alarm and Machine History](screenshots/dashboard-prealarm-history.png)
+
 ### Alarm History
 
 ![Alarm History](screenshots/dashboard-alarm-history.png)
