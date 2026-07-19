@@ -2,10 +2,16 @@ import { getJson } from "./apiClient";
 import type {
   AlarmHistory,
   CuttingRatio,
+  DailyRollup,
   DailyTrend,
   DashboardFilters,
   DashboardSummary,
+  HourlyRollup,
   Machine,
+  MachineHistoryPage,
+  MonthlyRollup,
+  PreAlarmIndicator,
+  PreAlarmSummary,
   StatusDistribution,
   Utilization
 } from "../types/dashboard";
@@ -38,4 +44,38 @@ export function fetchDailyTrend(filters: DateRange): Promise<DailyTrend[]> {
 
 export function fetchAlarms(filters: DashboardFilters): Promise<AlarmHistory[]> {
   return getJson<AlarmHistory[]>("/alarms", filters);
+}
+
+export function fetchHourlyRollup(date: string): Promise<HourlyRollup[]> {
+  return getJson<HourlyRollup[]>("/rollup/hourly", { date });
+}
+
+export function fetchDailyRollup(year: number, month: number): Promise<DailyRollup[]> {
+  return getJson<DailyRollup[]>("/rollup/daily", { year: String(year), month: String(month) });
+}
+
+export function fetchMonthlyRollup(year: number): Promise<MonthlyRollup[]> {
+  return getJson<MonthlyRollup[]>("/rollup/monthly", { year: String(year) });
+}
+
+export function fetchMachineHistory(
+  machineId: string,
+  filters: DateRange,
+  page: number,
+  size: number
+): Promise<MachineHistoryPage> {
+  return getJson<MachineHistoryPage>("/machines/history", {
+    machineId,
+    ...filters,
+    page: String(page),
+    size: String(size)
+  });
+}
+
+export function fetchPreAlarmSummary(filters: DateRange): Promise<PreAlarmSummary> {
+  return getJson<PreAlarmSummary>("/prealarm/summary", filters);
+}
+
+export function fetchPreAlarmIndicators(filters: DateRange): Promise<PreAlarmIndicator[]> {
+  return getJson<PreAlarmIndicator[]>("/prealarm/indicators", filters);
 }

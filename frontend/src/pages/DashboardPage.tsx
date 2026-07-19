@@ -1,6 +1,10 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
+import { CutPeriodChart, type CutGranularity } from "../components/charts/CutPeriodChart";
 import { CuttingRatioChart } from "../components/charts/CuttingRatioChart";
 import { DailyTrendChart } from "../components/charts/DailyTrendChart";
+import { HourlyRollupChart } from "../components/charts/HourlyRollupChart";
+import { MachineHistoryTimeline } from "../components/panels/MachineHistoryTimeline";
+import { PreAlarmPanel } from "../components/panels/PreAlarmPanel";
 import { StatusDistributionChart } from "../components/charts/StatusDistributionChart";
 import { UtilizationBarChart } from "../components/charts/UtilizationBarChart";
 import { DateRangeFilter } from "../components/filters/DateRangeFilter";
@@ -10,8 +14,13 @@ import { AlarmHistoryTable } from "../components/tables/AlarmHistoryTable";
 import {
   fetchAlarms,
   fetchCuttingRatio,
+  fetchDailyRollup,
   fetchDailyTrend,
+  fetchHourlyRollup,
   fetchMachines,
+  fetchMonthlyRollup,
+  fetchPreAlarmIndicators,
+  fetchPreAlarmSummary,
   fetchStatusDistribution,
   fetchSummary,
   fetchUtilization
@@ -19,10 +28,15 @@ import {
 import type {
   AlarmHistory,
   CuttingRatio,
+  DailyRollup,
   DailyTrend,
   DashboardFilters,
   DashboardSummary,
+  HourlyRollup,
   Machine,
+  MonthlyRollup,
+  PreAlarmIndicator,
+  PreAlarmSummary,
   StatusDistribution,
   Utilization
 } from "../types/dashboard";
@@ -34,6 +48,9 @@ const INITIAL_FILTERS: DashboardFilters = {
   machineId: "",
   severity: ""
 };
+
+// The synthetic sample range lives in this year (see scripts/generate_sample_data.py).
+const SAMPLE_YEAR = 2026;
 
 type FleetRow = {
   machineId: string;
@@ -60,6 +77,16 @@ export function DashboardPage() {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [requestMs, setRequestMs] = useState<number | null>(null);
+  const [rollupDate, setRollupDate] = useState("2026-01-01");
+  const [hourlyRollup, setHourlyRollup] = useState<HourlyRollup[]>([]);
+  const [rollupError, setRollupError] = useState<string | null>(null);
+  const [cutGranularity, setCutGranularity] = useState<CutGranularity>("day");
+  const [cutMonth, setCutMonth] = useState(1);
+  const [monthlyRollup, setMonthlyRollup] = useState<MonthlyRollup[]>([]);
+  const [dailyRollup, setDailyRollup] = useState<DailyRollup[]>([]);
+  const [cutError, setCutError] = useState<string | null>(null);
+  const [preAlarmSummary, setPreAlarmSummary] = useState<PreAlarmSummary | null>(null);
+  const [preAlarmIndicators, setPreAlarmIndicators] = useState<PreAlarmIndicator[]>([]);
 
   const updateFilter = (key: keyof DashboardFilters, value: string) => {
     setFilters((current) => ({ ...current, [key]: value }));
@@ -78,7 +105,9 @@ export function DashboardPage() {
         cuttingRatioData,
         statusData,
         trendData,
-        alarmsData
+        alarmsData,
+        preAlarmSummaryData,
+        preAlarmIndicatorData
       ] = await Promise.all([
         fetchMachines(),
         fetchSummary(dateRange),
@@ -86,7 +115,9 @@ export function DashboardPage() {
         fetchCuttingRatio(dateRange),
         fetchStatusDistribution(dateRange),
         fetchDailyTrend(dateRange),
-        fetchAlarms(filters)
+        fetchAlarms(filters),
+        fetchPreAlarmSummary(dateRange),
+        fetchPreAlarmIndicators(dateRange)
       ]);
       setMachines(machinesData);
       setSummary(summaryData);
@@ -95,6 +126,8 @@ export function DashboardPage() {
       setStatusDistribution(statusData);
       setDailyTrend(trendData);
       setAlarms(alarmsData);
+      setPreAlarmSummary(preAlarmSummaryData);
+      setPreAlarmIndicators(preAlarmIndicatorData);
       setRequestMs(Math.round(performance.now() - startedAt));
     } catch (caught) {
       setError(caught instanceof Error ? caught.message : "Unable to load dashboard data");
@@ -107,6 +140,57 @@ export function DashboardPage() {
   useEffect(() => {
     void loadDashboard();
   }, [loadDashboard]);
+
+  // Rollup buckets are fetched separately so a rollup-side failure (for example
+  // before the backfill has run) never blocks the rest of the dashboard.
+  useEffect(() => {
+    let cancelled = false;
+    setRollupError(null);
+    fetchHourlyRollup(rollupDate)
+      .then((rows) => {
+        if (!cancelled) {
+          setHourlyRollup(rows);
+        }
+      })
+      .catch((caught) => {
+        if (!cancelled) {
+          setHourlyRollup([]);
+          setRollupError(caught instanceof Error ? caught.message : "Unable to load rollup data");
+        }
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [rollupDate]);
+
+  // Cut period data follows its own granularity/month controls, isolated from
+  // the main dashboard load for the same reason as the hourly rollup.
+  useEffect(() => {
+    let cancelled = false;
+    setCutError(null);
+    const request =
+      cutGranularity === "month"
+        ? fetchMonthlyRollup(SAMPLE_YEAR).then((rows) => {
+            if (!cancelled) {
+              setMonthlyRollup(rows);
+            }
+          })
+        : fetchDailyRollup(SAMPLE_YEAR, cutMonth).then((rows) => {
+            if (!cancelled) {
+              setDailyRollup(rows);
+            }
+          });
+    request.catch((caught) => {
+      if (!cancelled) {
+        setMonthlyRollup([]);
+        setDailyRollup([]);
+        setCutError(caught instanceof Error ? caught.message : "Unable to load cut period data");
+      }
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [cutGranularity, cutMonth]);
 
   const filteredUtilization = useMemo(
     () =>
@@ -202,22 +286,22 @@ export function DashboardPage() {
     `[ANALYSIS] CRITICAL_EVENTS count=${summary?.criticalAlarmCount ?? criticalAlarms.length}`,
     `[ANALYSIS] ALARM_EVENTS count=${summary?.alarmCount ?? alarms.length}`,
     `[FILTER] MACHINE=${filters.machineId || "ALL"} SEVERITY=${filters.severity || "ALL"}`,
-    `[STATE] READ_ONLY_DEMO_MODE`
+    `[STATE] READ_ONLY_SYNTHETIC_MODE`
   ];
 
   return (
     <div className="dashboard-page">
       <header className="top-header">
         <div>
-          <p className="system-link">SYSTEM_LINK_ACTIVE: CNC_MCT_DEMO_CORE</p>
+          <p className="system-link">SYSTEM_LINK_ACTIVE: CNC_MCT_CORE</p>
           <h2>Synthetic Precision Command Center</h2>
         </div>
-        <div className="header-telemetry" aria-label="demo runtime status">
+        <div className="header-telemetry" aria-label="runtime status">
           <span className={error ? "status-pill danger" : summary ? "status-pill online" : "status-pill"}>
             API {error ? "ERROR" : summary ? "ONLINE" : "PENDING"}
           </span>
           <span>LATENCY: {requestMs === null ? "--" : `${requestMs}ms`}</span>
-          <span>OPERATOR: DEMO_USER</span>
+          <span>OPERATOR: LOCAL_USER</span>
         </div>
       </header>
 
@@ -250,7 +334,7 @@ export function DashboardPage() {
         </button>
         <div className="filter-status">
           <span>WINDOW: {filters.from} TO {filters.to}</span>
-          <span>MODE: READ_ONLY_LOCAL_DEMO</span>
+          <span>MODE: READ_ONLY_SYNTHETIC</span>
         </div>
       </section>
 
@@ -309,6 +393,43 @@ export function DashboardPage() {
         </div>
         <div id="daily-trend" className="section-anchor grid-wide">
           <DailyTrendChart data={dailyTrend} />
+        </div>
+        <div id="hourly-rollup" className="section-anchor grid-wide">
+          <HourlyRollupChart
+            data={hourlyRollup}
+            date={rollupDate}
+            machineId={filters.machineId}
+            error={rollupError}
+            onDateChange={setRollupDate}
+          />
+        </div>
+        <div id="cut-period" className="section-anchor grid-wide">
+          <CutPeriodChart
+            monthly={monthlyRollup}
+            daily={dailyRollup}
+            granularity={cutGranularity}
+            year={SAMPLE_YEAR}
+            month={cutMonth}
+            machineId={filters.machineId}
+            error={cutError}
+            onGranularityChange={setCutGranularity}
+            onMonthChange={setCutMonth}
+          />
+        </div>
+        <div id="prealarm" className="section-anchor grid-wide">
+          <PreAlarmPanel
+            summary={preAlarmSummary}
+            indicators={preAlarmIndicators}
+            machineId={filters.machineId}
+          />
+        </div>
+        <div id="machine-history" className="section-anchor grid-wide">
+          <MachineHistoryTimeline
+            machines={machines}
+            machineId={filters.machineId}
+            from={filters.from}
+            to={filters.to}
+          />
         </div>
         <div id="alarm-history" className="section-anchor grid-wide">
           <AlarmHistoryTable data={alarms} />
@@ -436,7 +557,7 @@ function CriticalVectorsPanel({ alarms }: { alarms: AlarmHistory[] }) {
               <div className="critical-actions">
                 <span className="severity-badge critical">{alarm.severity}</span>
                 <span>READ_ONLY</span>
-                <span>DEMO_EVENT</span>
+                <span>SYNTHETIC_EVENT</span>
                 <span>CLEARED: {formatDateTime(alarm.clearedAt)}</span>
               </div>
             </article>

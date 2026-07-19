@@ -3,13 +3,39 @@ server:
 
 spring:
   application:
-    name: cnc-mct-dashboard-demo-backend
+    name: cnc-mct-dashboard-backend
   data:
     mongodb:
       uri: ${MONGODB_URI:mongodb://localhost:27017/cnc_mct_demo}
+  task:
+    scheduling:
+      time-zone: Asia/Seoul
 
-demo:
-  cors:
-    allowed-origins:
-      - http://localhost:3000
-      - http://localhost:5173
+# Rollup engine: converts raw cumulative signals into hourly summary buckets.
+rollup:
+  # Set to false to disable the scheduled rollup entirely (bean is not created).
+  enabled: ${ROLLUP_ENABLED:false}
+  # Every 5 minutes by default; a specific hour (e.g. "0 0 * * * *") is also fine.
+  cron: ${ROLLUP_CRON:0 */5 * * * *}
+  # Recent window (days) rolled up on each tick.
+  lookback-days: ${ROLLUP_LOOKBACK_DAYS:2}
+  # One-shot historical backfill at startup (see RollupBackfillRunner).
+  backfill:
+    enabled: ${ROLLUP_BACKFILL_ENABLED:false}
+    from: ${ROLLUP_BACKFILL_FROM:}
+    to: ${ROLLUP_BACKFILL_TO:}
+    machineIds: ${ROLLUP_BACKFILL_MACHINE_IDS:}
+
+# Pre-alarm early-warning thresholds ("lower is worse" pairs + frequency rules).
+prealarm:
+  utilization-watch: ${PREALARM_UTILIZATION_WATCH:70.0}
+  utilization-warning: ${PREALARM_UTILIZATION_WARNING:55.0}
+  cutting-ratio-watch: ${PREALARM_CUTTING_RATIO_WATCH:70.0}
+  cutting-ratio-warning: ${PREALARM_CUTTING_RATIO_WARNING:60.0}
+  alarm-count-watch: ${PREALARM_ALARM_COUNT_WATCH:15}
+  critical-count-warning: ${PREALARM_CRITICAL_COUNT_WARNING:6}
+
+cors:
+  allowed-origins:
+    - http://localhost:3000
+    - http://localhost:5173

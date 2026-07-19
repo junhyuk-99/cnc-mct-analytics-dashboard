@@ -12,6 +12,10 @@ const demoNavigation = [
   { label: "Cutting Ratio", href: "#cutting-ratio" },
   { label: "Status", href: "#status-distribution" },
   { label: "Trend", href: "#daily-trend" },
+  { label: "Hourly Rollup", href: "#hourly-rollup" },
+  { label: "Cut Period", href: "#cut-period" },
+  { label: "Pre-Alarm", href: "#prealarm" },
+  { label: "Machine History", href: "#machine-history" },
   { label: "Critical Vectors", href: "#critical-vectors" }
 ];
 
@@ -21,7 +25,7 @@ export function AppShell({ children }: AppShellProps) {
       <aside className="sidebar">
         <div className="sidebar-main">
           <div>
-            <p className="eyebrow">PRECISION_CORE_DEMO</p>
+            <p className="eyebrow">PRECISION_CORE</p>
             <h1>CNC/MCT COMMAND CENTER</h1>
             <p className="subtitle">Synthetic Precision analytics shell</p>
           </div>

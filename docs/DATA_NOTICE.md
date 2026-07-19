@@ -13,8 +13,9 @@
 - `runtime-cuttime.json`
 - `alarm-history.json`
 - `daily-summary.json`
+- `machine-signal-pool.json`
 
-이 파일들은 데모용으로 생성된 것이며, 실제 시스템에서 복사한 데이터가 아닙니다.
+이 파일들은 공개용으로 생성된 합성 데이터이며, 실제 시스템에서 복사한 데이터가 아닙니다.
 
 ## 데이터 생성 규칙
 

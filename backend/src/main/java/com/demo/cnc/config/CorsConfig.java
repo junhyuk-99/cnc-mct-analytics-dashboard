@@ -9,7 +9,7 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 import org.springframework.web.filter.CorsFilter;
 
 @Configuration
-@ConfigurationProperties(prefix = "demo.cors")
+@ConfigurationProperties(prefix = "cors")
 public class CorsConfig {
 
     private List<String> allowedOrigins = List.of("http://localhost:3000", "http://localhost:5173");

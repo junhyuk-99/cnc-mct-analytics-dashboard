@@ -1,6 +1,6 @@
 # Frontend
 
-This React frontend is a public portfolio demo for the synthetic CNC/MCT dashboard API. It calls the local Spring Boot backend directly and does not include login, JWT handling, user administration, file upload/download, or mock fallback behavior.
+This React frontend is the public portfolio UI for the CNC/MCT dashboard API, running on synthetic data. It calls the local Spring Boot backend directly and does not include login, JWT handling, user administration, file upload/download, or mock fallback behavior.
 
 ## Stack
 
@@ -63,6 +63,11 @@ The frontend calls:
 - `GET /dashboard/status-distribution?from=YYYY-MM-DD&to=YYYY-MM-DD`
 - `GET /dashboard/daily-trend?from=YYYY-MM-DD&to=YYYY-MM-DD`
 - `GET /alarms?from=YYYY-MM-DD&to=YYYY-MM-DD&machineId=&severity=`
+- `GET /rollup/hourly?date=YYYY-MM-DD`
+- `GET /rollup/daily?year=YYYY&month=M`
+- `GET /rollup/monthly?year=YYYY`
+- `GET /machines/history?machineId=&from=&to=&page=&size=`
+- `GET /prealarm/summary?from=&to=` / `GET /prealarm/indicators?from=&to=`
 
 The API client expects the common response wrapper:
 
@@ -94,6 +99,10 @@ If `success` is not `true`, or if the HTTP request fails, the dashboard shows an
 - Critical vectors panel derived from critical alarm records, with read-only demo labels instead of control actions
 - Frontend-generated `ANALYTICS_EVENT_LOG` based on loaded API results and active filters
 - Dark themed utilization, cutting ratio, status distribution, and daily trend Recharts visualizations
+- `HOURLY_ROLLUP` chart reading the rollup engine's pre-aggregated hourly buckets, with its own date picker and the shared machine filter; failures on the rollup endpoint never block the rest of the dashboard
+- `CUT_PERIOD` chart with a MONTHLY/DAILY granularity toggle and month picker, rolling the hourly buckets forward to per-day and per-month totals
+- `PRE_ALARM` panel combining the aggregated alarm landscape (level totals, top codes) with the backend's threshold-based early-warning indicators
+- `MACHINE_HISTORY` paged status-event timeline per machine (global machine filter takes precedence over the panel's own picker)
 - Terminal-style alarm history table capped at 50 visible rows
 
 ## Data Mapping Notes
