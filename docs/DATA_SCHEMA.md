@@ -8,7 +8,7 @@ The backend API, rollup engine, and frontend charts are implemented against this
 
 | File | Purpose | Cardinality |
 | --- | --- | --- |
-| `sample-data/machines.json` | Demo CNC/MCT machine master data | 6 records |
+| `sample-data/machines.json` | Synthetic CNC/MCT machine master data | 6 records |
 | `sample-data/status-history.json` | Synthetic machine status intervals | 30 days x 6 machines x multiple intervals |
 | `sample-data/runtime-cuttime.json` | Daily runtime and cuttime metrics | 30 days x 6 machines |
 | `sample-data/alarm-history.json` | Synthetic alarm events | Variable |
@@ -19,15 +19,15 @@ The backend API, rollup engine, and frontend charts are implemented against this
 
 ## `machines.json`
 
-Machine master data for the demo.
+Machine master data for the synthetic fleet.
 
 | Field | Type | Description |
 | --- | --- | --- |
 | `machineId` | string | Stable fake machine ID, such as `CNC-DEMO-01` |
 | `machineName` | string | Display name for the fake machine |
 | `machineType` | string | `CNC` or `MCT` |
-| `line` | string | Fake demo production line |
-| `enabled` | boolean | Whether the machine is active in the demo |
+| `line` | string | Synthetic production line |
+| `enabled` | boolean | Whether the machine is active in the sample fleet |
 | `plannedDailySeconds` | integer | Planned operating seconds per day |
 
 Example:
@@ -81,7 +81,7 @@ Example:
 Calculation rule:
 
 - `durationSeconds` must equal `endedAt - startedAt`.
-- For this demo, each machine has generated status intervals inside the planned daily window.
+- Each machine has generated status intervals inside the planned daily window.
 
 ## `runtime-cuttime.json`
 
@@ -114,7 +114,7 @@ Calculation rules:
 
 ## `alarm-history.json`
 
-Synthetic demo alarm events.
+Synthetic alarm events.
 
 Allowed alarm codes:
 
@@ -134,8 +134,8 @@ Allowed severities:
 | `alarmId` | string | Stable synthetic alarm ID |
 | `machineId` | string | Must exist in `machines.json` |
 | `severity` | string | `INFO`, `WARNING`, or `CRITICAL` |
-| `alarmCode` | string | One of the allowed demo alarm codes |
-| `message` | string | Fake demo alarm message |
+| `alarmCode` | string | One of the allowed sample alarm codes |
+| `message` | string | Synthetic alarm message |
 | `occurredAt` | string | ISO-8601 UTC timestamp |
 | `clearedAt` | string | ISO-8601 UTC timestamp |
 | `workDate` | string | Work date in `YYYY-MM-DD` format |
@@ -162,7 +162,7 @@ Daily aggregate metrics calculated from the generated status, runtime/cuttime, a
 | Field | Type | Description |
 | --- | --- | --- |
 | `workDate` | string | Work date in `YYYY-MM-DD` format |
-| `machineCount` | integer | Number of enabled demo machines |
+| `machineCount` | integer | Number of enabled machines |
 | `averageUtilization` | number | Average per-machine utilization percentage |
 | `averageCuttingRatio` | number | Average per-machine cutting ratio |
 | `alarmCount` | integer | Alarm count for the date |
