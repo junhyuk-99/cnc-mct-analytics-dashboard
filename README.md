@@ -1,5 +1,8 @@
 # CNC/MCT Analytics Dashboard
 
+[![CI](https://github.com/junhyuk-99/cnc-mct-analytics-dashboard/actions/workflows/ci.yml/badge.svg)](https://github.com/junhyuk-99/cnc-mct-analytics-dashboard/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 실제 운영·배포한 CNC/MCT 제조 설비 분석 대시보드 프로젝트의 **공개 포트폴리오 재구성**입니다. Spring Boot 백엔드, MongoDB, React 프론트엔드로 구성됩니다.
 
 원본 시스템은 CNC/MCT 설비에서 수집한 신호를 집계해 가동률·절삭시간·알람·설비 상태를 모니터링하는 프로덕션 대시보드로, 현장에서 운영·배포되었습니다. 이 저장소는 그 시스템의 아키텍처·집계 엔진·대시보드 워크플로를 **동일한 엔지니어링으로 재구성**하되, 공개 안전을 위해 **합성 데이터로만 동작**하도록 만든 버전입니다.
@@ -264,6 +267,6 @@ cd frontend && npm install && npm run dev   # 프론트엔드
 | [Case Study](docs/CASE_STUDY_CNC_MCT_DASHBOARD.md) | CNC/MCT 대시보드 케이스 스터디 |
 | [Reuse Candidates](docs/REUSE_CANDIDATES.md) | 재사용 가능 모듈 및 확장 후보 |
 
-## 라이선스 / 사용
+## 라이선스
 
-공개 포트폴리오 목적으로 제공됩니다. 일부라도 재사용하기 전에 저장소 라이선스와 보안 고지를 확인하십시오.
+[MIT License](LICENSE)로 제공됩니다. 재사용 시 합성 데이터·공개 범위 정책([Security Notice](docs/SECURITY.md), [Data Notice](docs/DATA_NOTICE.md))을 함께 참고하십시오.
